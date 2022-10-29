@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Merriweather:wght@300&display=swap');
+
+.title{
+    display: block;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: Lemonada, Helvetica, sans-serif;
+    font-size: 28;
+    color: steelblue;
+}
+
+#navy{
+    display: block;
+    justify-content: left;
+}
+nav a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18;
+    color: #255277;
+}
+nav a:hover{
+    color: darkslateblue;
+}
