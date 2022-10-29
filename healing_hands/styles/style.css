@@ -341,9 +341,9 @@ input, textarea {
     font: 1em serif;
   
     /* Uniform text field size */
-    width: 300px;
+    width: 350px;
     box-sizing: border-box;
-  
+    
     /* Match form field borders */
     border: 1px solid #999;
 }
@@ -356,6 +356,7 @@ input:focus, textarea:focus {
 textarea {
     /* Align multiline text fields with their labels */
     vertical-align: top;
+    
   
     /* Provide space to type some text */
     height: 5em;
