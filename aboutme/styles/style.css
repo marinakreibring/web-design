@@ -1,0 +1,25 @@
+body img{
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: solid 10px #255277;
+    border-radius: 150px;
+}
+body h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 42px;
+    color: steelblue;
+    text-align: center;
+}
+body h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    color: steelblue;
+    text-align: center;
+}
+body p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #255277;
+    text-align: center;
+}
