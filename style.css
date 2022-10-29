@@ -12,12 +12,16 @@
 #navy{
     display: block;
     justify-content: left;
+    margin-left: 100px;
 }
 nav a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 24;
     color: #255277;
+    text-decoration: none;
+    padding: 10px;
 }
 nav a:hover{
     color: darkslateblue;
+    background-color: lemonchiffon;
 }
