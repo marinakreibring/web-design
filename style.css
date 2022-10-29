@@ -5,7 +5,7 @@
     max-width: 1600px;
     margin: 0 auto;
     font-family: Lemonada, Helvetica, sans-serif;
-    font-size: 42;
+    font-size: 120;
     color: steelblue;
 }
 
@@ -16,12 +16,12 @@
 }
 nav a{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 24;
+    font-size: 72;
     color: #255277;
     text-decoration: none;
     padding: 10px;
 }
 nav a:hover{
     color: darkslateblue;
-    background-color: lemonchiffon;
+    text-decoration: underline;
 }
