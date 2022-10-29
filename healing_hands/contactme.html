@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healing Hands | Contact Me</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+</head>
+<body id="content">
+    <header >
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/massage-logo.png" alt="Massage logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About me</a>
+            <a href="contactme.html">Contact me</a>
+        </nav>            
+    </header>
+    <main>        
+        <section class="intro">
+            <h1>How to take a massage course and improve your health?</h1>
+            <p> 1. Undergo a diagnostic examination by a kinesiologist.</p>
+            <p> 2. Identify the causes of pain syndromes and eliminate them.</p>
+            <p> 3. Take a course of kinesio massage or general massage.</p>
+            <p> If you are interested in improving your health, want to undergo 
+                diagnostics and a massage course in accordance with your state of 
+                health, please leave a message below or contact me with any messenger 
+                convenient for you. </p>
+        </section>
+        <div id="contact-grid">    
+            <div id="cont-background"></div>
+            <img class="contact" src="images/massage-room.jpg" alt="massage room">
+            <div class="cont-msg">                
+                <div id=form>
+                    <div id="feedback"></div>
+                    <form action="/my-handling-form-page" method="post">
+                        <ul>
+                          <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" />
+                          </li>
+                          <li>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_email" />
+                          </li>
+                          <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                          </li>
+                          <li class="button">
+                            <button type="submit">Send your message</button>
+                          </li>
+                        </ul>
+                    </form>
+                    <script>
+                        // get the feedback div element so we can do something with it.
+                        const feedbackElement = document.getElementById('feedback');
+                        // get the form so we can read what was entered in it.
+                        const formElement = document.forms[0];
+                        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+                        formElement.addEventListener('submit', function(e) {
+                            // stop the form from doing the default action.
+                            e.preventDefault();
+                            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                            // make the feedback element visible.
+                            feedbackElement.style.display = "block";
+                            // add a class to move everything down so our message doesn't cover it.
+                            document.body.classList.toggle('moveDown');
+                        });
+                    </script>   
+                </div>
+            </div>            
+        </div>
+        <section class="messenger">
+            <h2>Igor Kreibring +375297614519</h2>
+            <div id="icon">
+                <img src="images/telegram-icon.png" alt="telegram icon">
+                <img src="images/viber-icon.png" alt="viber icon">
+                <img src="images/whatsapp-icon.png" alt="whatsapp icon"> 
+            </div>                       
+        </section>
+        <section class="intro">
+            <h2>Your health is your greatest treasure, treat it with care!</h2>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Healing Hands &copy; 2022 - Marina Kreibring</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="contactme.html">Contact me</a></p>
+        <div class="social">
+            <a href="https://vk.com" target="_blank">
+                <img src="images/LogoVK.png" alt="vk icon">
+            </a>
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>             
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
