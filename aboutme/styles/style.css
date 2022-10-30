@@ -11,11 +11,17 @@ body h1{
     color: steelblue;
     text-align: center;
 }
-body h2{
+body h2 a{
+    display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 36px;
     color: steelblue;
     text-align: center;
+    text-decoration: none;
+}
+body h2 a:hover{
+    color: darkslateblue;
+    text-decoration: underline;
 }
 body p{
     font-family: 'Times New Roman', Times, serif;
