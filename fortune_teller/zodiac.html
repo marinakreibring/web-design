@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Fortune Teller | Horoscope</title>
+	<link type = "text/css" rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1>Welcome to Your Horoscope!</h1>
+    </header>
+    <main>
+        <h2>Choose your birth date:</h2>
+        <div>
+            <select id="birthdate">
+                <option value="Zodiac">Select</option>
+                <option value="Aries">March 21 - April 19</option>
+                <option value="Taurus">April 20 - May 20</option>
+                <option value="Gemini">May 21 - June 20</option>
+                <option value="Cancer">June 21 - July 22</option>
+                <option value="Leo">July 23 - August 22</option>
+                <option value="Virgo">August 23 - September 22</option>
+                <option value="Libra">September 23 - October 22</option>
+                <option value="Scorpio">October 23 - November 21</option>
+                <option value="Sagittarius">November 22 - December 21</option>
+                <option value="Capricorn">December 22 - January 19</option>
+                <option value="Aquarius">January 20 - February 18</option>  
+                <option value="Pisces">February 19 - March 20</option>               
+            </select>                           
+            <button id="buttonDate">Choose</button>
+        </div>
+        
+        <div>
+            <img id="zodiac" src="images/Zodiac.jpg" alt="sign">
+        </div>
+        
+        <h2>You prediction for <span id="date"></span></h2>
+        <div>
+            <button id="prediction">Click here to find out</button>
+        </div>
+
+        <p><span id="message"></span></p>
+        
+    </main>
+	<footer>
+        &copy; 2022 | Marina Kreibring | CSE 121b | Final Project
+    </footer>
+    <script src="scripts/zodiac.js"></script>
+    
+</body>
+
+</html>

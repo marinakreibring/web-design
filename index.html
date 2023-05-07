@@ -3,40 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <title>Web-design Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Sample sites developed by Marina Kreibring">
+    <title>Web Design</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Merriweather:wght@300&display=swap">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <section class="title">
-        <h1>Welcome to My Web Projects</h1>
-    </section>
-    <div id="navy">
-        <nav>
-            <div>
-                <a href="aboutme/index.html">About Me Page</a>
-            </div>
-            <div>
-                <a href="wwr/index.html">White Water Rafting Website</a>
-            </div>
-            <div>
-                <a href="healing_hands/index.html">Healing Hands Website</a>
-            </div>
-            <div>
-                <a href="#">Personal Website</a>
-            </div>
-            <div>
-                <a href="#">Personal Website</a>
-            </div>
-            <div>
-                <a href="#">Personal Website</a>
-            </div>
-            <div>
-                <a href="#">Personal Website</a>
-            </div>           
-            
-        </nav>
-    </div>
-
+    <header>
+        <img src="images/marina.jpg" alt="My photo">
+        <h1>Marina Kreibring</h1>
+    </header>
+    <main>
+        <section>
+            <h2>My name is Marina</h2>
+            <p>I live in Belarus and I study at BYU-Idaho.
+             I'm a beginning web-developer.
+             I love to explore new wed features and apply them to my projects.</p>
+        </section>
+        <section>
+            <h2>Welcome to My Web Projects</h2>
+        </section>
+        <div id="navy">
+            <ul>
+                <li><a href="wwr/index.html">White Water Rafting Website</a></li>
+                <li><a href="healing_hands/index.html">Healing Hands Website</a></li>
+                <li><a href="#">Personal Website</a></li>
+                <li><a href="#">Personal Website</a></li>
+                <li><a href="#">Personal Website</a></li>
+                <li><a href="#">Personal Website</a></li>           
+                <li><a href="#">Personal Website</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p id="copy">&copy; <span id="currYear"></span> | Marina Kreibring | Belarus</p>
+        <p id="update">Last updated: <span id="updated"></span></p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
+
+

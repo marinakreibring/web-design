@@ -1,27 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Merriweather:wght@300&display=swap');
-
-.title{
-    display: block;
-    max-width: 1600px;
-    margin: 0 auto;
-    font-family: Lemonada, Helvetica, sans-serif;
-    font-size: 42px;
-    color: steelblue;
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    max-width : 600px;
+    font-family : 'Merriweather', Times, serif;
+    margin: 1ch auto;
 }
-
+header{
+    display: flex;
+    background-color: steelblue;  
+    color: beige;
+    font-family: 'Lemonada', Helvetica, sans-serif;
+    font-size: clamp(1rem, 0.5rem + 1.5vw, 1.8rem);
+}
+img{
+    max-inline-size: 90%;
+    max-height: 10ch;
+    block-size: auto;
+    border: 1pt solid black;
+    border-radius: 10px;
+    margin: 1ch; 
+    display: block;    
+}
+h2{
+    font-family : 'Merriweather', Times, serif;
+    color: steelblue;
+    font-size: clamp(0.8rem, 0.75rem + 1.5vw, 1.5rem);
+    font-weight: bold;
+    text-align: center;
+}
+footer{
+    background-color: steelblue;   
+    font-size: clamp(0.8rem, 0.75rem + 1.5vw, 1.5rem);
+    text-align: center;
+    padding: 1ch;
+    color: beige;
+}
+#copy{
+    font-weight: bold;
+}
+#update{
+    font-style: italic;
+}
 #navy{
     display: block;
     justify-content: left;
-    margin-left: 100px;
-}
-nav a{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 38px;
-    color: #255277;
-    text-decoration: none;
-    padding: 10px;
-}
-nav a:hover{
-    color: darkslateblue;
-    text-decoration: underline;
+    margin-left: 2ch;
 }

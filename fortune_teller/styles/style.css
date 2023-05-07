@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&family=Satisfy&display=swap');
+
+body {
+    
+    background-color: #403db1;
+    font-size: 24px;
+    
+    
+}
+
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #131b82;
+    color: #35aee5;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    color: #571463;
+    font-family: Satisfy, cursive, serif;
+}
+h2{
+    display: block;
+    color: #131b82;
+    font-style: italic;
+    margin: 20px;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+}
+p {
+    color: #35aee5; 
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+}
+img {
+    width: 60%;
+}
+
+main {
+    text-align: center;
+}
+#prediction{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+#prediction:hover{
+    background-color: #35aee5;
+    color: antiquewhite;
+}
+#buttonDate{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+#buttonDate:hover{
+    background-color: #35aee5;
+    color: antiquewhite;
+}
+#birthdate{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 900px) {
+    img {
+        width: fit-content;
+    }
+}
+
