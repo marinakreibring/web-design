@@ -335,8 +335,10 @@ form {
     nav a {
         display: block;
         padding: 15px;
-        background-color: #fec001;
         color: #02266e;
+    }
+    header{
+        background-color: #fec001;
     }
     #hero {
         margin-top: 0;
@@ -358,10 +360,15 @@ form {
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .mountains{
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+    .msg{
+        width: 60%;
+        display: block;
+        margin: 1ch auto;
     }
     .rates{
         height: auto;
@@ -381,7 +388,11 @@ form {
         margin: 0 auto;
     }
     footer {
-        margin-top: 25px;
+        margin-top: 25px;        
+    }
+    footer p{
+        font-size: small;
+        text-align: center;
     }
 }
    
