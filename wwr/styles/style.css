@@ -213,11 +213,13 @@ footer .social img{
 .rates{
     display: inline-block;
     width: 100%;
-    height: max-content;
-    margin: 50px;
+    height: 100%;
+    margin: 2rem;
 }
 .rates-img{
-    width: 50%;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
     border: 10px solid #fec001;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #48aace;
@@ -231,17 +233,17 @@ footer .social img{
 .rates h2{
     color: #48aace;
     font-family: Lemonada, Helvetica, sans-serif;
-    
+    font-size: clamp(0.8rem, 0.5rem + 1.5vw, 1.5rem);
 }
 .rates p{
     color: #02266e;
     font-family: Merriweather, Arial, sans-serif;
-    font-size: .8em;
+    font-size: clamp(0.8rem, 0.5rem + 1.5vw, 1rem);
     margin: 1.5em;
 }
-.rates h3{
+.describe{
     font-family: Merriweather, Arial, sans-serif;
-    font-size: .6em;
+    font-size: clamp(0.6rem, 0.5rem + 1.5vw, 1rem);
     font-style: italic;
 }
 /* scc for page rates end */
@@ -371,20 +373,23 @@ form {
         margin: 1ch auto;
     }
     .rates{
-        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
     }
     .rates-img{
-        margin: 30px auto;
-        width: 30%;
+        margin: 30px 10%;
+        width: 80%;
     }
     .rates h2{
         font-size: .8em;
+        text-align: center;
     }
     .rates h3{
         display: none;
     }
     .rates p{
-        font-size: .5em;
+        font-size: .8em;
         margin: 0 auto;
     }
     footer {
@@ -394,5 +399,19 @@ form {
         font-size: small;
         text-align: center;
     }
+    #rates-title{
+        margin-top: 10px;
+        font-size: .8rem;
+    }
+    form {
+        /* Center the form on the page */
+        width: 250px;   
+      }
+    input,
+    textarea {
+        /* Uniform text field size */
+        width: 200px;
+        
+      }
 }
    
