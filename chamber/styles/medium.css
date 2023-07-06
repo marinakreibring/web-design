@@ -1,0 +1,200 @@
+@media only screen and (min-width: 35rem){
+    #title h1{    
+        font-size: clamp(1.5rem, 0.75rem + 1.5vw, 2.5rem);         
+    }
+    #title h2{    
+        font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);    
+    }
+    header{
+        grid-template-columns: 130px 40% auto auto;
+    }
+    .logo{        
+        margin: 1rem 0 1rem 1rem;
+        max-inline-size: 80px;
+    }
+    #socialMedia a img{
+        max-inline-size: 50%;
+    }
+    .gridView{
+        grid-template-columns: 60% 40%;
+        margin: .5rem 1vw;       
+    }
+    .hero{
+        grid-column: span 2;
+    }
+    .news{
+        grid-row-start: 2;
+        grid-column: span   2;
+    }
+    .spotlight{
+        grid-row-start: 3;
+        grid-column: span 2;
+        grid-template-columns: 1fr 1fr;
+    }
+    .join{
+        display: block;
+        box-sizing: border-box;
+        position: relative;
+        height: 270px;
+        border: 0.5rem solid #15295D;
+        grid-row-start: 4;
+        grid-column: span 2;
+    }
+    .join img{        
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.5;
+    }
+    .join img:hover{
+        opacity:1;
+    }
+    .join p{
+        position: absolute;
+        bottom: 0.3rem;        
+        text-align: center;
+    }
+    .hero h1{        
+        font-size: 1.8rem;
+    }
+    .joinHero{
+        font-size: larger;
+    }
+    .joinUs{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        left: 1rem;
+        padding: 1rem;
+        background-color: #15295D;
+        border-radius: 10px;
+        border: 2px solid #fefefe;
+        text-align: center;
+    }
+    .joinUs a{
+        font-family: 'Hind', Arial, serif;
+        color: #F5D913;
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+    .joinUs:hover{
+        background-color: #F5D913;                
+    }
+    .joinUs:hover a{
+        color: #15295D;
+    }
+    .discover{
+        display: flex;
+    }
+    .discover img{
+        border: 4px ridge rgba(21, 41, 93, .9);
+        width: 50vw;
+    }
+    .discover p{
+        background-color: rgb(179, 220, 247);
+        margin-right: 0;        
+    }
+    /*footer*/
+    footer{
+        font-size: clamp(0.6rem, 0.75rem + 1.5vw, 1rem);
+        grid-template-columns: auto 30%;
+    }
+    #copyright{
+        grid-column: span 2;
+    }
+    #address{
+        display: flex;
+        text-align: center;
+        font-style: italic;
+    }
+    #address img{   
+        margin: 2rem auto;
+        align-self: center;
+        max-inline-size: 40%;
+    }
+    #contactInfo{
+        text-align: center;
+        align-self: center;
+    }
+    #copyright{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 2rem 2rem;
+        margin: .5rem 2vw;
+        }
+    #copyright p:nth-child(4){
+        grid-column: span 3;
+        text-align: center;
+    }
+    #copyright p{
+        align-self: center;
+    }
+    #bold{
+        border-left: 2px solid #fefefe;
+        border-right: 2px solid #fefefe;
+    }
+    /*css for the join page*/
+    form fieldset{
+        margin: 1rem 10% 2rem;        
+    }
+    form label{
+        display: flex;
+        margin: 1rem;
+        text-align: left;
+        padding-top: 0.5rem;
+    }
+    form label input, form label textarea, form label select{      
+        margin: .5rem;
+        float: left;
+    }
+    form input.submitBtn{        
+        margin: 1rem 10% 2rem;
+        width: 80%;     
+    }
+    table{
+        margin: 1rem 10% 2rem;
+        width: 80%;
+    }
+    /*css for directory page list view*/    
+    .list section{
+        grid-template-columns: 30% auto auto;
+        
+    }
+    .list section p:nth-child(5){
+        display: block;
+    }
+    /*css for the contact page*/
+    #contact-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        position: relative;
+    }
+    .team{
+        width: 252px;  
+        grid-row: 1/3; 
+    }
+    .working h2, .working p{
+        text-align: center;
+    }
+    #contactForm{
+        width: 50vw;
+        position: absolute;
+        right: 0;
+        bottom: 0;       
+    }
+    #contact-background{
+        background-image: url("../images/kaiserslautern_slider.jpg");       
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-origin: border-box;
+    }
+    #contact-grid h2 span{             
+        background: rgba(255, 255, 255, 0.3);
+    }
+    .working p span{        
+        background: rgba(255, 255, 255, 0.3);
+    }    
+}

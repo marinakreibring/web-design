@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Kaiserslautern Chamber of Commerce | Home</title>
+    <meta name="description" content="Main page for Kaiserslautern Chamber of Commerce website site">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">     
+</head>
+<body>
+    <div id="banner">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
+	<header>
+        <a href="index.html">
+            <img class="logo" src="images/keiser-district-flag.webp" alt="kaiser">
+        </a>       
+        <div id="title">
+            <h1>Kaiserslautern</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+        <div id="socialMedia">
+            <a href="https://m.facebook.com/IHKPfalzKL/?_rdr#_=_" target="_blank"><img src="images/fb-icon.png" alt="FB icon"></a>
+            <a href="https://twitter.com/IHK_Pfalz" target="_blank"><img src="images/twit-icon.png" alt="Twitter icon"></a>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li ><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>  
+            </ul>
+        </nav>
+        <p class="date">Today is <span id="currentDate"></span></p>
+    </header>     
+    <!-- Sections should change in different layouts --> 
+    <main>
+        <div class="gridView">
+            <div class="hero">
+                <img id="hero" src="images/kaiserslautern_slider.jpg" alt="hero-img">
+                <h1>Welcome to Kaiserslautern</h1>
+                <div class="joinHero"><a href="join.html">Join the Chamber</a></div>
+            </div>
+            <div class="event">
+                <h2>Advisory Council Meeting</h2>
+                <img src="images/Erlenbach.jpg" alt="event">
+                <p>
+                    Meeting of the advisory council will take place in the Erlenbach local government meeting room. 
+                    <a href="https://www.nachrichten-kl.de/event/bekanntmachung-sitzung-des-ortsbeirates-erlenbach/">more info...</a>
+                </p>
+            </div>
+            <div class="weather">
+                <h2>Weather</h2>
+                <div id="forecast">
+                    <img src="" alt="" id="weather-icon">
+                    <p><span id="current-temp"></span> &deg;C </p>
+                </div>   
+                <p><span id="condition"></span></p>              
+                <p>Wind Speed: <span id="wind-speed">3</span> km/h</p>
+                <p>Wind Chill: <span id="wind-chill"></span></p>
+                <hr>
+                <p id="credits">Information provided by <a href="https://openweathermap.org/">OpenWeatherMap</a></p>
+            </div>
+            <div class="join">
+                <img src="images/handshake.jpg" alt="handshake">
+                <div class="joinUs"><a href="join.html">Join Us!</a></div>
+                <p>
+                    Discover how to join the Camber of Commerce and how it will
+                    benefit your organization!
+                </p>
+            </div>
+            <div class="news">
+                <h2>City needs to improve revenue situation</h2>
+                <p>
+                    In its special session on Monday, the city council partially approved the 
+                    measures proposed by the administration to improve the city's income situation. 
+                    The committee voted for an increase in the resident parking fees and an increase 
+                    in the assessment rates for property and trade tax. According to the resolution, 
+                    the introduction of a packaging tax is to be examined by the administration. 
+                    The decision to introduce an accommodation tax was postponed. The introduction of a 
+                    fee for winter service on road surfaces was rejected.                
+                    <a href="https://www.kaiserslautern.de/buerger_rathaus_politik/medienportal/pressemitteilungen/069328/index.html.de">more info...</a>
+                </p>
+            </div>
+            <!--need to make Spotlight dimanic-->
+            <div class="spotlight">
+                <section class="spot1">
+                    <img id="logo1">
+                    <h3><span id="motto1"></span></h3>
+                    <p><span id="tel1"></span></p>
+                    <a id="web1" class="center"><span></span></a>
+                </section>
+                <section class="spot2">
+                    <img id="logo2">
+                    <h3><span id="motto2"></span></h3>
+                    <p><span id="tel2"></span></p>
+                    <a id="web2" class="center"><span></span></a>
+                </section> 
+                <section class="spot3">
+                    <img id="logo3">
+                    <h3><span id="motto3"></span></h3>
+                    <p><span id="tel3"></span></p>
+                    <a id="web3" class="center"><span></span></a>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!-- footer for the site plus my usual footer -->   
+    <footer>
+        <div id="address">
+            <a href="index.html">
+                <img class="logo" src="images/keiser-district-flag.webp" alt="kaiser">
+            </a> 
+            <div>
+                <h3>Kaiserslautern Chamber of Commerce</h3>
+                <p>Europaallee 14,</p>
+                <p>67657 Kaiserslautern, Germany</p>
+            </div>
+        </div>
+        <div id="contactInfo">
+            <p>&#9993; info@dihk.de</p>
+            <p>&#9990; +49 631 414480</p>
+            <p>&#128681; <a class="location" href="https://www.google.com/maps/place/IHK+Pfalz,+Dienstleistungszentrum+Kaiserslautern/@49.45581,7.80576,17z/data=!4m15!1m8!3m7!1s0x4796131b824a0539:0x8c09c9c3fd9a3909!2zRXVyb3BhYWxsZWUgMTQsIDY3NjU3IEthaXNlcnNsYXV0ZXJuLCDQk9C10YDQvNCw0L3QuNGP!3b1!8m2!3d49.45581!4d7.80576!16s%2Fg%2F11csk86841!3m5!1s0x4796131b824a0539:0x3767f4dc5d7e9075!8m2!3d49.4557996!4d7.8058029!16s%2Fg%2F1tmcl50n"> Location Map</a></p>
+        </div>
+        <div id="copyright">
+            <p>&copy; <span id="currYear"></span> Kaiserslautern Chamber</p>
+            <p id="bold">Marina Kreibring</p>
+            <p>WDD 230 Project</p>
+            <p>Last updated: <span id="updated"></span></p>            
+        </div>        
+    </footer>
+ <!-- reference to scripts -->   
+<script src="scripts/script.js"></script>
+<script src="scripts/windchill.js"></script>
+<script src="scripts/weather.js"></script>
+<script src="scripts/spotlight.js"></script>
+</body>
+</html>
