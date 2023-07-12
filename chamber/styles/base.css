@@ -1,0 +1,506 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body{
+    margin: 2vw 2vw;
+    font-size: 16px;
+}
+#banner{
+    display: none;
+    background-color: #F5D913;
+    color: #000000;
+    padding: .1rem;
+    text-align: center;
+    font-size: clamp(0.5rem, 0.75rem + 1.5vw, 1.5rem);
+}
+header{
+    background-color: #15295D;
+    display: grid;
+    grid-template-columns: 100px 30% auto auto;
+    grid-template-rows: auto auto;
+}
+.logo{
+    max-inline-size: 60px;
+    border-radius: 50%;
+    border: 1px solid #fefefe;
+    align-self: center;
+    margin: 1rem;
+}
+#title{
+    text-align: left; 
+    color: #fefefe; 
+    font-family: 'Lato', Times, sans-serif;
+    align-self: center;
+}
+#title h1{    
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 2.5rem);
+    line-height: 0.5;  
+}
+#title h2{    
+    font-size: clamp(0.5rem, 0.75rem + 1.5vw, 1rem);    
+}
+#socialMedia {    
+    display: flex;
+    flex-direction: row;    
+    align-self: center;
+    margin: auto 2vw;
+}
+#socialMedia a img{
+    max-inline-size: 80%;
+    border-radius: 50%;
+    border: 1px solid #fefefe;    
+}
+/*css for hamburger button in navigation*/
+nav button{
+    margin: auto 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #F5D913;
+}
+nav{
+    background-color: #15295D;
+    display: grid;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #fefefe;
+    font-family: 'Hind', Arial, serif;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.2);
+    color: #F5D913;
+}
+nav ul li a:hover{
+    background-color:  rgba(0,0,0,0.3);
+}
+nav ul{
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
+#hamburgerBtn span:nth-child(1){
+    display: block;
+}
+#hamburgerBtn span:nth-child(2){
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(1){
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(2){
+    display: block;
+}
+.date{
+    grid-column: 1 / span 5;
+    text-align: center;
+    padding: 0.5rem;
+    margin: .5rem 2vw;
+    background-color: rgba(0,0,0,0.2);
+    color: #F5D913;
+    font-family: 'Hind', Arial, serif;
+    font-size: clamp(0.5rem, 0.75rem + 1.5vw, 1rem);
+}
+/* css for main grid*/
+.gridView{
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-gap: .5rem;
+    margin: .5rem 0;
+}
+.hero, .event, .weather, .news, .spotlight{
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: .5rem;
+}
+.spotlight{
+    display: grid;
+    grid-template-columns: 1fr;    
+}
+.spotlight div{
+    margin: .3rem 1vw;
+    border: 1px solid rgba(0,0,0,0.5)
+}
+.join, .spot3{
+    display: none;
+}
+.hero{
+    position: relative;
+    padding: 0;
+}
+#hero{
+    /*this code is for my original hero image*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero h1{
+    position: absolute;
+    top: 0ch;
+    left: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Lato', Times, sans-serif;
+    color: #000000
+}
+.joinHero{
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    padding: 1rem;
+    background-color: #15295D;
+    border-radius: 10px;
+    border: 2px solid #fefefe;
+    text-align: center;
+}
+.joinHero a{
+    font-family: 'Hind', Arial, serif;
+    color: #fefefe;
+    text-decoration: none;
+}
+.joinHero:hover{
+    background-color: #fefefe;
+    border: 2px solid #15295D;
+}
+.joinHero:hover a{
+    color: #15295D;
+    font-weight: bold;
+}
+main h2, h3, h4, h5{
+    font-family: 'Lato', Times, sans-serif;
+    color: #15295d;
+    text-align: center;
+}
+main p{
+    font-family: 'Hind', Arial, serif;
+    font-size: clamp(0.8rem, 0.75rem + 1.5vw, 1.5rem);
+    padding: 1ch;
+}
+p.color{
+    font-family: 'Hind', Arial, serif;
+    padding: 2rem;
+    font-size: clamp(0.8rem, 0.75rem + 1.5vw, 1.5rem);
+    background-color: rgb(179, 220, 247);
+    text-align: center;
+}
+.weather{
+    background-color:  rgb(179, 220, 247);
+}
+#forecast{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#forecast p{
+    font-size: clamp(1.5rem, 0.75rem + 1.5vw, 3rem);
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+}
+#forecast img{
+    width: 50%;
+    border-radius: 50%;
+}
+.weather p{
+    text-align: center;
+    font-size: clamp(0.8rem, 0.75rem + 1.5vw, 1.5rem);
+    padding: .2rem;
+    margin: 0;
+}
+#condition{
+    text-transform: capitalize;
+}
+#credits{
+    font-size: .8rem;
+}
+.event img{
+    display: flex;
+    width: 50%;
+    float: left;
+    padding: 1rem;
+}
+.spotlight{
+    background-color: #15295D;
+}
+.center{
+    display: block;
+    text-align: center;
+}
+.spot1, .spot2{    
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.spot1 img, .spot2 img, .spot3 img{   
+    width: 90%;
+    margin: 0 5%;
+    height: 20%;
+    object-fit: contain;
+}
+/*css for footer*/
+footer{
+    background-color: #15295D;
+    color: #fefefe;
+    font-family: 'Hind', Arial, serif;
+    font-size: clamp(0.5rem, 0.75rem + 1.5vw, 0.8rem);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#address{
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+#address img{
+    max-inline-size: 30%;
+}
+#address h3{
+    color: #fefefe;
+    font-style: italic;
+}
+#contactInfo{
+    display: block;
+    text-align: center;
+}
+#contactInfo a{
+    color: #F5D913;
+    text-decoration: none;
+}
+#contactInfo a:hover{
+    color: #c51a21;
+    text-decoration: underline;
+}
+#copyright{
+    display: block;
+    text-align: center;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+#bold{
+    font-weight: bold;
+}
+/*css for discover page*/
+.discover img[data-src]{
+    filter: blur(0.1em);
+} 
+.discover img{
+    display: block;
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin: 1rem auto;
+    border: 1px solid #15295D;
+}
+.discover p{
+    margin: 1rem;
+}
+.lastVisit{
+    text-align: center;
+    font-style: italic;
+    font-size: clamp(0.5rem, 0.75rem + 1.5vw, 0.8rem);
+    color: #15295D;
+}
+/*css for join page*/
+
+/*css for table*/
+table{
+    margin: 1rem 0 2rem;
+    width: 100%;
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: clamp(0.6rem, 0.5rem + 1.5vw, 1rem);
+    margin: 1rem auto;
+    font-family: 'Hind', Arial, serif;
+    border: 2px solid #15295D;
+}
+.heading{
+    border-bottom: 1px solid #fefefe;
+}
+td{
+    border-left: 1px solid lightskyblue;
+    text-align: center;
+}
+th{
+    background-color: #15295D;
+    color: #fefefe;
+    border: 1px #fefefe;
+    border-style: solid solid none solid;
+    padding: 1ch;
+}
+tr:nth-child(even) td{
+    background-color:  rgb(179, 220, 247);
+    border-left: 1px solid #fefefe;
+}
+#toph, #topd{
+    background-color: rgb(179, 220, 247);
+    color: #15295D;   
+}
+.tfoot{
+    background-color: #15295D;
+    color: #fefefe;
+    border: 1px solid #fefefe;
+}
+/*css for the form*/
+form fieldset{
+    margin: 1rem 0 2rem;
+    padding: .5rem 2%;
+    background-color: rgb(179, 220, 247);
+    border: 2px solid #15295D;
+}
+form label{
+    display: block;
+    padding-top: 1rem;
+   
+    font-size: clamp(0.6rem, 0.5rem + 1.5vw, 1rem);
+    font-family: 'Hind', Arial, serif;
+}
+form label input, form label textarea, form label select{
+    -webkit-appearance: none;
+    appearance: auto;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #15295D;
+    border-radius: 5px;
+    padding: .75rem;
+    width: 100%;
+    background-color: #fefefe;
+    color: #15295D;
+}
+form input.submitBtn{
+    border: 2px solid #fefefe;
+    background-color: #15295D;
+    color: #fefefe;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem 2%;
+    width: 96%;
+}
+form input.submitBtn:hover{
+    background-color: #F5D913;
+    color: #15295D;
+    font-weight: bold;
+}
+form label input:required{
+    border-left: 6px solid #c51a21;
+}
+form label input:required:valid{
+    border-left: 6px solid darkgreen;
+}
+/*css for the directory page*/
+.dirMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+#grid, #list{
+    padding: 1rem;
+    background-color: #15295D;
+    color: #F5D913;
+    font-weight: bold;
+}
+#grid:hover, #list:hover{
+    background-color: #F5D913;
+    color: #15295D;
+}
+section{    
+    border: 1px solid #15295D;
+    width: 100%;    
+    background-color: #fefefe;
+    padding: 1rem;
+    box-shadow: inset 0 -3em 3em lightskyblue;
+    text-align: center;
+}
+.cards{
+    margin: .5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: .5rem;
+}
+.cards h3{
+    display: none;
+}
+.cards p, .cards a{
+    text-align: center;
+    color: #15295D;
+    font-size: clamp(0.6rem, 0.5rem + 1.5vw, 1rem);
+    margin: 0 2rem;
+    padding: .3rem;
+}
+.cards img{
+    width: 250px;
+    height: 100px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #15295D;
+    margin-bottom: 1rem;
+}
+.list .cards{
+    margin: 0;
+    display: block;
+    
+}
+.list section{
+    display: grid;
+    grid-template-columns: 35% auto;
+    margin: 0;  
+    box-shadow: none;
+    padding: .2rem;
+    align-items: center;
+}
+.list h3{
+    display: block;
+    font-size:  clamp(0.6rem, 0.5rem + 1.5vw, 1rem);
+    color: #15295D;    
+}
+.list section img{
+    display: none;
+}
+.list section p{
+    display: none;
+}
+.list section:nth-child(even){
+    box-shadow: inset 0 -2em 2em lightskyblue;
+}
+/*css for the contact page*/
+#contact-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.working{
+    text-align: center;
+}
+.teamMember{
+    margin-bottom: 1rem;
+    padding: 0;
+}
+.teamMember img{
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+.teamMember p{
+    font-size: 1rem;
+}
+#contactForm fieldset{
+    margin: 0 0 1rem;
+}
+#contactForm label{
+    display: block;
+}

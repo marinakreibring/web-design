@@ -6,8 +6,13 @@
 }
 header{
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 150px  30% auto;
     background-color: #c8df8b;
+}
+header h1{
+    font-family: "Paprika", cursive, sans-serif;
+    color: #255277;
+    text-align: center;
 }
 nav{
     display: flex;
