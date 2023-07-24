@@ -1,0 +1,96 @@
+@media only screen and (min-width: 64rem){
+    .logo{
+        width: 100px;
+    }
+    nav{
+        grid-column: 3;
+        grid-row-start: 1;
+        align-self: center;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul#primaryNav{
+        grid-column: 3;
+        display: flex;
+        border-left: 1px solid rgba(0,0,0,0.3);
+        font-size: clamp(0.8rem, 0.5rem + 1vw, 1.5rem);
+    }
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .5rem 1rem;      
+    }
+    #sector1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #sector2{
+        overflow: hidden;
+    }
+    .makeFresh, .numbertext{
+        left: 1rem;
+        top: 1rem;
+    }
+    .order{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .mySlides img{
+        width: 50vw;   
+    }
+    .order img{
+        width: 30vw;        
+    }
+    .orderInfo {
+        margin-left: 0;  
+        margin-top: 2rem;   
+    }
+    /* footer */
+    footer{
+        grid-template-columns: 200px auto auto auto;
+    }
+    #social{
+        grid-column: 4/5;
+    }
+    #copyright{
+        grid-column: span 4;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 2rem;
+    }
+    #copyright p:nth-child(4){
+        grid-column: 4;
+        border-left: 1px solid rgba(0,0,0,0.5);
+    }    
+    /*css for Fresh page*/
+    #fresh{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-image: url("../images/summer-smoothies.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        background-origin: border-box;
+        margin-bottom: 2rem;
+    }  
+    form fieldset{
+        margin: 1rem auto 2rem;
+        background-color: rgba(255, 255, 255, 0.5);       
+    }
+    form label input, form label textarea, form label select{      
+        padding: 5px;
+    }
+    form input.submitBtn{        
+        margin: .5rem 20% 1.5rem;
+        width: 60%;     
+    }
+    #output{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    /* css for about page */
+    .about img{
+        width: 30vw;
+    } 
+}
