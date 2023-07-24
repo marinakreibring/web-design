@@ -289,6 +289,7 @@ footer .social img{
     grid-row: 3/4;    
     background-color: #255277;
     box-shadow: 5px 5px 10px #95c025;
+    position: relative;
 }
 .contact{
     grid-column: 3/5;
@@ -311,7 +312,7 @@ footer .social img{
 }
 
 /*css for the form on contact me page*/
-#form {
+form {
     /* Center the form on the page */
     margin: 50px auto;    
     width: 400px;
@@ -327,7 +328,7 @@ ul {
     margin: 0;
 }
   
-#form li + li {
+form li + li {
     margin-top: 1em;
 }
   
@@ -378,7 +379,7 @@ button {
     margin-left: 0.5em;
 }
 #feedback {
-    background-color: antiquewhite;
+    background-color: #95c025;
     position: absolute;
     top: 0;
     left: 0;
