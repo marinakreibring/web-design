@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Healing Hands | About Me</title>
-    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Healing Hands | About me</title>
+    <meta name="description" content="Info about certificates and provided massages">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
 </head>
 <body id="content">
     <header >
         <a id="logo_link" href="index.html">
             <img class="logo" src="images/massage-logo.png" alt="Massage logo">
         </a>
+        <h1>Healing Hands</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About me</a>
-            <a href="contactme.html">Contact me</a>
-        </nav>              
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="aboutme.html">About me</a></li>
+                <li><a href="contactme.html">Contact me</a></li> 
+            </ul>
+        </nav>             
     </header>
 
     <main>
@@ -146,39 +154,8 @@
                     <img class="demo cursor" src="images/crt13.jpg" style="width:50%" onclick="currentSlide(13)" alt="cert13">
                 </div>
             </div>
-            <!--javacsript-->
-            <script>
-                let slideIndex = 1;
-                showSlides(slideIndex);
-                // Next/previous controls
-                function plusSlides(n) {
-                    showSlides(slideIndex += n);
-                }
-                // Thumbnail image controls
-                function currentSlide(n) {
-                    showSlides(slideIndex = n);
-                }
-                function showSlides(n) {
-                    let i;
-                    let slides = document.getElementsByClassName("mySlides");
-                    let dots = document.getElementsByClassName("dot");
-                    if (n > slides.length) {slideIndex = 1}
-                    if (n < 1) {slideIndex = slides.length}
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex-1].style.display = "block";
-                    dots[slideIndex-1].className += " active";
-                }
-            </script>
         </div>
-        
-        
-    </main>
-    
+    </main>    
     <footer>
         <p>Healing Hands &copy; 2022 - Marina Kreibring</p>
         <p><a href="site-plan.html">Site Plan</a></p>
@@ -195,5 +172,7 @@
             </a>
         </div>
     </footer>
+    <script src="scripts/slides.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
