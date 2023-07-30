@@ -47,8 +47,9 @@ nav ul li.active a{
     background-color: rgba(0,0,0,0.1);
     font-weight: bold;
 }
-nav ul li a:hover{
-    background-color:  rgba(0,0,0,0.3);
+nav ul li a:hover{    
+    background-color: #42a7d6;
+    color: #eefac2    
 }
 nav ul{
     display: none;
@@ -88,7 +89,7 @@ nav ul.open{
     box-sizing: border-box;
 }
 .home-title{
-    color: #42a7d6;
+    color: #255277;
     font-family: "Paprika", cursive, sans-serif;
     font-weight: bold;
     text-align: center;  
@@ -102,19 +103,19 @@ nav ul.open{
     height: max-content;
     padding: 30px;
     font-family: "Abyssinica SIL", serif, Helvetica;  
-    color: #255277;
     border-top: 10px solid #95c025;
     border-bottom: 10px solid #95c025;
 }
 .intro h1{
     text-align: center;
-    color: #42a7d6;
+    color: #255277;
     font-size: clamp(.8rem, 0.75rem + 1.5vw, 1.5rem);
+    font-family: "Paprika", cursive, sans-serif;
 }
 .intro h2{
     text-align: center;
     font-family: "Paprika", cursive, sans-serif;
-    color: #42a7d6;
+    color: #255277;
 }
 .intro p{
     text-align: left;
@@ -127,7 +128,7 @@ nav ul.open{
 }
 .msg{
     padding: 1rem;
-    background-color: #42a7d6;
+    background-color: #255277;
 }
 .msg h2{
     color: #eefac2;
@@ -157,8 +158,8 @@ padding: 10px;
     border-radius: 5px;
 }
 .about-me:hover{
-    background-color: #b4abb2;
-    color: #eefac2
+    background-color: #42a7d6;
+    color: #eefac2;
 }
 
 footer{
@@ -211,10 +212,8 @@ footer p a:hover{
 }
 .mySlides img{
     border: #255277 solid 10px;
-    width: 80%;
-    
-}
-  
+    width: 80%;    
+}  
   /* Add a pointer when hovering over the thumbnail images */
 .cursor {
     cursor: pointer;
@@ -232,26 +231,21 @@ footer p a:hover{
     background-color: transparent;
     font-weight: bold;
     font-size: 50px;
-    
+    border-radius: 10px;
     user-select: none;
     -webkit-user-select: none;
-}
-  
+}  
   /* Position the "next button" to the right */
 .next {
-    right: -50px;
-    border-radius: 10px;
+    right: 5px;    
 }
 .prev{
-    left: -50px;
-    border-radius: 10px;
+    left: 5px;
 } 
   /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: #c8df8b;
-    
-}
-  
+    background-color: #eefac2;    
+}  
   /* Number text (1/13 etc) */
 .numbertext {
     color: #f2f2f2;
@@ -259,29 +253,25 @@ footer p a:hover{
     padding: 8px 12px;
     position: absolute;
     top: 0;
-}
-  
+}  
   /* Container for image text */
 .caption-container {
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
     color: white;
-}
-  
+}  
 .row:after {
     content: "";
     display: table;
     clear: both;
-}
-  
-  /* columns side by side */
+}  
+/* columns side by side */
 .column {
     float: left;
     width: 7.5%;
-}
-  
-  /* Add a transparency effect for thumnbail images */
+}  
+/* Add a transparency effect for thumnbail images */
 .demo {
     opacity: 0.6;
 }  
@@ -291,109 +281,96 @@ footer p a:hover{
 }
 /*css for contact me page*/
 #contact-grid{
-    display: grid;
-    grid-template-columns: 150px auto 150px auto 150px;
-    grid-template-rows: 100px 100px auto 100px 100px;
+    display: block;
 }
 #cont-background{
-    grid-column: 1/6;
-    grid-row: 1/6;
-    background-color: #eefac2;
+    display: none;
 }
 .cont-msg{
-    grid-column: 2/4;
-    grid-row: 3/4;    
+    display: block;  
     background-color: #255277;
-    box-shadow: 5px 5px 10px #95c025;
     position: relative;
+    padding: 1rem 0;
 }
 .contact{
-    grid-column: 3/5;
-    grid-row: 2/5; 
-    box-shadow: 5px 5px 10px #95c025;
+    display: none;
 }
 .messenger h2{
     text-align: center;
-    padding: 50px;
+    padding: 1rem;
     font-family:"Abyssinica SIL", serif, Helvetica;
-    font-size: 1.5em;
+    font-size: 1.2rem;
     color: #255277;
 }
 #icon{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    margin-left: 500px;
-    margin-right: 500px;
+    align-items: center;    
 }
-
 /*css for the form on contact me page*/
 form {
     /* Center the form on the page */
-    margin: 50px auto;    
-    width: 400px;
+    margin: 1ch;    
     /* Form outline */
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 1em;
-}
-  
+}  
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-  
-form li + li {
-    margin-top: 1em;
-}
-  
+}  
+form li{
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+}  
 label {
     /* Uniform size & alignment */
     display: inline-block;
-    width: 90px;
     text-align: left;
+    padding: 5px;
     color: #eefac2;
     font-family: "Abyssinica SIL", serif, Helvetica;
-}
-  
+}  
 input, textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
-    font: 1em serif;
-  
-    /* Uniform text field size */
-    width: 350px;
-    box-sizing: border-box;
-    
+    font: 1em serif;  
+    /* Uniform text field size */    
+    height: 44px;
+    box-sizing: border-box;    
     /* Match form field borders */
-    border: 1px solid #999;
-}
-  
+    border: 1px solid #eefac2;
+    border-radius: 10px;
+}  
 input:focus, textarea:focus {
     /* Additional highlight for focused elements */
     border-color: #255277;
-}
-  
+}  
 textarea {
     /* Align multiline text fields with their labels */
-    vertical-align: top;
-    
-  
+    vertical-align: top;  
     /* Provide space to type some text */
     height: 5em;
+}  
+button#formButton{
+    background-color: #c8df8b;
+    color: #255277;
+    font-family: "Abyssinica SIL", serif, Helvetica;
+    font-size: 18px;
+    padding: 1rem;
+    margin: 1rem 10%;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 250px;
 }
-  
-.button {
-    /* Align buttons with the text fields */
-    padding-left: 90px; /* same size as the label elements */
-}
-  
-button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: 0.5em;
-}
+button#formButton:hover{
+    background-color: #42a7d6;
+    color: #eefac2;
+}    
 #feedback {
     background-color: #95c025;
     position: absolute;
