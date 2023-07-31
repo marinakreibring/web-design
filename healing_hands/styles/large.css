@@ -1,43 +1,18 @@
 @media only screen and (min-width: 64rem){
     header{
-        display: grid;
-        grid-template-columns: 150px  30% auto;
-        background-color: #c8df8b;
-    }
-    header h1{
-        font-family: "Paprika", cursive, sans-serif;
-        color: #255277;
-        text-align: center;
-    }
-    nav{
-        display: flex;
-        justify-content: space-around;
-    }
-    nav a{
-        text-align: center;
-        color: #255277;
-        text-decoration: none;
-        font-family: "Abyssinica_SIL", serif, Helvetica;
-        padding: 30px;
-    }
-    nav a:hover{
-        background-color: #b4abb2;
-        color: #eefac2;
-    }
+        grid-template-columns: 150px  auto auto;
+    } 
+    #content{        
+        margin: 1ch 2vw;
+    }   
     .logo{
-        width: 80px;
-        border-radius: 40px;
-    }
-    #logo_link{
-        padding-top: 5px;
-        justify-self: center;
-        align-self: center;
-    }
+        width: 100px;
+    }    
     #home-grid{
         display: grid;
         grid-template-rows: 30px auto;
         grid-template-columns: 1fr;
-        margin-top: 10px;
+        margin: 2rem;
     }
     #home-pic{
         grid-column: 1/2;
@@ -45,72 +20,46 @@
         z-index: -1;
     }
     #home-img{
-        width: 100%;
-        box-sizing: border-box;
+        padding: 3rem 10rem;
+        background-color: #eefac2;
+    }
+    .home-title{
+        background-color: #eefac2;
     }
     #home-msg{
         grid-column: 1/2;
         grid-row: 1/2;    
     }
     #home-msg h1{
-        text-align: center;  
-          
+        text-align: center;            
     }
-    .home-title{
-        color: #42a7d6;
-        background-color: #eefac2;
-        font-family: "Paprika", cursive, sans-serif;
-        font-size: 1.8em;
-        font-weight: bold;
-        margin-top: 0;
-    }
-    .intro{
-        display: block;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        height: max-content;
-        padding: 30px;
-        font-family: "Abyssinica SIL", serif, Helvetica;
-        
-        color: #255277;
-        border-top: 10px solid #95c025;
-        border-bottom: 10px solid #95c025;
-    }
-    .intro h1{
-        text-align: center;
-        color: #42a7d6;
-    }
-    .intro h2{
-        text-align: center;
-        font-family: "Paprika", cursive, sans-serif;
-        color: #42a7d6;
-    }
-    .intro p{
-        text-align: left;
-    }
+    
     #client-grid{
         display: grid;
-        grid-template-columns: 150px auto 150px auto 150px;
+        grid-template-columns: 100px auto 100px auto 100px;
         grid-template-rows: 100px 100px auto 100px 100px;
         
     }
     #background{
+        display: block;
         grid-column: 1/6;
         grid-row: 1/6;
         background-color: #eefac2;
     }
     .client{
+        display: block;
         grid-column: 2/4;
         grid-row: 2/5;
         height: 100%;
         width: 100%;
+        object-fit: cover;
         box-sizing: border-box;
         box-shadow: 5px 5px 10px #95c025;
     }
     .msg{
         grid-column: 3/5;
         grid-row: 3/4;
-        background-color: #42a7d6;
+        background-color: #255277;
         box-shadow: 5px 5px 10px #95c025;
     }
     
@@ -142,80 +91,19 @@
         border-radius: 5px;
     }
     .about-me:hover{
-        background-color: #b4abb2;
+        background-color: #42a7d6;
         color: #eefac2
     }
-    
-    footer{
-        background-color: #c8df8b;
-        color: #255277;
-        padding: 25px 50px;
-        margin-top: 100px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    .social{
+        flex-direction: row;
     }
-    footer a{
-        color: #255277;
-        text-decoration: none;
-        font-family: "Abyssinica SIL", serif, Helvetica;
+    .social img{
+        margin: 1rem;
     }
-    footer a:hover{
-        background-color: #b4abb2;
-        color: #eefac2;
-        font-family: "Abyssinica SIL", serif, Helvetica;
-    }
-    footer p{
-        font-family: "Abyssinica SIL", serif, Helvetica;
-        padding: 30px;
-    }
-    footer p a:hover{
-        text-decoration: underline;
-        font-family: "Abyssinica SIL", serif, Helvetica;
-    }
-    footer .social img{
-        padding-top: 15px;
-    }
-    /* css for about me page - slide show */
-    *{box-sizing: border-box;}
+    /*slide-conteiner*/
     .container {   
-        position: relative;
-        margin: auto;
-        max-width: 1000px;
+        width: 900px;
     } 
-      /* Hide the images by default */
-    .mySlides {
-        display: none;
-        
-    }
-    .mySlides img{
-        border: #255277 solid 10px;
-        width: 80%;
-        
-    }
-      
-      /* Add a pointer when hovering over the thumbnail images */
-    .cursor {
-        cursor: pointer;
-    }
-      
-      /* Next & previous buttons */
-    .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        padding: 10px;
-        margin-top: -50px;
-        color: #255277;
-        background-color: transparent;
-        font-weight: bold;
-        font-size: 50px;
-        
-        user-select: none;
-        -webkit-user-select: none;
-    }
-      
       /* Position the "next button" to the right */
     .next {
         right: -50px;
@@ -225,56 +113,14 @@
         left: -50px;
         border-radius: 10px;
     } 
-      /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-        background-color: #c8df8b;
-        
-    }
-      
-      /* Number text (1/13 etc) */
-    .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-    }
-      
-      /* Container for image text */
-    .caption-container {
-        text-align: center;
-        background-color: #222;
-        padding: 2px 16px;
-        color: white;
-    }
-      
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-      
-      /* columns side by side */
-    .column {
-        float: left;
-        width: 7.5%;
-    }
-      
-      /* Add a transparency effect for thumnbail images */
-    .demo {
-        opacity: 0.6;
-    }  
-    .active,
-    .demo:hover {
-        opacity: 1;
-    }
     /*css for contact me page*/
     #contact-grid{
         display: grid;
-        grid-template-columns: 150px auto 150px auto 150px;
+        grid-template-columns: 100px auto 100px auto 100px;
         grid-template-rows: 100px 100px auto 100px 100px;
     }
     #cont-background{
+        display: block;
         grid-column: 1/6;
         grid-row: 1/6;
         background-color: #eefac2;
@@ -287,103 +133,25 @@
         position: relative;
     }
     .contact{
+        display: block;
         grid-column: 3/5;
         grid-row: 2/5; 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
         box-shadow: 5px 5px 10px #95c025;
-    }
-    .messenger h2{
-        text-align: center;
-        padding: 50px;
-        font-family:"Abyssinica SIL", serif, Helvetica;
-        font-size: 1.5em;
-        color: #255277;
-    }
-    #icon{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-left: 500px;
-        margin-right: 500px;
-    }
-    
+    }    
     /*css for the form on contact me page*/
-    form {
-        /* Center the form on the page */
-        margin: 50px auto;    
-        width: 400px;
-        /* Form outline */
-        padding: 1em;
-        border: 1px solid #ccc;
-        border-radius: 1em;
-    }
-      
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-      
-    form li + li {
-        margin-top: 1em;
-    }
-      
+    form li{
+        flex-direction: column;    
+    }     
     label {
-        /* Uniform size & alignment */
-        display: inline-block;
-        width: 90px;
         text-align: left;
-        color: #eefac2;
-        font-family: "Abyssinica SIL", serif, Helvetica;
-    }
-      
-    input, textarea {
-        /* To make sure that all text fields have the same font settings
-           By default, textareas have a monospace font */
-        font: 1em serif;
-      
-        /* Uniform text field size */
-        width: 350px;
-        box-sizing: border-box;
-        
-        /* Match form field borders */
-        border: 1px solid #999;
-    }
-      
-    input:focus, textarea:focus {
-        /* Additional highlight for focused elements */
-        border-color: #255277;
-    }
-      
-    textarea {
-        /* Align multiline text fields with their labels */
-        vertical-align: top;
-        
-      
-        /* Provide space to type some text */
-        height: 5em;
-    }
-      
-    .button {
-        /* Align buttons with the text fields */
-        padding-left: 90px; /* same size as the label elements */
-    }
-      
-    button {
-        /* This extra margin represent roughly the same space as the space
-           between the labels and their text fields */
-        margin-left: 0.5em;
-    }
-    #feedback {
-        background-color: #95c025;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        padding: .5em;
-        /* make this element invisible until we are ready for it */
-        display: none;      
-    }
-    .moveDown {
-        margin-top: 3em;
-    } 
+        margin-left: 1rem;        
+    }      
+    input, textarea {       
+        width: auto;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }    
 }

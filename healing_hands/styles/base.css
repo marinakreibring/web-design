@@ -109,16 +109,18 @@ nav ul.open{
 .intro h1{
     text-align: center;
     color: #255277;
-    font-size: clamp(.8rem, 0.75rem + 1.5vw, 1.5rem);
+    font-size: clamp(1.5rem, 0.75rem + 1.5vw, 2rem);
     font-family: "Paprika", cursive, sans-serif;
 }
 .intro h2{
     text-align: center;
     font-family: "Paprika", cursive, sans-serif;
     color: #255277;
+    font-size: clamp(1.3rem, 0.75rem + 1.5vw, 1.5rem);
 }
 .intro p{
     text-align: left;
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
 }
 #background{
     display: none;
@@ -134,7 +136,7 @@ nav ul.open{
     color: #eefac2;
     font-family: "Paprika", cursive, sans-serif;
     text-align: center;
-    font-size: 1em;
+    font-size: clamp(1.3rem, 0.75rem + 1.5vw, 1.5rem);
 }
 .msg p{
     color: white;
@@ -152,7 +154,6 @@ padding: 10px;
     color: #255277;
     text-decoration: none;
     font-family: "Abyssinica SIL", serif, Helvetica;
-    font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -299,8 +300,8 @@ footer p a:hover{
     text-align: center;
     padding: 1rem;
     font-family:"Abyssinica SIL", serif, Helvetica;
-    font-size: 1.2rem;
     color: #255277;
+    font-size: clamp(1.2rem, 0.75rem + 1.5vw, 1.5rem);
 }
 #icon{
     display: flex;
@@ -335,10 +336,8 @@ label {
     color: #eefac2;
     font-family: "Abyssinica SIL", serif, Helvetica;
 }  
-input, textarea {
-    /* To make sure that all text fields have the same font settings
-       By default, textareas have a monospace font */
-    font: 1em serif;  
+input, textarea {    
+    font-family: "Abyssinica SIL", serif, Helvetica;
     /* Uniform text field size */    
     height: 44px;
     box-sizing: border-box;    
@@ -362,7 +361,7 @@ button#formButton{
     font-family: "Abyssinica SIL", serif, Helvetica;
     font-size: 18px;
     padding: 1rem;
-    margin: 1rem 10%;
+    margin: 1rem auto;
     border-radius: 5px;
     width: 80%;
     max-width: 250px;
@@ -372,7 +371,7 @@ button#formButton:hover{
     color: #eefac2;
 }    
 #feedback {
-    background-color: #95c025;
+    background-color: #eefac2;
     position: absolute;
     top: 0;
     left: 0;
