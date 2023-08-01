@@ -45,11 +45,10 @@
     label {
         text-align: center;
         margin-left: 2rem;
-        margin-right: 2ch;
     }  
     input, textarea {
         height: 40px;
-        width: auto;
+        width: 70%;
         margin-right: 2rem;
     }  
     textarea {

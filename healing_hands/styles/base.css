@@ -371,7 +371,8 @@ button#formButton:hover{
     color: #eefac2;
 }    
 #feedback {
-    background-color: #eefac2;
+    background-color: transparent;
+    color: white;
     position: absolute;
     top: 0;
     left: 0;
