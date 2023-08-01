@@ -198,7 +198,6 @@ footer p a:hover{
 .social img{
     width: 40px;
 }
-
 /* css for about me page - slide show */
 *{box-sizing: border-box;}
 .container {   
@@ -208,8 +207,7 @@ footer p a:hover{
 } 
   /* Hide the images by default */
 .mySlides {
-    display: none;
-    
+    display: none;    
 }
 .mySlides img{
     border: #255277 solid 10px;
@@ -218,8 +216,7 @@ footer p a:hover{
   /* Add a pointer when hovering over the thumbnail images */
 .cursor {
     cursor: pointer;
-}
-  
+}  
   /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
@@ -249,7 +246,6 @@ footer p a:hover{
 }  
   /* Number text (1/13 etc) */
 .numbertext {
-    color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
