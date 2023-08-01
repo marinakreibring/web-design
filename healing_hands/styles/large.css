@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64rem){
     header{
-        grid-template-columns: 150px  auto auto;
+        grid-template-columns: 150px 40% auto;
     } 
     #content{        
         margin: 1ch 2vw;
@@ -32,13 +32,11 @@
     }
     #home-msg h1{
         text-align: center;            
-    }
-    
+    }    
     #client-grid{
         display: grid;
         grid-template-columns: 100px auto 100px auto 100px;
-        grid-template-rows: 100px 100px auto 100px 100px;
-        
+        grid-template-rows: 100px 100px auto 100px 100px;        
     }
     #background{
         display: block;
@@ -61,8 +59,7 @@
         grid-row: 3/4;
         background-color: #255277;
         box-shadow: 5px 5px 10px #95c025;
-    }
-    
+    }    
     .msg h2{
         color: #eefac2;
         font-family: "Paprika", cursive, sans-serif;
@@ -141,6 +138,9 @@
         object-fit: cover;
         box-shadow: 5px 5px 10px #95c025;
     }    
+    #icon{
+        margin: 0 20vw;
+    }
     /*css for the form on contact me page*/
     form li{
         flex-direction: column;    
