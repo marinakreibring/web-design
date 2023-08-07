@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Healing Hands | Home</title>
-    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <meta name="description" content="Main page for Healing Hands company website">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
 </head>
 <body id="content">
     <header >
@@ -14,10 +18,13 @@
         </a>
         <h1>Healing Hands</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About me</a>
-            <a href="contactme.html">Contact me</a>
-        </nav>            
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="contactme.html">Contact me</a></li> 
+            </ul>
+        </nav>         
     </header>
     
     <main>
@@ -48,10 +55,8 @@
                     <a class="about-me" href="aboutme.html">Learn more</a>
                 </div>                
             </section>
-        </div>               
-        
+        </div>           
     </main>
-
     <footer>
         <p>Healing Hands &copy; 2022 - Marina Kreibring</p>
         <p><a href="site-plan.html">Site Plan</a></p>
@@ -68,6 +73,8 @@
             </a>
         </div>
     </footer>
+    <!-- reference to scripts -->
+    <script src="scripts/script.js"></script>
 </body>
 </html>
     

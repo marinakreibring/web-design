@@ -1,0 +1,57 @@
+@media only screen and (min-width: 35rem){
+    header{
+        grid-template-columns: 100px  auto auto;
+    }
+    /*css for hamburger button in navigation*/
+    nav button{
+        display: none;
+    }
+    nav{
+        display: block;
+        align-self: center;
+        align-items: end;
+    }
+    nav ul#primaryNav{
+        display: flex;
+        font-size: clamp(1rem, 0.75rem + 1vw, 1.5rem);
+    }
+    nav ul li a{
+        border: none;
+        padding: .5rem 1rem;      
+    }
+    .logo{
+        width: 80px;
+    } 
+    /* css for about me page - slide show */
+    /* Position the "next button" to the right */
+    .next {
+        right: 10px;    
+    }
+    .prev{
+        left: 10px;
+    } 
+    /*css for the form on contact me page*/
+    .cont-msg{
+        padding: 1rem 2rem;
+    }
+    form {
+        /* Center the form on the page */
+        margin: 1rem;
+    }  
+    form li{
+        flex-direction: row;
+        justify-content: space-between;
+    }  
+    label {
+        text-align: center;
+        margin-left: 2rem;
+    }  
+    input, textarea {
+        height: 40px;
+        width: 70%;
+        margin-right: 2rem;
+    }  
+    textarea {
+        height: 3rem;
+    }  
+}
