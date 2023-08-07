@@ -1,0 +1,472 @@
+{
+    "tarot":[
+        {
+            "name": "Fool (0)",
+            "meaning": "innocence, new beginnings, free spirit",
+            "level": "silver",
+            "logo": "images/tarotpic/0.jpg"              
+        },
+        {
+            "name": "Magician (1)",
+            "meaning": "willpower, desire, creation, manifestation",
+            "level": "silver",
+            "logo": "images/tarotpic/1.jpg"              
+        },
+        {
+            "name": "High Priestess (2)",
+            "meaning": "intuitive, unconscious, inner voice",
+            "level": "silver",
+            "logo": "images/tarotpic/2.jpg"              
+        },
+        {
+            "name": "Emperor (4)",
+            "meaning": "authority, structure, control, fatherhood",
+            "level": "silver",
+            "logo": "images/tarotpic/4.jpg"              
+        },
+        {
+            "name": "Empress (3)",
+            "meaning": "motherhood, fertility, nature",
+            "level": "silver",
+            "logo": "images/tarotpic/3.jpg"              
+        },
+        {
+            "name": "Hermit (9)",
+            "meaning": "contemplation, search for truth, inner guidance",
+            "level": "silver",
+            "logo": "images/tarotpic/9.jpg"              
+        },
+        {
+            "name": "Lovers (6)",
+            "meaning": "partnerships, duality, union",
+            "level": "silver",
+            "logo": "images/tarotpic/6.jpg"              
+        },
+        {
+            "name": "Chariot (7)",
+            "meaning": "direction, control, willpower",
+            "level": "silver",
+            "logo": "images/tarotpic/7.jpg"              
+        },
+        {
+            "name": "Strength (8)",
+            "meaning": "inner strength, bravery, compassion, focus",
+            "level": "silver",
+            "logo": "images/tarotpic/8.jpg"              
+        },
+        {
+            "name": "Hierophant (5)",
+            "meaning": "tradition, conformity, morality, ethics",
+            "level": "silver",
+            "logo": "images/tarotpic/5.jpg"              
+        },
+        {
+            "name": "Wheel of fortune (10)",
+            "meaning": "change, cycles, inevitable fate",
+            "level": "silver",
+            "logo": "images/tarotpic/10.jpg"              
+        },
+        {
+            "name": "Justice (11)",
+            "meaning": "cause and effect, clarity, truth",
+            "level": "silver",
+            "logo": "images/tarotpic/11.jpg"              
+        },
+        {
+            "name": "Hanged man (12)",
+            "meaning": "sacrifice, release, martyrdom",
+            "level": "silver",
+            "logo": "images/tarotpic/12.jpg"              
+        },
+        {
+            "name": "Death (13)",
+            "meaning": "end of cycle, beginnings, change, metamorphosis",
+            "level": "silver",
+            "logo": "images/tarotpic/13.jpg"              
+        },
+        {
+            "name": "Temperance (14)",
+            "meaning": "middle path, patience, finding meaning",
+            "level": "silver",
+            "logo": "images/tarotpic/14.jpg"              
+        },
+        {
+            "name": "Devil (15)",
+            "meaning": "addiction, materialism, playfulness",
+            "level": "silver",
+            "logo": "images/tarotpic/15.jpg"              
+        },
+        {
+            "name": "Tower (16)",
+            "meaning": "sudden upheaval, broken pride, disaster",
+            "level": "silver",
+            "logo": "images/tarotpic/16.jpg"              
+        },
+        {
+            "name": "Star (17)",
+            "meaning": "hope, faith, rejuvenation",
+            "level": "silver",
+            "logo": "images/tarotpic/17.jpg"              
+        },
+        {
+            "name": "Moon (18)",
+            "meaning": "unconscious, illusions, intuition",
+            "level": "silver",
+            "logo": "images/tarotpic/18.jpg"              
+        },
+        {
+            "name": "Sun (19)",
+            "meaning": "joy, success, celebration, positivity",
+            "level": "silver",
+            "logo": "images/tarotpic/19.jpg"              
+        },
+        {
+            "name": "Judgment (20)",
+            "meaning": "reflection, reckoning, awakening ",
+            "level": "silver",
+            "logo": "images/tarotpic/20.jpg"              
+        },
+        {
+            "name": "World (21)",
+            "meaning": "fulfillment, harmony, completion",
+            "level": "silver",
+            "logo": "images/tarotpic/21.jpg"              
+        },
+        {
+            "name": "Ace of cups",
+            "meaning": "new feelings, spirituality, intuition",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Ace of swords",
+            "meaning": "breakthrough, clarity, sharp mind",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Ace of pentacles",
+            "meaning": "opportunity, prosperity, new venture",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Ace of wands",
+            "meaning": "creation, willpower, inspiration, desire",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Two of cups",
+            "meaning": "unity, partnership, connection",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Two of wands",
+            "meaning": "planning, making decisions, leaving home",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Two of swords",
+            "meaning": "difficult choices, indecision, stalemate",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Two of pentacles",
+            "meaning": "balancing decisions, priorities, adapting to change",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Two of cups",
+            "meaning": "friendship, community, happiness",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Three of swords",
+            "meaning": "heartbreak, suffering, grief",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Three of pentacles",
+            "meaning": "teamwork, collaboration, building",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Three of wands",
+            "meaning": "looking ahead, expansion, rapid growth",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Four of pentacles",
+            "meaning": "conservation, frugality, security",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Four of swords",
+            "meaning": "rest, restoration, contemplation",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Four of cups",
+            "meaning": "apathy, contemplation, disconnectedness",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Four of wands",
+            "meaning": "community, home, celebration",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Five of swords",
+            "meaning": "unbridled ambition, win at all costs, sneakiness",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Five of pentacles",
+            "meaning": "need, poverty, insecurity",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Five of cups",
+            "meaning": "loss, grief, self-pity",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Five of wands",
+            "meaning": "competition, rivalry, conflict",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Six of cups",
+            "meaning": "familiarity, happy memories, healing",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Six of wands",
+            "meaning": "victory, success, public reward",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Six of pentacles",
+            "meaning": "charity, generosity, sharing",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Six of swords",
+            "meaning": "transition, leaving behind, moving on",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Seven of wands",
+            "meaning": "perseverance, defensive, maintaining control",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Seven of cups",
+            "meaning": "searching for purpose, choices, daydreaming",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Seven of swords",
+            "meaning": "deception, trickery, tactics and strategy",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Seven of pentacles",
+            "meaning": "hard work, perseverance, diligence",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Eight of pentacles",
+            "meaning": "apprenticeship, passion, high standards",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Eight of swords",
+            "meaning": "imprisonment, entrapment, self-victimization",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Eight of cups",
+            "meaning": "walking away, disillusionment, leaving behind",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Eight of wands",
+            "meaning": "rapid action, movement, quick decisions",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Nine of swords",
+            "meaning": "anxiety, hopelessness, trauma",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Nine of wands",
+            "meaning": "resilience, grit, last stand",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Nine of pentacles",
+            "meaning": "fruits of labor, rewards, luxury",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Nine of cups",
+            "meaning": "satisfaction, emotional stability, luxury",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Ten of swords",
+            "meaning": "failure, collapse, defeat",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Ten of wands",
+            "meaning": "accomplishment, responsibility, burden",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Ten of cups",
+            "meaning": "inner happiness, fulfillment, dreams coming true",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Ten of pentacles",
+            "meaning": "legacy, culmination, inheritance",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Page of cups",
+            "meaning": "happy surprise, dreamer, sensitivity",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Knight of cups",
+            "meaning": "following the heart, idealist, romantic",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Queen of cups",
+            "meaning": "compassion, calm, comfort",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "King of cups",
+            "meaning": "compassion, control, balance",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Page of pentacles",
+            "meaning": "ambition, desire, diligence",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Page of swords",
+            "meaning": "curiosity, restlessness, mental energy",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Knight of pentacles",
+            "meaning": "efficiency, hard work, responsibility",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Queen of pentacles",
+            "meaning": "practicality, creature comforts, financial security",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "King of pentacles",
+            "meaning": "abundance, prosperity, security",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Knight of swords",
+            "meaning": "action, impulsiveness, defending beliefs",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Page of wands",
+            "meaning": "exploration, excitement, freedom ",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Knight of wands",
+            "meaning": "action, adventure, fearlessness",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Queen of wands",
+            "meaning": "courage, determination, joy",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "King of swords",
+            "meaning": "head over heart, discipline, truth",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "King of wands",
+            "meaning": "big picture, leader, overcoming challenges",
+            "level": "silver",
+            "logo": "images/.."              
+        },
+        {
+            "name": "Queen of swords",
+            "meaning": "complexity, perceptiveness, clear mindedness",
+            "level": "silver",
+            "logo": "images/.."              
+        }
+    ]
+}
