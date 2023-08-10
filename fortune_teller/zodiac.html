@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Fortune Teller | Horoscope</title>
-	<link type = "text/css" rel="stylesheet" href="styles/style.css">
+	<title>Fortune Teller | Horoscope</title>    
+    <meta name="description" content="Your horoscope here">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">     
 </head>
-
-<body>
-    
+<body>    
     <header>
+        <nav>
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="site logo"></a>
+            <a href="zodiac.html">Horoscope</a>
+            <a href="tarot.html">Tarot</a>
+            <a href="angel.html">Guardian Angel</a>
+        </nav>
         <h1>Welcome to Your Horoscope!</h1>
     </header>
     <main>
@@ -48,10 +56,8 @@
         
     </main>
 	<footer>
-        &copy; 2022 | Marina Kreibring | CSE 121b | Final Project
+        &copy; 2022 | Marina Kreibring | Belarus
     </footer>
-    <script src="scripts/zodiac.js"></script>
-    
+    <script src="scripts/zodiac.js"></script>    
 </body>
-
 </html>

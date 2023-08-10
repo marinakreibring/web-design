@@ -1,25 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&family=Satisfy&display=swap');
 
-body {
-    
-    background-color: #403db1;
-    font-size: 24px;
-    
-    
+body {    
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin: 10px auto;
 }
-
+main, header{
+    background-color: #35aee5;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
 div {
     margin: 10px;
     text-align: center;
 }
-
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+    padding: .3rem;
+    color: #571463;
+}
+nav a:hover{
+    background-color: #131b82;
+    color: antiquewhite;
+}
+.logo{
+    width: 60px;
+    border-radius: 50%;
+}
 footer {
     background-color: #131b82;
-    color: #35aee5;
+    color: antiquewhite;
     text-align: center;
     padding: 10px;
 }
-
 header {
     margin: auto;
     text-align: center;
@@ -34,13 +55,13 @@ h2{
     font-family: Roboto Slab, Arial, Helvetica, sans-serif;
 }
 p {
-    color: #35aee5; 
+    color: #131b82; 
     font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    padding: .5rem;
 }
-img {
-    width: 60%;
+img#zodiac {
+    width: 300px;
 }
-
 main {
     text-align: center;
 }
@@ -48,18 +69,21 @@ main {
     padding: 10px;
     border-radius: 10px;
     font-size: 1em;
+    background-color: #c762c9;
 }
 #prediction:hover{
-    background-color: #35aee5;
+    background-color: #131b82;
     color: antiquewhite;
 }
 #buttonDate{
     padding: 10px;
     border-radius: 10px;
     font-size: 1em;
+    margin-top: 1rem;
+    background-color: #c762c9;
 }
 #buttonDate:hover{
-    background-color: #35aee5;
+    background-color: #131b82;
     color: antiquewhite;
 }
 #birthdate{
@@ -68,11 +92,4 @@ main {
     font-size: 1em;
 }
 
-
-/* Media Queries */
-@media screen and (max-width: 900px) {
-    img {
-        width: fit-content;
-    }
-}
 
