@@ -65,6 +65,11 @@ img#zodiac {
 main {
     text-align: center;
 }
+#predictionImage{
+    width: 100px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
 #prediction{
     padding: 10px;
     border-radius: 10px;
