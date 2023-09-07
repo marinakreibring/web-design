@@ -1,16 +1,16 @@
 @media only screen and (min-width: 35rem){
-    #title h1{    
-        font-size: clamp(1.5rem, 0.75rem + 1.5vw, 2.5rem);         
+    p{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
-    #title h2{    
-        font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);    
+    img#zodiac{
+        width: 60vw;
+        max-width: 900px;
     }
-    header{
-        grid-template-columns: 130px auto auto auto;
+    .logo{         
+        width: 80px;
     }
-    .logo{        
-       
-        max-inline-size: 80px;
+    nav a{
+        padding: .5rem;
     }
-    
 }

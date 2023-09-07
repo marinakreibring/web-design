@@ -1,23 +1,9 @@
 @media only screen and (min-width: 64rem){
-    header{
-        grid-template-columns: 150px auto auto 150px;
-        grid-template-rows: 150px auto;
-    }
     .logo{
-        margin: 1rem;
-        max-inline-size: 100px;
+         width: 100px;
     }
-    #title h1{    
-        font-size: clamp(2rem, 0.75rem + 1.5vw, 2.5rem);
-        line-height: 0.1;
-    }
-    #title h2{    
-        font-size: clamp(1.5rem, 0.75rem + 1.5vw, 3rem);    
-    }    
-    
-    .date{
-        font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
-    }
-    
+    nav a{
+        padding: 1rem;
+    }   
    
 }

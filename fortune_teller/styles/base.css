@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&family=Satisfy&display=swap');
-
-body {    
+body{    
     font-size: 16px;
     line-height: 1.5;
     max-width: 1000px;
@@ -11,7 +9,7 @@ main, header{
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
-div {
+div{
     margin: 10px;
     text-align: center;
 }
@@ -31,21 +29,29 @@ nav a:hover{
     background-color: #131b82;
     color: antiquewhite;
 }
+#logolink{
+    background-color: transparent;
+}
 .logo{
     width: 60px;
     border-radius: 50%;
 }
-footer {
+footer{
     background-color: #131b82;
     color: antiquewhite;
     text-align: center;
     padding: 10px;
+    font-size: clamp(.8rem, 0.75rem + 1.5vw, 1.3rem);
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
 }
-header {
+header{
     margin: auto;
     text-align: center;
     color: #571463;
     font-family: Satisfy, cursive, serif;
+}
+header h1{
+    font-size: clamp(1.5rem, 0.75rem + 1.5vw, 3rem);
 }
 h2{
     display: block;
@@ -53,23 +59,27 @@ h2{
     font-style: italic;
     margin: 20px;
     font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: clamp(1.5rem, 0.75rem + 1.5vw, 2.5rem);
 }
-p {
+p{
     color: #131b82; 
     font-family: Roboto Slab, Arial, Helvetica, sans-serif;
-    padding: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
 }
-img#zodiac {
+img#zodiac{
     width: 300px;
 }
-main {
+main{
     text-align: center;
 }
 #prediction{
     padding: 10px;
     border-radius: 10px;
-    font-size: 1em;
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
     background-color: #c762c9;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
 }
 #prediction:hover{
     background-color: #131b82;
@@ -78,9 +88,10 @@ main {
 #buttonDate{
     padding: 10px;
     border-radius: 10px;
-    font-size: 1em;
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
     margin-top: 1rem;
     background-color: #c762c9;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
 }
 #buttonDate:hover{
     background-color: #131b82;
@@ -89,7 +100,9 @@ main {
 #birthdate{
     padding: 10px;
     border-radius: 10px;
-    font-size: 1em;
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
+    border: 2px ridge black;
+    box-shadow: inset 0 0 2em #c762c9;
 }
 
 
