@@ -47,5 +47,6 @@ const getPrediction = () => {
     let message = getRandomElement(predictions);
     document.querySelector("#message").textContent = message;
 }
-document.querySelector("#prediction").addEventListener('click', getPrediction)
+document.querySelector("#prediction").addEventListener('click', getPrediction);
+document.querySelector("#updated").textContent = document.lastModified
     

@@ -36,13 +36,15 @@ nav a:hover{
     width: 60px;
     border-radius: 50%;
 }
-footer{
+footer p{
     background-color: #131b82;
     color: antiquewhite;
     text-align: center;
     padding: 10px;
     font-size: clamp(.8rem, 0.75rem + 1.5vw, 1.3rem);
     font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 header{
     margin: auto;
