@@ -25,13 +25,14 @@
     <main>               
         <div>
             <h2>Think about your question and click on the deck to choose your card:</h2>
-            <img class="tarot" src="images/tarotpic/back.jpg" alt="tarot card">
+            <img id="clickCard" class="tarot" src="images/tarotpic/back.jpg" alt="tarot card">
         </div>
-        <div>
-            <h2>Tarot say</h2>
-        
-            <img class="tarot" src ="images/tarotpic/10.jpg">
-            <p><span id="tarotMeaning"></span></p>
+        <div id="tarotresult">
+            <h2><span id="tarotsay"></span></h2>
+            <h3><span id="name"></span></h3>
+            <img id="cardchosen">
+            <p><span id="cardmeaning"></span></p>
+            <p><span id="cardexplain"></span></p>
         </div>
 
         
@@ -41,7 +42,5 @@
         <p>&copy; 2022 | Marina Kreibring | Belarus</p>
         <p><i>Last updated: <span id="updated"></span></i></p>
     </footer>
-    <script src="scripts/zodiac.js"></script>   
-    <script src="scripts/changepic.js"></script> 
-</body>
+    <script>document.querySelector("#updated").textContent = document.lastModified</script>   
 </html>

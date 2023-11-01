@@ -1,5 +1,5 @@
 //<img id="myImage" src ="style/images/img1.jpg"> // in the HTML
-let image = document.getElementById("predictionImage");
+let image = document.getElementById("prediction");
 
 image.addEventListener("click", function(){
 
