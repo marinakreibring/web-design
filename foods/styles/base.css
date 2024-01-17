@@ -230,9 +230,15 @@ footer img.logo{
     text-align: center;
     border-top: 1px solid rgba(0,0,0,0.5);
 }
-#bold{
+#copyright a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
 }
+#copyright a:hover{
+    text-decoration: underline;
+}
+
 /*css for the form on Fresh page*/
 form fieldset{
     margin: 1rem 0 2rem;
