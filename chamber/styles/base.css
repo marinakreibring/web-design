@@ -285,6 +285,14 @@ footer{
     text-align: center;
     border-top: 1px solid rgba(0,0,0,0.3);
 }
+#copyright a{
+    color: #fefefe;
+    text-decoration: none;
+}
+#copyright a:hover{
+    text-decoration: underline;
+    color: #F5D913;
+}
 #bold{
     font-weight: bold;
 }
