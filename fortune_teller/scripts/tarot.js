@@ -21,13 +21,13 @@ async function displayCardResult(){
     //fill spans for elements in the spotlight section
 
     let cardchosen = document.querySelector("#cardchosen");
-    cardchosen.setAttribute("src", `${cardList[i].logo}`);
-    logo.setAttribute("alt", `Logo of ${goldList[i].name}`);
+    cardchosen.setAttribute("src", `${tarotList[i].logo}`);
+    logo.setAttribute("alt", `Logo of ${tarotList[i].name}`);
     logo.setAttribute("loading", "lazy"); 
     document.querySelector("#tarotsay").textContent = `Tarot say:`;
-    document.querySelector("#name").textContent = `${cardList[i].name}`;
-    document.querySelector("#cardmeaning").textContent = `${cardList[i].meaning}`;
-    document.querySelector("#cardexplain").textContent = `${cardList[i].description}`;
+    document.querySelector("#name").textContent = `${tarotList[i].name}`;
+    document.querySelector("#cardmeaning").textContent = `${tarotList[i].meaning}`;
+    document.querySelector("#cardexplain").textContent = `${tarotList[i].description}`;
 }
 //activate function by clicking card image
 let cardimg = document.getElementById("clickCard");
