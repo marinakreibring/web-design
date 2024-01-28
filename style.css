@@ -4,7 +4,6 @@ body{
     max-width : 600px;
     font-family : 'Merriweather', Times, serif;
     margin: 1ch auto;
-    padding: 1vh 1vw;
 }
 header{
     display: flex;
@@ -12,6 +11,9 @@ header{
     color: beige;
     font-family: 'Lemonada', Helvetica, sans-serif;
     font-size: clamp(1rem, 0.5rem + 1.5vw, 1.8rem);
+}
+p{
+    padding: 0 2vw;
 }
 img{
     max-inline-size: 90%;
