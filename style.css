@@ -12,8 +12,9 @@ header{
     font-family: 'Lemonada', Helvetica, sans-serif;
     font-size: clamp(1rem, 0.5rem + 1.5vw, 1.8rem);
 }
-p{
-    padding: 0 2vw;
+body p{
+    margin: 0 10px;
+    text-align: center;
 }
 img{
     max-inline-size: 90%;
