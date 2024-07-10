@@ -123,6 +123,6 @@ img.tarot{
     width: 150px;
 }
 #tarotresult{
-    
+    display: block;
 }
 
