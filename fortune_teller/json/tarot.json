@@ -3,133 +3,133 @@
         {
             "name": "Fool (0)",
             "meaning": "innocence, new beginnings, free spirit",
-            "description": "silver",
+            "description": "You are on the verge of an unexpected and exciting new adventure. This may require you to take a blind leap of faith. There will be rewarding experiences that will help you grow as a person. The new adventure may be literal and may involve traveling to new lands or territories you have never visited before.",
             "logo": "images/tarotpic/0.jpg"              
         },
         {
             "name": "Magician (1)",
             "meaning": "willpower, desire, creation, manifestation",
-            "description": "silver",
+            "description": "Your desires and wishes can be realized through determination and willpower. You have the drive to make your dreams come true. Just remember that you are strong and if you create your inner world, the outer world will follow. However, you must focus and concentrate on achieving your dreams. Get rid of any limitations and make a detailed plan to stay on track.",
             "logo": "images/tarotpic/1.jpg"              
         },
         {
             "name": "High Priestess (2)",
             "meaning": "intuitive, unconscious, inner voice",
-            "description": "silver",
+            "description": "A time for learning and listening to your intuition rather than prioritizing your intellect and conscious mind. Slow down and think about what you have learned and gain even more knowledge before making a decision or taking action. Stop worrying about the outcome and trust the gatekeepers decision.",
             "logo": "images/tarotpic/2.jpg"              
         },
         {
             "name": "Emperor (4)",
             "meaning": "authority, structure, control, fatherhood",
-            "description": "silver",
+            "description": "Emperor signifies a husband who is consistent and trustworthy. He is self-assured, in control of his emotions, and exemplifies masculine energy. He is the father figure in life, providing structure and security, creating rules and systems, and imparting knowledge. As a ruler, he leads with a firm hand and demands respect and authority.nYou must pursue your goals the same way the Emperor does, in a structured, strategic, and intense manner.",
             "logo": "images/tarotpic/4.jpg"              
         },
         {
             "name": "Empress (3)",
-            "meaning": "motherhood, fertility, nature",
-            "description": "silver",
+            "meaning": "motherhood, fertility, nurturing, abundance",
+            "description": "Connect with your feminine side: creativity, elegance, sensuality, fertility, and nurturing. Be kinder to yourself and seek beauty and happiness in your life. Strong bursts of creative or artistic energy that may manifest itself in the form of a painting or art project, music or drama.",
             "logo": "images/tarotpic/3.jpg"              
         },
         {
             "name": "Hermit (9)",
             "meaning": "contemplation, search for truth, inner guidance",
-            "description": "silver",
+            "description": "This is a period of personal growth and exploration. Wisdom earned through the search for higher truth. While it may seem a little scary at first, seeking the truth on your own can be one of the most rewarding experiences in your life.",
             "logo": "images/tarotpic/9.jpg"              
         },
         {
             "name": "Lovers (6)",
             "meaning": "partnerships, duality, union",
-            "description": "silver",
+            "description": "You are about to make a major life-changing choice or face a dilemma. Temptation is often part of this choice or dilemma. You may feel unsure of which direction to take or who to trust. Gather the information you need to make the right decision. If you face a problem and think about it wisely, it will lead you to greater things.",
             "logo": "images/tarotpic/6.jpg"              
         },
         {
             "name": "Chariot (7)",
-            "meaning": "direction, control, willpower",
-            "description": "silver",
+            "meaning": "direction, control, determination, success, action",
+            "description": "Now is the time to get what you want. This card a sign of support. You will overcome obstacles and achieve your goals through determination, focus and willpower. You will feel motivated, ambitious and in control. You are a very persistent person and can achieve anything you set your mind to. You are confident in yourself and have no problem being yourself and speaking up. You are committed to what you need to do, and you approach it in a very measured and mature manner. Keep doing this and you will succeed in everything you want.",
             "logo": "images/tarotpic/7.jpg"              
         },
         {
             "name": "Strength (8)",
             "meaning": "inner strength, bravery, compassion, focus",
-            "description": "silver",
+            "description": "You have the strength and power to overcome any obstacle. Calm and think logically in stressful situations that test your patience and strength. You can gain real control over a situation, not just the power to force your will upon others.",
             "logo": "images/tarotpic/8.jpg"              
         },
         {
             "name": "Hierophant (5)",
             "meaning": "tradition, conformity, morality, ethics",
-            "description": "silver",
+            "description": "Follow existing agreements, rules, or established procedures. Maintain conventional boundaries that are considered standard practice. Spiritual beliefs, learned from a trusted source, such as a mentor or spiritual guide.",
             "logo": "images/tarotpic/5.jpg"              
         },
         {
             "name": "Wheel of fortune (10)",
-            "meaning": "change, cycles, inevitable fate",
-            "description": "silver",
+            "meaning": "change, turning points, inevitable fate",
+            "description": "Whether you believe in fate or not, everything is working out in your favor. Think about amazing offers and new opportunities. Your personal vision will also improve as the pace of life increases. Psychic abilities. Learn more about yourself and listen to your intuition. Make your dreams come true now that your energy is aligned with your spirit guides, angels, and other helpers. Just remember there is nothing to fear. Everything will work out according to divine intervention and timing.",
             "logo": "images/tarotpic/10.jpg"              
         },
         {
             "name": "Justice (11)",
-            "meaning": "cause and effect, clarity, truth",
-            "description": "silver",
+            "meaning": "clarity, truth, honesty, cause and effect",
+            "description": "If you have been wronged in any way, justice will come to restore balance and order. This does not mean that everything will turn out exactly as you would like. However, this card is saying: All's well that ends well.",
             "logo": "images/tarotpic/11.jpg"              
         },
         {
             "name": "Hanged man (12)",
-            "meaning": "sacrifice, release, martyrdom",
-            "description": "silver",
+            "meaning": "sacrifice, release, martyrdom, reflection, uncertainty",
+            "description": "Sacrificing people and things you would rather hold on to. You should know that sometimes we must accept loss for the greater good. Acceptance and letting go are key if you ever want to move forward.",
             "logo": "images/tarotpic/12.jpg"              
         },
         {
             "name": "Death (13)",
-            "meaning": "end of cycle, beginnings, change, metamorphosis",
-            "description": "silver",
+            "meaning": "end of cycle, change, transitions, resolutions",
+            "description": "Closing of a chapter, leaving the past behind and clearing away all that is unnecessary. It can also signify a transition or middle ground between one phase of life and the next. The key is to welcome the Death card in a Tarot reading, rather than avoid it. After all, there is no new beginning without an end.",
             "logo": "images/tarotpic/13.jpg"              
         },
         {
             "name": "Temperance (14)",
             "meaning": "middle path, patience, finding meaning",
-            "description": "silver",
+            "description": "Avoid all extreme situations. Some situations are difficult and require patience and extreme caution, even when your emotions are telling you to react. Refrain from making hasty judgments. Resist the temptation to react immediately.",
             "logo": "images/tarotpic/14.jpg"              
         },
         {
             "name": "Devil (15)",
             "meaning": "addiction, materialism, playfulness",
-            "description": "silver",
+            "description": "The Devil is a card of illusion. Although you have complete control over your life, beliefs and choices, the Devil card symbolizes how addiction, depression and unhealthy relationships can make you feel out of control. Regardless of the nature of your specific problem, redirect your attention from satisfying desires to the things that really matter.",
             "logo": "images/tarotpic/15.jpg"              
         },
         {
             "name": "Tower (16)",
             "meaning": "sudden upheaval, broken pride, disaster",
-            "description": "silver",
+            "description": "Total destruction. Prepare for things to be leveled and dismantled. As with all losses, this will likely be a painful process. It may also lead to a new beginning. Before you can make these positive changes, you will first have to face the truth about the situation.",
             "logo": "images/tarotpic/16.jpg"              
         },
         {
             "name": "Star (17)",
             "meaning": "hope, faith, rejuvenation",
-            "description": "silver",
+            "description": "The Universe is blessing you abundantly. A major change or traumatic event. Death, loss, heartbreak, and other painful events can change us forever. Open your heart, embrace your inner strength, and trust that the best is yet to come.",
             "logo": "images/tarotpic/17.jpg"              
         },
         {
             "name": "Moon (18)",
             "meaning": "unconscious, illusions, intuition",
-            "description": "silver",
+            "description": "You are allowing your imagination and emotions to control your life. This may be due to worries, fears, or self-deception. You are a crayfish rising from the sea. If you trust your intuition and move forward, you will find release from what binds you. But first, you must be willing to face the truth. There may be hidden truths in your life that you need to uncover. The Moon warns you against accepting things as they seem. It may be time to dig a little deeper and let the light shine on the misconceptions in your life.",
             "logo": "images/tarotpic/18.jpg"              
         },
         {
             "name": "Sun (19)",
             "meaning": "joy, success, celebration, positivity",
-            "description": "silver",
+            "description": "Positivity and satisfaction in your life. If you are going through difficult times, things will improve quickly. Look on the bright side of things. Even when we face challenges, we can choose to “make lemonade out of lemons”. The struggles and sadness will soon be a thing of the past, and you will move on to brighter and better days. You can rest assured knowing that good things are coming your way.",
             "logo": "images/tarotpic/19.jpg"              
         },
         {
             "name": "Judgment (20)",
-            "meaning": "reflection, reckoning, awakening ",
-            "description": "silver",
+            "meaning": "reflection, awakening, retribution, rebirth",
+            "description": "Now is the perfect time to consider your actions and make sure they are in line with your values and beliefs. Take the time to think about things before you move on with your life. Choices and life-changing events that you will not be able to avoid. Also, you have to look at the consequences with an open mind.",
             "logo": "images/tarotpic/20.jpg"              
         },
         {
             "name": "World (21)",
             "meaning": "fulfillment, harmony, completion",
-            "description": "silver",
+            "description": "Success and achievement. Despite the challenges and hardships you have faced, you have stood firm and persevered. The seeds you planted are now blooming and you are reaping the fruits of your labor. Everything has come together and you are in the right place, doing the right things, achieving what you set out to do.",
             "logo": "images/tarotpic/21.jpg"              
         },
         {

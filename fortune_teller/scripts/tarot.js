@@ -1,11 +1,12 @@
+//the code must display the prediction after user clicks on the card deck image, the data comes from json file
 const cardList = 'json/tarot.json';
 
 getCardData();
 
 async function getCardData(){
-    const response = await fetch(cardList);
-    const data = await response.json();
-    getCards (data);    
+   const response = await fetch(cardList);
+   const data = await response.json();
+   getCards (data);    
 }
 
 async function displayCardResult(){

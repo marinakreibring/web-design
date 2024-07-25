@@ -122,7 +122,11 @@ main{
 img.tarot{
     width: 150px;
 }
-#tarotresult{
-    display: block;
+#deckbutton{
+    color: transparent;
+    background-color: transparent;
+    border: transparent;
 }
-
+#tarotresult{
+    display: none;
+}
