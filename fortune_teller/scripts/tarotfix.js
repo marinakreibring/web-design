@@ -1,41 +1,52 @@
-const cardList = 'json/tarot.json';
+// Global variable to store tarot data
+let tarotList = [];
 
-let tarotList = []; // Переменная для хранения данных карт
-
+// Fetch card data and store it in the tarotList variable
 async function getCardData(){
-    const response = await fetch(cardList);
-    const data = await response.json();
-    tarotList = data; // Сохраняем данные в переменную
-    setupCardClick(); // Настройка клика после загрузки данных
+   try {
+       const response = await fetch(cardList);
+       const data = await response.json();
+       tarotList = data; // Store the data in the global variable
+   } catch (error) {
+       console.error("Failed to load tarot data:", error);
+   }
 }
 
-function setupCardClick() {
-    let cardimg = document.getElementById("clickCard");
-    cardimg.addEventListener("click", displayCardResult);
-}
+// Display card result after clicking the deck button
+function displayCardResult() {
+    if (tarotList.length === 0) {
+        console.error("No tarot data available.");
+        return;
+    }
 
-function displayCardResult(){
-    // Функция для генерации случайного числа в заданном диапазоне
+    // Function to generate a random number within a given range
     function getRandomBetween(min, max) {
-        return Math.floor(min + Math.random()*(max - min + 1));
-    };
+        return Math.floor(min + Math.random() * (max - min + 1));
+    }
 
-    // Выбираем случайный индекс
+    // Choose a random index from the tarot list
     const i = getRandomBetween(0, tarotList.length - 1);
 
-    // Заполняем элементы в секции tarotresult
-    let cardchosen = document.querySelector("#cardchosen");
-    cardchosen.setAttribute("src", `${tarotList[i].logo}`);
-    cardchosen.setAttribute("alt", `Logo of ${tarotList[i].name}`);
-    cardchosen.setAttribute("loading", "lazy"); 
-    document.querySelector("#tarotsay").textContent = `Tarot say:`;
-    document.querySelector("#name").textContent = `${tarotList[i].name}`;
-    document.querySelector("#cardmeaning").textContent = `${tarotList[i].meaning}`;
-    document.querySelector("#cardexplain").textContent = `${tarotList[i].description}`;
+    // Update the card result display
+    document.querySelector("#cardchosen").setAttribute("src", tarotList[i].logo);
+    document.querySelector("#cardchosen").setAttribute("alt", tarotList[i].name);
+    document.querySelector("#tarotsay").textContent = `Tarot says:`;
+    document.querySelector("#name").textContent = tarotList[i].name;
+    document.querySelector("#cardmeaning").textContent = tarotList[i].meaning;
+    document.querySelector("#cardexplain").textContent = tarotList[i].description;
 
-    // Показываем div с результатами
+    // Show the div with the results
     document.getElementById("tarotresult").style.display = "block";
 }
 
-// Запускаем функцию для получения данных карт
+// Activate the card display function by clicking the card deck image
+//document.querySelector("#deckbutton").addEventListener('click', displayCardResult);
+
+document.querySelector("#deckbutton").addEventListener('click', function() {
+    console.log("Button clicked!");
+    displayCardResult();
+});
+
+
+// Fetch the tarot data when the page loads
 getCardData();

@@ -29,8 +29,11 @@ async function displayCardResult(){
     document.querySelector("#name").textContent = `${tarotList[i].name}`;
     document.querySelector("#cardmeaning").textContent = `${tarotList[i].meaning}`;
     document.querySelector("#cardexplain").textContent = `${tarotList[i].description}`;
+    // Показываем div с результатами
+    document.getElementById("tarotresult").style.display = "block";
 }
 //activate function by clicking card image
-let cardimg = document.getElementById("clickCard");
-cardimg.addEventListener("click", displayCardResult());
+document.querySelector("#deckbutton").addEventListener('click', displayCardResult);
+
+
 
