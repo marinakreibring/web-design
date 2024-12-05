@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Recipe Finder | Search </title>    
+	<meta name="description" content="Input your products and search for recipes">
+	<link href="styles/normalize.css" rel="stylesheet">
+	<link href="styles/base.css" rel="stylesheet">     
+</head>
+<body>
+	<header>        
+        <a id="logolink" href="index.html"><img class="logo" src="images/logo-recipe.png" alt="site logo"></a>
+        <h1>Welcome to Your Recipe Finder!</h1>                
+    </header>
+	<main>
+		<div id="search">
+            <a href="output.html">Search</a>
+        </div>  
+        <div id="input" class="intro">
+			<section class="choice">
+                <p>Here will be a choice box.</p>
+			</section>
+			<section class="choice">
+				<p>Here will be a choice box.</p>
+			</section>
+			<section class="choice">
+				<p>Here will be a choice box.</p>
+			</section>
+            <p>more boxes are possible</p>
+        </div>
+	</main>
+    <footer>
+        <div id="copyright">
+            <p>&copy; <span id="currYear"></span></p>
+            <p id="bold"><a href="../index.html">Marina Kreibring</a></p>
+            <p>Belarus</p>         
+        </div>  
+        <p><i>Last updated: <span id="updated"></span></i></p>
+    </footer> 
+    <script>document.querySelector("#currYear").textContent = new Date().getFullYear();</script>
+	<script>document.querySelector("#updated").textContent = document.lastModified</script>   
+</body>
+</html>
