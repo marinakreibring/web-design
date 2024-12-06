@@ -34,25 +34,26 @@ header h1{
     box-sizing: border-box;
     max-width: 200px;
     margin: 1rem auto;
-    border: 3px solid var(--primary-color);
+    border: 3px solid var(--secondary-color);
     border-radius: 10px;
+    background-color: var(--primary-color);
 }
 #search a{
     display: block;
     text-align: center;
     align-self: center;
     padding: 0.5rem;
-    color: var(--primary-color);
-    font-weight: bold;
+    color: var(--secondary-color);
     font-family: var(--font-headline);
     text-decoration: none;
+    font-weight: bold;
 }
 #search:hover{
-    background-color: var(--primary-color);
-    border: 3px solid var(--secondary-color);    
+    border: 3px solid var(--primary-color);    
+    background-color: var(--secondary-color);
 }
 #search a:hover{
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 /*css for logo */
 .logo{
@@ -76,10 +77,14 @@ header h1{
     font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
     text-align: center;
 }
+#homeimg{
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 90%;
+}
 #input, #output{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;    
+    display: block;  
 }
 .choice{
     box-sizing: border-box;
@@ -90,6 +95,22 @@ header h1{
     border-radius: 10px;
     box-shadow: 10px 10px 5px var(--primary-color);
 }
+.choice label{
+    display: block;
+    padding-top: 1rem;
+    font-size: clamp(0.6rem, 0.5rem + 1.5vw, 1rem);
+    font-family: var(--font-body)
+}
+.choice label input, .choice label select{
+    -webkit-appearance: none;
+    appearance: auto;
+    display: block;
+    font-size: 0.9rem;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 5px;
+    padding: .5rem;
+    width: 100%;    
+}
 .result{
     box-sizing: border-box;
     margin: 0.5rem;
@@ -97,12 +118,12 @@ header h1{
     border-radius: 10px;
     box-shadow: 10px 10px 5px var(--primary-color);
 }
-#background{
-    display: none;
-}
+
 
 /*css for footer */
 footer{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -130,6 +151,8 @@ footer a:hover{
         flex-direction: row;
     }
     #input, #output{
-        flex-direction: row;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;  
     }
 }

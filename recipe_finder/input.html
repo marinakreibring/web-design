@@ -15,21 +15,49 @@
         <h1>Welcome to Your Recipe Finder!</h1>                
     </header>
 	<main>
+		<div id="input" class="intro">
+			<section class="choice">
+                <p>Choose your first ingredient</p>
+				<label>Ingredient 1<input type="text" name="ingredients" required></label>
+			</section>
+			<section class="choice">
+                <p>Choose your second ingredient</p>
+				<label>Ingredient 2<input type="text" name="ingredients" required></label>       
+			</section>
+			<section class="choice">
+                <p>Choose your third ingredient</p>
+				<label>Ingredient 3<input type="text" name="ingredients" required></label>
+            </section>
+            <section class="choice">
+                <p>Choose the flavour</p>
+				<label>You like it
+					<select id="flavour" name="fruit">
+						<option value=""> Please select</option>
+						<option value="sweet">Sweet</option>
+						<option value="spicy">Spicy</option>
+						<option value="sour">Sour</option>
+						<option value="salty">Salty</option>
+						<option value="sweetsour">Sweet-and-Sour</option>
+					</select>                
+				</label>    
+			</section>
+			<section class="choice">
+                <p>Choose the cuisine</p>
+				<label>You prefer
+					<select id="flavour" name="taste">
+						<option value=""> Please select</option>
+						<option value="sweet">Asian cuisine</option>
+						<option value="sweet">African cuisine</option>
+						<option value="sweet">European cuisine</option>
+						<option value="sweet">Latin American cuisine</option>						
+						<option value="sweet">Mediterranean cuisine</option>
+					</select>                
+				</label>     
+			</section>
+		</div>
 		<div id="search">
             <a href="output.html">Search</a>
         </div>  
-        <div id="input" class="intro">
-			<section class="choice">
-                <p>Here will be a choice box.</p>
-			</section>
-			<section class="choice">
-				<p>Here will be a choice box.</p>
-			</section>
-			<section class="choice">
-				<p>Here will be a choice box.</p>
-			</section>
-            <p>more boxes are possible</p>
-        </div>
 	</main>
     <footer>
         <div id="copyright">
