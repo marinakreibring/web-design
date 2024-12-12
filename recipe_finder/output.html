@@ -15,24 +15,15 @@
         <h1>Welcome to Your Recipe Finder!</h1>                
     </header>
 	<main>
-		
-        <div id="output" class="intro">
-			<section class="result">
-                <p>Here will be a recipe.</p>
-				<p>sections will be created dynamically</p>
-			</section>
-			<section class="result">
-				<p>Here will be a recipe.</p>
-				<p>sections will be created dynamically</p>
-			</section>
-			<section class="result">
-				<p>Here will be a recipe.</p>
-				<p>sections will be created dynamically</p>
-			</section>
-            <section class="result">
-				<p>Here will be a recipe.</p>
-				<p>sections will be created dynamically</p>
-			</section>
+		<div id="search">
+			<a href="input.html">New Search</a>
+		</div> 
+                  
+        <div class="intro">
+			<article>
+				<div class="recipecards">
+				<p>Here will be a recipe. Sections will be created dynamically</p></div>
+			</article>             
         </div>
 	</main>
     <footer>
@@ -44,6 +35,7 @@
         <p><i>Last updated: <span id="updated"></span></i></p>
     </footer> 
     <script>document.querySelector("#currYear").textContent = new Date().getFullYear();</script>
-	<script>document.querySelector("#updated").textContent = document.lastModified</script>   
+	<script>document.querySelector("#updated").textContent = document.lastModified</script> 
+	<script src="scripts/output.js"></script>  
 </body>
 </html>

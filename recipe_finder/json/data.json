@@ -1,0 +1,40 @@
+{
+    "recipe": [
+        {
+            "name": "Bake Sweet Potatoes",
+            "ingredients": ["sweet potatoes", "salt", "greek yogurt"],
+            "cuisine": "latin",
+            "flavor": "sweet",
+            "cooking": "Serve with desired toppings.",
+                                   
+        },
+        {
+            "name": "Con Rad der Fahrradladen",
+            "ingredients": ["corn", "cheese", "butter", "salt"],
+            "cuisine": "european",
+            "cooking": "Cook until done",
+            "flavor": "salty",         
+        },
+        {
+            "name": "Empolis fries",
+            "ingredients": ["potatoes", "carrots", "pepper", "chilli"],
+            "cuisine": "asian",
+            "cooking": "Cook until done",
+            "flavor": "spicy",           
+        },
+        {
+            "name": "Some food",
+            "ingredients": ["mango", "corn", "paprica", "pinapple"],
+            "cuisine": "african",
+            "cooking": "Cook until done",
+            "flavor": "sweet",           
+        },
+        {
+            "name": "Some food",
+            "ingredients": ["mango", "chicken", "veniger", "pinapple"],
+            "cuisine": "african",
+            "cooking": "Cook until done",
+            "flavor": "sour",           
+        },               
+    ]
+}

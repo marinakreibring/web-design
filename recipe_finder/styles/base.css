@@ -80,7 +80,7 @@ header h1{
     margin: 0 auto;
     max-width: 90%;
 }
-#input, #output{
+#input{
     display: block;  
 }
 .choice{
@@ -108,7 +108,7 @@ header h1{
     padding: .5rem;
     width: 100%;    
 }
-.result{
+.recipecards{
     box-sizing: border-box;
     margin: 0.5rem;
     border: 3px solid var(--secondary-color);
@@ -139,6 +139,88 @@ footer a:hover{
     background-color: var(--tertiary-color);
     color: var(--secondary-color);
     text-decoration: none;
+}
+/*css for output page list view*/    
+.list section{
+    grid-template-columns: 20% 1fr 1fr 1fr;        
+}
+.list section p:nth-child(3){
+    display: block;
+}
+/*css for the ouotput page*/
+.dirMenu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+#grid, #list{
+    padding: 1rem;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+    border-radius: 10px;
+    border: 3px solid var(--secondary-color);
+}
+#grid:hover, #list:hover{
+    background-color: var(--primary-color);    
+}
+.recipecards{
+    margin: .5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: .5rem;
+}
+.recipecards h3{
+    display: none;
+}
+.recipecards p{
+    text-align: center;
+    color: #15295D;
+    font-size: clamp(0.6rem, 0.5rem + 1.5vw, 1rem);
+    margin: 0 2rem;
+    padding: .3rem;
+}
+.recipecards img{
+    width: 250px;
+    height: 100px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #15295D;
+    margin-bottom: 1rem;
+}
+.list .recipecards{
+    margin: 0;
+    display: block;
+    
+}
+.list section{
+    display: grid;
+    grid-template-columns: 35% auto;
+    margin: 0;  
+    box-shadow: none;
+    padding: .2rem;
+    align-items: center;
+}
+.list h3{
+    display: block;
+    font-size:  clamp(0.6rem, 0.5rem + 1.5vw, 1rem);
+    color: #15295D;    
+}
+.list section img{
+    display: none;
+}
+.list section p{
+    display: none;
+}
+.list section:nth-child(even){
+    box-shadow: inset 0 -2em 2em lightskyblue;
 }
 /*css for larger screens */
  @media screen and (min-width: 600px){
