@@ -29,26 +29,44 @@ header h1{
     font-size: clamp(0.8rem, 0.75rem + 1.5vw, 2rem);
     align-self: center;
 }
+h2{
+    color: var(--tertiary-color);
+}
 /*css for Search field*/
-#search{
+#search a{
+    display: block;
     box-sizing: border-box;
     max-width: 200px;
     margin: 1rem auto;
+    padding: 0.5rem;
     border: 4px solid var(--secondary-color);
     border-radius: 10px;
-    background-color: var(--tertiary-color);
-}
-#search a{
-    display: block;
     text-align: center;
     align-self: center;
-    padding: 0.5rem;
     color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     font-family: var(--font-headline);
     text-decoration: none;
     font-weight: bold;
 }
-#search:hover{  
+#search a:hover{
+    background-color: var(--primary-color);
+}
+#submit{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem;
+    width: 200px;
+    color: var(--secondary-color);
+    background-color: var(--tertiary-color);
+    font-family: var(--font-headline);
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border: 4px solid var(--secondary-color);
+    border-radius: 10px;
+}
+#submit:hover{  
     background-color: var(--primary-color);
 }
 
@@ -90,7 +108,12 @@ header h1{
     margin: 1rem auto;
     border: 3px solid var(--secondary-color);
     border-radius: 10px;
-    box-shadow: 10px 10px 5px var(--primary-color);
+    box-shadow: inset 0 -1em 2em var(--secondary-color); /*inner shade*/
+}
+.choice h6{
+    color: var(--tertiary-color);
+    font-style: italic;
+   
 }
 .choice label{
     display: block;
@@ -108,15 +131,33 @@ header h1{
     padding: .5rem;
     width: 100%;    
 }
-.recipecards{
+/*css for output page*/
+.recipecards section{
     box-sizing: border-box;
-    margin: 0.5rem;
+    max-width: 200px;
+    margin: 1rem auto;
     border: 3px solid var(--secondary-color);
     border-radius: 10px;
-    box-shadow: 10px 10px 5px var(--primary-color);
+    box-shadow: inset 0 -1em 2em var(--secondary-color); /*inner shade*/
 }
-
-
+.recipecards h3{
+    display: block;
+    font-size:  clamp(1rem, 0.5rem + 1.5vw, 1.5rem);
+    color: var(--tertiary-color);    
+}
+.recipecards h4{
+    font-style: italic;
+    color: var(--primary-color);
+}
+.recipecards h4::first-letter{
+    text-transform: uppercase;
+}
+.recipecards p{
+    text-align: center;
+    font-size: clamp(0.6rem, 0.5rem + 1.5vw, 1rem);
+    margin: 0 1rem;
+    padding: .3rem;
+}
 /*css for footer */
 footer{
     margin-top: 1rem;
@@ -140,88 +181,7 @@ footer a:hover{
     color: var(--secondary-color);
     text-decoration: none;
 }
-/*css for output page list view*/    
-.list section{
-    grid-template-columns: 20% 1fr 1fr 1fr;        
-}
-.list section p:nth-child(3){
-    display: block;
-}
-/*css for the ouotput page*/
-.dirMenu{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    
-    
-}
-#grid, #list{
-    padding: 1rem;
-    background-color: var(--tertiary-color);
-    color: var(--secondary-color);
-    font-weight: bold;
-    border-radius: 10px;
-    border: 3px solid var(--secondary-color);
-}
-#grid:hover, #list:hover{
-    background-color: var(--primary-color);    
-}
-.recipecards{
-    margin: .5rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: .5rem;
-}
-.recipecards h3{
-    display: none;
-}
-.recipecards p{
-    text-align: center;
-    color: #15295D;
-    font-size: clamp(0.6rem, 0.5rem + 1.5vw, 1rem);
-    margin: 0 2rem;
-    padding: .3rem;
-}
-.recipecards img{
-    width: 250px;
-    height: 100px;
-    object-fit: contain;
-    margin: 0 auto;
-}
-.list{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #15295D;
-    margin-bottom: 1rem;
-}
-.list .recipecards{
-    margin: 0;
-    display: block;
-    
-}
-.list section{
-    display: grid;
-    grid-template-columns: 35% auto;
-    margin: 0;  
-    box-shadow: none;
-    padding: .2rem;
-    align-items: center;
-}
-.list h3{
-    display: block;
-    font-size:  clamp(0.6rem, 0.5rem + 1.5vw, 1rem);
-    color: #15295D;    
-}
-.list section img{
-    display: none;
-}
-.list section p{
-    display: none;
-}
-.list section:nth-child(even){
-    box-shadow: inset 0 -2em 2em lightskyblue;
-}
+
 /*css for larger screens */
  @media screen and (min-width: 600px){
     #copyright{
@@ -229,7 +189,7 @@ footer a:hover{
         justify-content: space-around;
         flex-direction: row;
     }
-    #input, #output{
+    #input, .recipecards{
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;  

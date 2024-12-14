@@ -5,7 +5,7 @@
             "ingredients": ["sweet potatoes", "salt", "greek yogurt"],
             "cuisine": "latin",
             "flavor": "sweet",
-            "cooking": "Serve with desired toppings.",
+            "cooking": "Serve with desired toppings."
                                    
         },
         {
@@ -13,28 +13,50 @@
             "ingredients": ["corn", "cheese", "butter", "salt"],
             "cuisine": "european",
             "cooking": "Cook until done",
-            "flavor": "salty",         
+            "flavor": "salty"      
         },
         {
             "name": "Empolis fries",
             "ingredients": ["potatoes", "carrots", "pepper", "chilli"],
             "cuisine": "asian",
             "cooking": "Cook until done",
-            "flavor": "spicy",           
+            "flavor": "spicy"        
         },
         {
             "name": "Some food",
             "ingredients": ["mango", "corn", "paprica", "pinapple"],
             "cuisine": "african",
             "cooking": "Cook until done",
-            "flavor": "sweet",           
+            "flavor": "sweet"           
         },
         {
             "name": "Some food",
-            "ingredients": ["mango", "chicken", "veniger", "pinapple"],
+            "ingredients": ["mango", "chicken", "veniger", "pinapple", "salt"],
             "cuisine": "african",
             "cooking": "Cook until done",
-            "flavor": "sour",           
-        },               
+            "flavor": "sour"           
+        },
+        {
+            "name": "Sweet-and-Sour Chicken",
+            "ingredients": ["chicken", "paprika", "pinapple", "salt", "soy souse", "rice"],
+            "cuisine": "asian",
+            "flavor": "sour",
+            "cooking": "Cook until done. Serve with desired toppings."                                   
+        },
+        {
+            "name": "Beefsteak",
+            "ingredients": ["beef", "mustard", "pepper", "salt", "soy souse", "rice"],
+            "cuisine": "european",
+            "flavor": "salty",
+            "cooking": "Cook until done. Serve with desired toppings."
+                                   
+        },
+        {
+            "name": "Waffel",
+            "ingredients": ["flour", "eggs", "sugar", "vanilla", "milk", "butter"],
+            "cuisine": "european",
+            "flavor": "sweet",
+            "cooking": "Cook until done. Serve with desired toppings."                                   
+        }               
     ]
 }

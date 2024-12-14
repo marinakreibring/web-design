@@ -17,21 +17,21 @@
 	<main>
 		<div id="input" class="intro">
 			<section class="choice">
-                <p>Choose your first ingredient</p>
-				<label>Ingredient 1<input type="text" name="ingredients" required></label>
+                <h6>Choose your 1st ingredient</h6>
+				<label>Ingredient 1<input type="text" name="ingredients" id="ingredient1" required></label>
 			</section>
 			<section class="choice">
-                <p>Choose your second ingredient</p>
-				<label>Ingredient 2<input type="text" name="ingredients" required></label>       
+                <h6>Choose your 2nd ingredient</h6>
+				<label>Ingredient 2<input type="text" name="ingredients" id="ingredient2" required></label>       
 			</section>
 			<section class="choice">
-                <p>Choose your third ingredient</p>
-				<label>Ingredient 3<input type="text" name="ingredients" required></label>
+                <h6>Choose your 3d ingredient</h6>
+				<label>Ingredient 3<input type="text" name="ingredients" id="ingredient3" required></label>
             </section>
             <section class="choice">
-                <p>Choose the flavour</p>
+                <h6>Choose the flavour</h6>
 				<label>You like it
-					<select id="flavour" name="taste">
+					<select id="flavour" name="flavour">
 						<option value=""> Please select</option>
 						<option value="sweet">Sweet</option>
 						<option value="spicy">Spicy</option>
@@ -41,9 +41,9 @@
 				</label>    
 			</section>
 			<section class="choice">
-                <p>Choose the cuisine</p>
+                <h6>Choose the cuisine</h6>
 				<label>You prefer
-					<select id="flavour" name="taste">
+					<select id="cuisine" name="cuisine">
 						<option value=""> Please select</option>
 						<option value="asian">Asian cuisine</option>
 						<option value="african">African cuisine</option>
@@ -54,8 +54,8 @@
 				</label>     
 			</section>
 		</div>
-		<div id="search">
-            <a href="output.html">Search</a>
+		<div id="button">
+            <button id="submit">Search</button>
         </div>  
 	</main>
     <footer>
@@ -67,6 +67,7 @@
         <p><i>Last updated: <span id="updated"></span></i></p>
     </footer> 
     <script>document.querySelector("#currYear").textContent = new Date().getFullYear();</script>
-	<script>document.querySelector("#updated").textContent = document.lastModified</script>   
+	<script>document.querySelector("#updated").textContent = document.lastModified</script>  
+	<script src="scripts/input.js"></script>
 </body>
 </html>
