@@ -1,104 +1,207 @@
 {
     "recipe": [
-        {
-            "name": "Bake Sweet Potatoes",
-            "ingredients": ["sweet potatoes", "salt", "greek yogurt"],
-            "cuisine": "latin",
-            "flavor": "sweet",
-            "cooking": "Serve with desired toppings."
-                                   
-        },
-        {
-            "name": "Con Rad der Fahrradladen",
-            "ingredients": ["corn", "cheese", "butter", "salt"],
-            "cuisine": "european",
-            "cooking": "Cook until done",
-            "flavor": "salty"      
-        },
-        {
-            "name": "Empolis fries",
-            "ingredients": ["potatoes", "carrots", "pepper", "chilli"],
-            "cuisine": "asian",
-            "cooking": "Cook until done",
-            "flavor": "spicy"        
-        },
-        {
-            "name": "Some food",
-            "ingredients": ["mango", "corn", "paprica", "pinapple"],
-            "cuisine": "african",
-            "cooking": "Cook until done",
-            "flavor": "sweet"           
-        },
-        {
-            "name": "Some food",
-            "ingredients": ["mango", "chicken", "veniger", "pinapple", "salt"],
-            "cuisine": "african",
-            "cooking": "Cook until done",
-            "flavor": "sour"           
-        },
-        {
-            "name": "Sweet-and-Sour Chicken",
-            "ingredients": ["chicken", "paprika", "pinapple", "salt", "soy souse", "rice"],
-            "cuisine": "asian",
-            "flavor": "sour",
-            "cooking": "Cook until done. Serve with desired toppings."                                   
-        },
-        {
-            "name": "Beefsteak",
-            "ingredients": ["beef", "mustard", "pepper", "salt", "soy souse", "rice"],
-            "cuisine": "european",
-            "flavor": "salty",
-            "cooking": "Cook until done. Serve with desired toppings."
-                                   
-        },
-        {
-            "name": "Waffel",
-            "ingredients": ["flour", "eggs", "sugar", "vanilla", "milk", "butter"],
-            "cuisine": "european",
-            "flavor": "sweet",
-            "cooking": "Cook until done. Serve with desired toppings."                                   
-        },
-        {
-            "name": "Pancakes",
-            "ingredients": ["flour", "eggs", "sugar", "vanilla", "milk", "butter"],
-            "cuisine": "european",
-            "flavor": "sweet",
-            "cooking": "Cook until done. Serve with desired toppings."                                   
-        },
-        {
-            "name": "Cake",
-            "ingredients": ["flour", "eggs", "sugar", "vanilla", "milk", "butter"],
-            "cuisine": "european",
-            "flavor": "sweet",
-            "cooking": "Cook until done. Serve with desired toppings."                                   
-        },
-        {
-            "name": "Beef Stoganoff",
-            "ingredients": ["beef", "mustard", "pepper", "salt", "soy souse", "rice"],
-            "cuisine": "european",
-            "flavor": "spicy",
-            "cooking": "Cook until done. Serve with desired toppings."                                   
-        },
-        {
-            "name": "Beef Strogannoff",
-            "ingredients": ["beef", "mustard", "pepper", "salt", "soy souse", "rice"],
-            "cuisine": "european",
-            "flavor": "salty",
-            "cooking": "Cook until done. Serve with desired toppings."                     
-        }, 
-        {
-            "name": "Carpaccho",
-            "ingredients": ["beef", "mustard", "pepper", "salt", "soy souse", "rice"],
-            "cuisine": "mediterranean",
-            "flavor": "salty",
-            "cooking": "Cook until done. Serve with desired toppings."                                   
-        }, 
-        {
-            "name": "Tastything",
-            "ingredients": ["beef", "mustard", "pepper", "salt", "soy souse", "rice"],
-            "cuisine": "mediterranean",
-            "flavor": "salty",
-            "cooking": "Cook until done. Serve with desired toppings."                                   
-        }           
+      {
+        "name": "Baked Sweet Potatoes",
+        "ingredients": ["sweet potatoes", "olive oil", "salt", "black pepper"],
+        "cuisine": "American",
+        "flavor": "sweet",
+        "cooking": "Preheat oven to 400°F. Wash and pierce sweet potatoes with a fork. Rub with olive oil, salt, and pepper. Bake for 45 minutes or until tender."
+      },
+      {
+        "name": "Corn on the Cob",
+        "ingredients": ["corn on the cob", "butter", "salt", "pepper"],
+        "cuisine": "American",
+        "flavor": "salty",
+        "cooking": "Boil corn for 10-15 minutes or grill for 15 minutes. Brush with butter and season with salt and pepper."
+      },
+      {
+        "name": "Vegetable Stir Fry",
+        "ingredients": ["broccoli", "carrots", "bell pepper", "soy sauce", "ginger", "garlic"],
+        "cuisine": "Asian",
+        "flavor": "savory",
+        "cooking": "Stir fry vegetables in oil over medium heat. Add garlic and ginger, then soy sauce. Stir-fry for 5-7 minutes until vegetables are tender."
+      },
+      {
+        "name": "Sweet and Sour Chicken",
+        "ingredients": ["chicken breast", "pineapple", "bell pepper", "onion", "soy sauce", "sugar", "vinegar"],
+        "cuisine": "Asian",
+        "flavor": "sweet",
+        "cooking": "Cook chicken in a skillet until browned. Add vegetables, pineapple, soy sauce, sugar, and vinegar. Simmer for 10 minutes."
+      },
+      {
+        "name": "Chicken Caesar Salad",
+        "ingredients": ["chicken breast", "romaine lettuce", "parmesan cheese", "croutons", "caesar dressing"],
+        "cuisine": "Mediterranean",
+        "flavor": "savory",
+        "cooking": "Grill or pan-sear chicken. Toss lettuce with dressing, cheese, croutons, and sliced chicken."
+      },
+      {
+        "name": "Beef Tacos",
+        "ingredients": ["ground beef", "taco seasoning", "taco shells", "lettuce", "cheese", "tomato", "sour cream"],
+        "cuisine": "Mexican",
+        "flavor": "savory",
+        "cooking": "Brown beef in a skillet. Add taco seasoning and water, simmer. Serve in taco shells with toppings."
+      },
+      {
+        "name": "Spaghetti Carbonara",
+        "ingredients": ["spaghetti", "bacon", "eggs", "parmesan cheese", "garlic", "black pepper"],
+        "cuisine": "Mediterranean",
+        "flavor": "savory",
+        "cooking": "Cook spaghetti. Fry bacon and garlic in a pan. Mix cooked spaghetti with bacon, beaten eggs, and cheese. Toss with black pepper."
+      },
+      {
+        "name": "Vegan Buddha Bowl",
+        "ingredients": ["quinoa", "avocado", "chickpeas", "spinach", "carrots", "tahini dressing"],
+        "cuisine": "Vegan",
+        "flavor": "savory",
+        "cooking": "Cook quinoa and chickpeas. Arrange on a bowl with veggies and drizzle with tahini dressing."
+      },
+      {
+        "name": "Pancakes",
+        "ingredients": ["flour", "eggs", "sugar", "vanilla", "milk", "butter"],
+        "cuisine": "European",
+        "flavor": "sweet",
+        "cooking": "Mix ingredients into a batter. Pour onto a hot griddle and cook until golden brown on both sides."
+      },
+      {
+        "name": "Chocolate Chip Cookies",
+        "ingredients": ["flour", "butter", "sugar", "brown sugar", "chocolate chips", "baking soda", "vanilla", "eggs"],
+        "cuisine": "American",
+        "flavor": "sweet",
+        "cooking": "Mix all ingredients and form dough into balls. Bake at 350°F for 10-12 minutes."
+      },
+      {
+        "name": "Beef Stroganoff",
+        "ingredients": ["beef", "onion", "mushrooms", "sour cream", "garlic", "beef broth", "egg noodles"],
+        "cuisine": "European",
+        "flavor": "creamy",
+        "cooking": "Brown beef, cook onions and mushrooms in a skillet. Add garlic, beef broth, and sour cream. Serve over egg noodles."
+      },
+      {
+        "name": "Margarita Pizza",
+        "ingredients": ["pizza dough", "tomato sauce", "mozzarella cheese", "basil", "olive oil"],
+        "cuisine": "Mediterranean",
+        "flavor": "savory",
+        "cooking": "Spread tomato sauce on dough, top with cheese and basil. Bake at 475°F for 10-12 minutes."
+      },
+      {
+        "name": "Lemon Chicken Piccata",
+        "ingredients": ["chicken breast", "lemon", "capers", "butter", "garlic", "white wine"],
+        "cuisine": "Mediterranean",
+        "flavor": "sour",
+        "cooking": "Cook chicken breasts in butter. Remove, add lemon juice, capers, and wine to the pan to make sauce. Serve chicken with sauce."
+      },
+      {
+        "name": "Vegetable Soup",
+        "ingredients": ["carrots", "potatoes", "celery", "tomatoes", "onions", "vegetable broth"],
+        "cuisine": "American",
+        "flavor": "savory",
+        "cooking": "Combine all ingredients in a pot and simmer for 30 minutes until vegetables are tender."
+      },
+      {
+        "name": "Shrimp Scampi",
+        "ingredients": ["shrimp", "garlic", "butter", "lemon", "parsley", "spaghetti"],
+        "cuisine": "Mediterranean",
+        "flavor": "savory",
+        "cooking": "Cook shrimp in butter and garlic. Toss with cooked spaghetti and lemon juice. Garnish with parsley."
+      },
+      {
+        "name": "Chicken Alfredo",
+        "ingredients": ["chicken breast", "fettucine", "heavy cream", "parmesan cheese", "butter", "garlic"],
+        "cuisine": "Mediterranean",
+        "flavor": "creamy",
+        "cooking": "Cook chicken. In a separate pan, melt butter, add garlic, cream, and cheese. Toss with fettucine."
+      },
+      {
+        "name": "Fish Tacos",
+        "ingredients": ["fish fillets", "taco shells", "cabbage", "lime", "sour cream", "cilantro"],
+        "cuisine": "Mexican",
+        "flavor": "savory",
+        "cooking": "Cook fish and serve in taco shells with cabbage, sour cream, cilantro, and a squeeze of lime."
+      },
+      {
+        "name": "Falafel",
+        "ingredients": ["chickpeas", "garlic", "onions", "parsley", "cumin", "flour", "baking powder"],
+        "cuisine": "Asian",
+        "flavor": "savory",
+        "cooking": "Blend ingredients into a dough, form into balls, and fry until golden brown."
+      },
+      {
+        "name": "Eggplant Parmesan",
+        "ingredients": ["eggplant", "tomato sauce", "mozzarella cheese", "parmesan cheese", "breadcrumbs"],
+        "cuisine": "Mediterranean",
+        "flavor": "savory",
+        "cooking": "Bread and fry eggplant slices. Layer with tomato sauce and cheese, then bake until golden."
+      },
+      {
+        "name": "Lasagna",
+        "ingredients": ["lasagna noodles", "ground beef", "tomato sauce", "mozzarella cheese", "parmesan cheese"],
+        "cuisine": "Mediterranean",
+        "flavor": "savory",
+        "cooking": "Layer cooked noodles with meat sauce and cheese. Bake at 375°F for 45 minutes."
+      },
+      {
+        "name": "Moussaka",
+        "ingredients": ["eggplant", "ground lamb", "tomato sauce", "onions", "béchamel sauce"],
+        "cuisine": "Mediterranean",
+        "flavor": "savory",
+        "cooking": "Layer fried eggplant with meat sauce and béchamel. Bake at 350°F for 45 minutes."
+      },
+      {
+        "name": "Baked Salmon",
+        "ingredients": ["salmon fillets", "lemon", "olive oil", "garlic", "parsley"],
+        "cuisine": "Mediterranean",
+        "flavor": "savory",
+        "cooking": "Season salmon with garlic, lemon, and olive oil. Bake at 375°F for 15-20 minutes."
+      },
+      {
+        "name": "Beef Wellington",
+        "ingredients": ["beef tenderloin", "puff pastry", "mushrooms", "prosciutto", "egg"],
+        "cuisine": "European",
+        "flavor": "savory",
+        "cooking": "Sear beef, wrap in prosciutto and mushrooms, then puff pastry. Bake at 400°F for 45 minutes."
+      },
+      {
+        "name": "Chicken Parmesan",
+        "ingredients": ["chicken breasts", "tomato sauce", "mozzarella cheese", "parmesan cheese", "breadcrumbs"],
+        "cuisine": "Mediterranean",
+        "flavor": "savory",
+        "cooking": "Bread and fry chicken, then top with sauce and cheese. Bake until bubbly."
+      },
+      {
+        "name": "Grilled Cheese Sandwich",
+        "ingredients": ["bread", "cheese", "butter"],
+        "cuisine": "American",
+        "flavor": "savory",
+        "cooking": "Butter bread and grill with cheese until golden brown."
+      },
+      {
+        "name": "Ratatouille",
+        "ingredients": ["eggplant", "zucchini", "tomatoes", "bell pepper", "onions", "garlic"],
+        "cuisine": "Mediterranean",
+        "flavor": "savory",
+        "cooking": "Cook vegetables with olive oil, garlic, and herbs until tender."
+      },
+      {
+        "name": "Chicken Shawarma",
+        "ingredients": ["chicken", "garlic", "yogurt", "cumin", "paprika", "lemon"],
+        "cuisine": "Asian",
+        "flavor": "savory",
+        "cooking": "Marinate chicken, then grill or roast. Serve with pita and tahini."
+      },
+      {
+        "name": "Pad Thai",
+        "ingredients": ["rice noodles", "shrimp", "tofu", "peanuts", "lime", "fish sauce", "eggs"],
+        "cuisine": "Asian",
+        "flavor": "savory",
+        "cooking": "Stir fry noodles with shrimp, tofu, and eggs. Toss with fish sauce, peanuts, and lime."
+      },
+      {
+        "name": "Beef Bulgogi",
+        "ingredients": ["beef", "soy sauce", "garlic", "ginger", "sesame oil", "scallions"],
+        "cuisine": "Asian",
+        "flavor": "savory",
+        "cooking": "Marinate beef in soy sauce and seasonings, then stir fry with vegetables."
+      }
     ]
-}
+  }

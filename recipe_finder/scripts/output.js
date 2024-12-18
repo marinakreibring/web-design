@@ -1,4 +1,38 @@
-//Create dymanic recipe cards
+//Add API key
+//const API_KEY = '1cea7a7916ca406d854cf4fc70295388'
+//const API_URL = 'https://api.spoonacular.com/recipes/complexSearch'; //https://api.spoonacular.com/recipes/complexSearch?query=pasta&apiKey=YOUR-KEY
+
+//Fetch recipes based on user input from localStorage
+//getRecipeData();
+
+//async function getRecipeData() {
+    //const ingredients = JSON.parse(localStorage.getItem("ingredients"));
+    //const flavour = localStorage.getItem("flavour");
+    //const cuisine = localStorage.getItem("cuisine");
+
+    //Prepare the query parameters for the API request
+    //const ingredientsQuery = ingredients.join(","); 
+    //const flavourQuery = flavour; 
+    //const cuisineQuery = cuisine;
+
+    //Construct the API URL with query parameters
+    //const apiUrl = `${API_URL}?apiKey=${API_KEY}&includeIngredients=${ingredientsQuery}&cuisine=${cuisineQuery}&flavor=${flavourQuery}`;
+    //https://api.spoonacular.com/recipes/complexSearch?query=pasta&apiKey=YOUR-KEY
+    //const apiUrl = `${API_URL}?query=cook&includeIngredients=${ingredientsQuery}&cuisine=${cuisineQuery}&flavor=${flavourQuery}&apiKey==${API_KEY}`
+    //Make the API call
+    //const response = await fetch(apiUrl);
+    //const data = await response.json();
+
+    //Check if recipes are found
+    //if (data.results && data.results.length > 0) {
+        //displayRecipe(data.results);
+    //} else {
+        //displayNoResults();
+    //}
+//}
+
+
+//Create dymanic recipe cards - done on preparatiry step to test functionality with json file
 const recipeDir = 'json/data.json';
 
 getRecipeData();
@@ -21,7 +55,7 @@ async function getRecipeData() {
         const matchesFlavour = item.flavor === flavour;
         const matchesCuisine = item.cuisine === cuisine;
 
-        return hasAllIngredients && matchesFlavour && matchesCuisine;
+        return hasAllIngredients || matchesFlavour && matchesCuisine;
     });
 
     //Display the filtered recipes
@@ -31,8 +65,8 @@ async function getRecipeData() {
 //Add cards to div
 const displayRecipe = (recipes) => {
     const cards = document.querySelector("div.recipecards");
-    cards.innerHTML = "";  // Clear previous results
-
+    cards.innerHTML = "";  //Clear previous results
+    //Display message if no recipes found
     if (recipes.length === 0) {
         const noResults = document.createElement("p");
         noResults.textContent = "No recipes found for your selection.";
