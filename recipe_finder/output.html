@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> Recipe Finder | Result </title>    
 	<meta name="description" content="See the results of your search">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 	<link href="styles/normalize.css" rel="stylesheet">
 	<link href="styles/base.css" rel="stylesheet">     
 </head>
@@ -35,6 +36,7 @@
     </footer> 
     <script>document.querySelector("#currYear").textContent = new Date().getFullYear();</script>
 	<script>document.querySelector("#updated").textContent = document.lastModified</script> 
-	<script src="scripts/output.js"></script>  
+	<!-- <script src="scripts/apioutput.js"></script> -->
+	<script src="scripts/output.js"></script> 
 </body>
 </html>
