@@ -71,6 +71,14 @@ h2{
     font-family: Roboto Slab, Arial, Helvetica, sans-serif;
     font-size: clamp(1.5rem, 0.75rem + 1.5vw, 2.5rem);
 }
+h3{
+    display: block;
+    color: #131b82;
+    font-style: normal;
+    margin: 10px;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: clamp(1.3rem, 0.75rem + 1.5vw, 2rem);
+}
 p{
     color: #131b82; 
     font-family: Roboto Slab, Arial, Helvetica, sans-serif;
@@ -89,16 +97,17 @@ main{
     aspect-ratio: 3/2;
     object-fit: contain;
 }
-#prediction{
+#prediction, #resetbutton{
     padding: 10px;
     border-radius: 10px;
     font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
     background-color: #c762c9;
     font-family: Roboto Slab, Arial, Helvetica, sans-serif;
 }
-#prediction:hover{
+#prediction:hover, #resetbutton:hover{
     background-color: #131b82;
     color: antiquewhite;
+    cursor: pointer;
 }
 #buttonDate{
     padding: 10px;
@@ -111,6 +120,7 @@ main{
 #buttonDate:hover{
     background-color: #131b82;
     color: antiquewhite;
+    cursor: pointer;
 }
 #birthdate{
     padding: 10px;
@@ -122,11 +132,17 @@ main{
 img.tarot{
     width: 150px;
 }
-#deckbutton{
+#submit{
     color: transparent;
     background-color: transparent;
     border: transparent;
 }
-#tarotresult{
-    display: none;
+#submit:hover{
+    cursor: pointer;
+}
+#myImage{
+    width: 100px;
+}
+#cookie{
+    height: 3rem;
 }

@@ -13,9 +13,20 @@ document.querySelector('#buttonDate').addEventListener('click', showSign);
 todayDate = new Date(); 
 today = todayDate.toLocaleDateString()
 document.querySelector("#date").textContent = today;
+//change picture
+let image = document.getElementById("myImage");
 
-// display the text for prediction
-const getPrediction = () => {
+image.addEventListener("click", function () {
+    // Get the message element
+    let messageElement = document.querySelector("#message");
+
+    // Check the current state of the image and act accordingly
+    if (image.getAttribute("src") === "images/pred1.png") {
+        // Change to the open cookie image
+        image.src = "images/pred2.png";
+
+        // display the text for prediction
+
     let predictions = [
         "If you take the initiative, success will not keep you waiting.",
         "Get ready for a romantic adventure.",
@@ -41,12 +52,13 @@ const getPrediction = () => {
         "Time will dry all tears and heal all wounds.",
         "This month you will meet your love."
     ];
-    function getRandomElement(arr){
-        return arr[Math.floor(Math.random()*arr.length)]
-    };
-    let message = getRandomElement(predictions);
-    document.querySelector("#message").textContent = message;
-}
-document.querySelector("#prediction").addEventListener('click', getPrediction);
-document.querySelector("#updated").textContent = document.lastModified
-    
+    let randomPrediction = predictions[Math.floor(Math.random() * predictions.length)];
+        messageElement.textContent = randomPrediction;
+    } else {
+        // Change to the closed cookie image
+        image.src = "images/pred1.png";
+
+        // Clear the prediction message
+        messageElement.textContent = "";
+    }
+});
