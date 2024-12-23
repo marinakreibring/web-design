@@ -1,16 +1,16 @@
-body{    
-    font-size: 16px;
-    line-height: 1.5;
-    max-width: 1000px;
-    margin: 10px auto;
+:root {
+    --font-body: Roboto Slab, Arial, Helvetica, sans-serif;
+    --font-headline: Satisfy, cursive, serif;
+    /* colors */
+    --primary-color: #131b82;
+    --secondary-color: #571463;
+    --tertiary-color: #35aee5;  
+    --accent-color:  #c762c9;
 }
 main, header{
     background-color: #35aee5;
     padding-bottom: 1rem;
     padding-top: 1rem;
-}
-div{
-    margin: 10px;
     text-align: center;
 }
 nav{
@@ -23,10 +23,10 @@ nav a{
     text-decoration: none;
     font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
     padding: .3rem;
-    color: #571463;
+    color: var(--secondary-color);
 }
 nav a:hover{
-    background-color: #131b82;
+    background-color: var(--primary-color);
     color: antiquewhite;
 }
 #logolink{
@@ -37,12 +37,12 @@ nav a:hover{
     border-radius: 50%;
 }
 footer p{
-    background-color: #131b82;
+    background-color: var(--primary-color);
     color: antiquewhite;
     text-align: center;
     padding: 10px;
     font-size: clamp(.8rem, 0.75rem + 1.5vw, 1.3rem);
-    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-family: var(--font-body);
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -57,40 +57,39 @@ footer a:hover{
 header{
     margin: auto;
     text-align: center;
-    color: #571463;
-    font-family: Satisfy, cursive, serif;
+    color: var(--secondary-color);
+    font-family: var(--font-headline);
+    font-weight: bold;
 }
 header h1{
     font-size: clamp(1.5rem, 0.75rem + 1.5vw, 3rem);
+    color: var(--secondary-color);
+    font-style: italic; 
+    text-shadow:  1px 1px 10px var(--accent-color);
 }
 h2{
-    display: block;
-    color: #131b82;
-    font-style: italic;
-    margin: 20px;
-    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    color: var(--primary-color);       
+    font-family: var(--font-headline);
     font-size: clamp(1.5rem, 0.75rem + 1.5vw, 2.5rem);
+    margin: 2rem auto;
 }
 h3{
-    display: block;
-    color: #131b82;
+    color: var(--primary-color);
     font-style: normal;
     margin: 10px;
-    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-family: var(--font-body);
     font-size: clamp(1.3rem, 0.75rem + 1.5vw, 2rem);
 }
 p{
-    color: #131b82; 
-    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    color: var(--primary-color); 
+    font-family: var(--font-body);
     padding-left: .5rem;
     padding-right: .5rem;
     font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
 }
 img#zodiac{
     width: 300px;
-}
-main{
-    text-align: center;
+    padding-top: 2rem;
 }
 #predictionImage{
     width: 100px;
@@ -101,24 +100,27 @@ main{
     padding: 10px;
     border-radius: 10px;
     font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
-    background-color: #c762c9;
-    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    background-color: var(--primary-color);
+    font-family: var(--font-body);
+    color: antiquewhite;
+    margin: 1rem auto;
 }
 #prediction:hover, #resetbutton:hover{
-    background-color: #131b82;
+    background-color: var(--primary-color);
     color: antiquewhite;
     cursor: pointer;
+    transform: scale(1.1);
 }
 #buttonDate{
     padding: 10px;
     border-radius: 10px;
     font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
     margin-top: 1rem;
-    background-color: #c762c9;
-    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    background-color: var(--accent-color);
+    font-family: var(--font-body);
 }
 #buttonDate:hover{
-    background-color: #131b82;
+    background-color: var(--primary-color);
     color: antiquewhite;
     cursor: pointer;
 }
@@ -127,7 +129,7 @@ main{
     border-radius: 10px;
     font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
     border: 2px ridge black;
-    box-shadow: inset 0 0 2em #c762c9;
+    box-shadow: inset 0 0 2em var(--accent-color);
 }
 img.tarot{
     width: 150px;
