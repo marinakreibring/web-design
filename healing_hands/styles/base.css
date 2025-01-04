@@ -209,7 +209,8 @@ footer p a:hover{
 }
 .mySlides img{
     border: #255277 solid 10px;
-    width: 80%;    
+    width: 80%; 
+    aspect-ratio: 3/2;   
 }  
   /* Add a pointer when hovering over the thumbnail images */
 .cursor {
@@ -252,7 +253,6 @@ footer p a:hover{
   /* Container for image text */
 .caption-container {
     text-align: center;
-    background-color: #222;
     padding: 2px 16px;
     color: white;
 }  
@@ -261,11 +261,18 @@ footer p a:hover{
     display: table;
     clear: both;
 }  
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 /* columns side by side */
 .column {
-    float: left;
-    width: 7.5%;
+    width: 5.5%;
 }  
+.column img{
+    width: 80%;
+}
 /* Add a transparency effect for thumnbail images */
 .demo {
     opacity: 0.6;
