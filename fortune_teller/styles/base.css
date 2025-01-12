@@ -133,6 +133,8 @@ img#zodiac{
 }
 img.tarot{
     width: 150px;
+    border: 10px solid black;
+    border-radius: 20px;
 }
 #submit{
     color: transparent;

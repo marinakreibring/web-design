@@ -135,338 +135,338 @@
         {
             "name": "Ace of cups",
             "meaning": "new feelings, spirituality, intuition",
-            "description": "silver",
-            "logo": "images/.."              
+            "description": "A surge of energy, a spiritual impulse, openness to new experiences, comfort, harmony and happiness. The person is filled with positive emotions, experiences bliss and delight. The card foretells joy and love that will very soon appear in life, if they are not there yet.",
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Ace of swords",
             "meaning": "breakthrough, clarity, sharp mind",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "Ace of pentacles",
             "meaning": "opportunity, prosperity, new venture",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Ace of wands",
             "meaning": "creation, willpower, inspiration, desire",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Two of cups",
             "meaning": "unity, partnership, connection",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Two of wands",
             "meaning": "planning, making decisions, leaving home",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Two of swords",
             "meaning": "difficult choices, indecision, stalemate",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "Two of pentacles",
             "meaning": "balancing decisions, priorities, adapting to change",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Two of cups",
             "meaning": "friendship, community, happiness",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Three of swords",
             "meaning": "heartbreak, suffering, grief",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "Three of pentacles",
             "meaning": "teamwork, collaboration, building",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Three of wands",
             "meaning": "looking ahead, expansion, rapid growth",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Four of pentacles",
             "meaning": "conservation, frugality, security",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Four of swords",
             "meaning": "rest, restoration, contemplation",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "Four of cups",
             "meaning": "apathy, contemplation, disconnectedness",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Four of wands",
             "meaning": "community, home, celebration",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Five of swords",
             "meaning": "unbridled ambition, win at all costs, sneakiness",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "Five of pentacles",
             "meaning": "need, poverty, insecurity",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Five of cups",
             "meaning": "loss, grief, self-pity",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Five of wands",
             "meaning": "competition, rivalry, conflict",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Six of cups",
             "meaning": "familiarity, happy memories, healing",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Six of wands",
             "meaning": "victory, success, public reward",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Six of pentacles",
             "meaning": "charity, generosity, sharing",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Six of swords",
             "meaning": "transition, leaving behind, moving on",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "Seven of wands",
             "meaning": "perseverance, defensive, maintaining control",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Seven of cups",
             "meaning": "searching for purpose, choices, daydreaming",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Seven of swords",
             "meaning": "deception, trickery, tactics and strategy",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "Seven of pentacles",
             "meaning": "hard work, perseverance, diligence",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Eight of pentacles",
             "meaning": "apprenticeship, passion, high standards",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Eight of swords",
             "meaning": "imprisonment, entrapment, self-victimization",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "Eight of cups",
             "meaning": "walking away, disillusionment, leaving behind",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Eight of wands",
             "meaning": "rapid action, movement, quick decisions",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Nine of swords",
             "meaning": "anxiety, hopelessness, trauma",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "Nine of wands",
             "meaning": "resilience, grit, last stand",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Nine of pentacles",
             "meaning": "fruits of labor, rewards, luxury",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Nine of cups",
             "meaning": "satisfaction, emotional stability, luxury",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Ten of swords",
             "meaning": "failure, collapse, defeat",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "Ten of wands",
             "meaning": "accomplishment, responsibility, burden",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Ten of cups",
             "meaning": "inner happiness, fulfillment, dreams coming true",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Ten of pentacles",
             "meaning": "legacy, culmination, inheritance",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Page of cups",
             "meaning": "happy surprise, dreamer, sensitivity",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Knight of cups",
             "meaning": "following the heart, idealist, romantic",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Queen of cups",
             "meaning": "compassion, calm, comfort",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "King of cups",
             "meaning": "compassion, control, balance",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-cups.png"              
         },
         {
             "name": "Page of pentacles",
             "meaning": "ambition, desire, diligence",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Page of swords",
             "meaning": "curiosity, restlessness, mental energy",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "Knight of pentacles",
             "meaning": "efficiency, hard work, responsibility",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Queen of pentacles",
             "meaning": "practicality, creature comforts, financial security",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "King of pentacles",
             "meaning": "abundance, prosperity, security",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-pent.png"              
         },
         {
             "name": "Knight of swords",
             "meaning": "action, impulsiveness, defending beliefs",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "Page of wands",
             "meaning": "exploration, excitement, freedom ",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Knight of wands",
             "meaning": "action, adventure, fearlessness",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Queen of wands",
             "meaning": "courage, determination, joy",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "King of swords",
             "meaning": "head over heart, discipline, truth",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         },
         {
             "name": "King of wands",
             "meaning": "big picture, leader, overcoming challenges",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-wands.png"              
         },
         {
             "name": "Queen of swords",
             "meaning": "complexity, perceptiveness, clear mindedness",
             "description": "silver",
-            "logo": "images/.."              
+            "logo": "images/tarotpic/placeholder-swords.png"              
         }
     ]
 }
