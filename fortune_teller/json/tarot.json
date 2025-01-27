@@ -327,145 +327,145 @@
         {
             "name": "Nine of swords",
             "meaning": "anxiety, hopelessness, trauma",
-            "description": "silver",
+            "description": "The Nine of Swords is known for its association with anxiety, fear, and despair. When this card appears in a reading, it often represents the overwhelming emotions that can consume us during difficult times. Face your fears. If something is bothering you, it might be better to deal with it head on. Take care of the matter at hand. Don't put it off.",
             "logo": "images/tarotpic/9s.png"              
         },
         {
             "name": "Nine of wands",
             "meaning": "resilience, grit, last stand",
-            "description": "silver",
+            "description": "You have the power of perseverance. It's a time when you are being tested, but you refuse to give up. You may be feeling weary and battle-scarred, but your determination to see things through to the end is unwavering. There is nothing more to bring to the mission unless you regenerate and restore the energy you have put into the cause.",
             "logo": "images/tarotpic/9w.png"              
         },
         {
             "name": "Nine of pentacles",
             "meaning": "fruits of labor, rewards, luxury",
-            "description": "silver",
+            "description": "You have worked hard to create abundance in your life, and now you can finally enjoy the fruits of your labour. Thanks to your independent efforts, self-confidence and discipline, you attained a well-deserved success and created a stable foundation for your material wealth and comfort.",
             "logo": "images/tarotpic/9p.png"              
         },
         {
             "name": "Nine of cups",
             "meaning": "satisfaction, emotional stability, luxury",
-            "description": "silver",
+            "description": "Your wish is fulfilled. You have achieved what you desire. The card symbolizes contentment, satisfaction, gratitude, and a wish come true. The Nine of Cups speaks of joy and a wish coming true. It is a card about being proud of yourself and basking in your love so you can be assured that pulling it in most contexts is a very positive sign.",
             "logo": "images/tarotpic/9cup.png"              
         },
         {
             "name": "Ten of swords",
             "meaning": "failure, collapse, defeat",
-            "description": "silver",
+            "description": "A certain force of extreme magnitude has come to hit you in your life - one that you may have not foreseen. There is a sense of betrayal. This is the end of the road. It's a cosmic sign from the universe that you simply cannot go on any further. Yes, this is your rock-bottom moment.",
             "logo": "images/tarotpic/10s.png"              
         },
         {
             "name": "Ten of wands",
             "meaning": "accomplishment, responsibility, burden",
-            "description": "silver",
+            "description": "It's a period of taking on extra burdens and responsibilities. You may find yourself overwhelmed by the workload, but you understand that it is a temporary phase necessary for achieving your goals. You may feel like you are carrying the weight of the world on your shoulders. However, it's important to recognize that this burden is not meant to be permanent.",
             "logo": "images/tarotpic/10w.png"              
         },
         {
             "name": "Ten of cups",
             "meaning": "inner happiness, fulfillment, dreams coming true",
-            "description": "silver",
+            "description": "Your dreams have come true. You are in your happily-ever-after era! Count your blessings, because this card represents so many good things: Emotional fulfillment, harmonious relationships, domestic bliss, the joys of a fulfilling life.",
             "logo": "images/tarotpic/10cup.png"              
         },
         {
             "name": "Ten of pentacles",
             "meaning": "legacy, culmination, inheritance",
-            "description": "silver",
+            "description": "You have a profound sense of financial abundance and stability. This card signifies the achievement of long-term financial goals, the accumulation of wealth, and the freedom to enjoy the fruits of your labor. Decide where you hold the most value within your life, whether it's family, money, career success or material possessions, then do what you need to in order to manifest it in abundance.",
             "logo": "images/tarotpic/10p.png"              
         },
         {
             "name": "Page of cups",
             "meaning": "happy surprise, dreamer, sensitivity",
-            "description": "silver",
+            "description": "When this card is drawn, the message indicates hope and positive change. The message is an announcement that you are on the right path. A person from the past may be bearing a specific message for you. Traditionally, this new message is often brought by a person that is younger than you.",
             "logo": "images/tarotpic/11cup.png"              
         },
         {
             "name": "Knight of cups",
             "meaning": "following the heart, idealist, romantic",
-            "description": "silver",
+            "description": "The knight of cups is a person who is a bringer of ideas, opportunities and offers. He is constantly bored, and in constant need of stimulation, but also artistic and refined. He represents a person who is amiable, intelligent, and full of high principles, but a dreamer who can be easily persuaded or discouraged.",
             "logo": "images/tarotpic/12cup.png"              
         },
         {
             "name": "Queen of cups",
             "meaning": "compassion, calm, comfort",
-            "description": "silver",
+            "description": "The Queen of Cups reminds us to treat ourselves and others with compassion and sympathy. She encourages us to embrace our emotions and express them authentically. This card also highlights the importance of self-care and nurturing our own emotional well-being.",
             "logo": "images/tarotpic/13cup.png"              
         },
         {
             "name": "King of cups",
             "meaning": "compassion, control, balance",
-            "description": "silver",
+            "description": "As a symbol of compassion, the King of Cups embodies kindness, empathy, and understanding. He is a good listener and offers support and guidance to others. In relationships, this card signifies a loving and devoted partner who strives to create harmonious connections based on patience and understanding.",
             "logo": "images/tarotpic/14cup.png"              
         },
         {
             "name": "Page of pentacles",
             "meaning": "ambition, desire, diligence",
-            "description": "silver",
+            "description": "Alongside the intellectual pursuits, the Page of Pentacles also represents the ability to manifest material abundance. This card often signifies the beginning of a new financial opportunity, a chance to turn our dreams into tangible reality. The Page of Pentacles advises single people that there are many chances to find love; all they need to do is seize them.",
             "logo": "images/tarotpic/11p.png"              
         },
         {
             "name": "Page of swords",
             "meaning": "curiosity, restlessness, mental energy",
-            "description": "silver",
+            "description": "The Page of Swords is a card of innovation and intellectual prowess. It signifies a flood of creative ideas and a curiosity that drives you to seek new knowledge and perspectives. This is an opportune time to brainstorm, explore different avenues, and think outside the box.",
             "logo": "images/tarotpic/11s.png"              
         },
         {
             "name": "Knight of pentacles",
             "meaning": "efficiency, hard work, responsibility",
-            "description": "silver",
+            "description": "The Knight of Pentacles, like the Knights of the other suits, represents work, effort, and the responsibility that follows upon the dreams and ideals of the Page. This Knight is the most hard-working, methodical and detailed-oriented character of the Tarot deck.",
             "logo": "images/tarotpic/12p.png"              
         },
         {
             "name": "Queen of pentacles",
             "meaning": "practicality, creature comforts, financial security",
-            "description": "silver",
+            "description": "The Queen of Pentacles is a captivating figure in the realm of tarot, embodying a harmonious synthesis of nurturing care and material abundance. We can only grow and thrive in the right environment and we are in control of what that environment is.",
             "logo": "images/tarotpic/13p.png"              
         },
         {
             "name": "King of pentacles",
             "meaning": "abundance, prosperity, security",
-            "description": "silver",
+            "description": "The King of Pentacles represents material wealth, financial abundance, and worldly success. This King is a faithful provider; he uses his ambition and confidence to create wealth for himself and others and generates his self-worth from what he has accumulated and can share with others.",
             "logo": "images/tarotpic/14p.png"              
         },
         {
             "name": "Knight of swords",
             "meaning": "action, impulsiveness, defending beliefs",
-            "description": "silver",
+            "description": "The Knight of Swords is an embodiment of action and determination. He represents the drive to achieve goals and overcome obstacles. This card often appears when there is a need to take bold and decisive action.",
             "logo": "images/tarotpic/12s.png"              
         },
         {
             "name": "Page of wands",
             "meaning": "exploration, excitement, freedom ",
-            "description": "silver",
+            "description": "Page of Wands is a card of inspiration and limitless potential. Embrace your creativity, follow your passions, and believe in yourself. Use this card as a reminder to stay curious, adventurous, and open to new experiences. Let the Page of Wands guide you on a journey of self-discovery and personal growth.",
             "logo": "images/tarotpic/11w.png"              
         },
         {
             "name": "Knight of wands",
             "meaning": "action, adventure, fearlessness",
-            "description": "silver",
+            "description": "The King of Wands represents the qualities of a visionary leader who possesses the ability to inspire and motivate others. This card signifies confidence, determination, and the power to manifest your goals.",
             "logo": "images/tarotpic/12w.png"              
         },
         {
             "name": "Queen of wands",
             "meaning": "courage, determination, joy",
-            "description": "silver",
+            "description": "A time of optimism, courage, and determination. You are a social butterfly, radiating confidence and attracting others with your vibrant energy.",
             "logo": "images/tarotpic/13w.png"              
         },
         {
             "name": "King of swords",
             "meaning": "head over heart, discipline, truth",
-            "description": "silver",
+            "description": "The King of Swords embodies intellectual power and authority. He represents the ability to think critically, reason logically, and make sound decisions. This card signifies that you are in your power, ruling from a place of authority and respect.",
             "logo": "images/tarotpic/14s.png"              
         },
         {
             "name": "King of wands",
             "meaning": "big picture, leader, overcoming challenges",
-            "description": "silver",
+            "description": "The King of Wands represents the qualities of a visionary leader who possesses the ability to inspire and motivate others. In the upright position, this card signifies confidence, determination, and the power to manifest your goals.",
             "logo": "images/tarotpic/14w.png"              
         },
         {
             "name": "Queen of swords",
             "meaning": "complexity, perceptiveness, clear mindedness",
-            "description": "silver",
+            "description": "The Queen of Swords combines the mental clarity and intellectual power of the suit of Swords with the maturity and receptiveness of the Queen. You have the gift of being able to use your intellect and unbiased judgement while also remaining flexible and open to receive input from other sources.",
             "logo": "images/tarotpic/13s.png"              
         }
     ]
