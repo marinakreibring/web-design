@@ -133,7 +133,7 @@ img#zodiac{
 }
 img.tarot{
     width: 150px;
-    aspect-ratio: 1 / 1.8;
+    aspect-ratio: 1 / 1.75;
     object-fit: cover;
     border: 10px solid black;
     border-radius: 20px;
