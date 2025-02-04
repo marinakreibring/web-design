@@ -135,6 +135,7 @@ img.tarot{
     width: 150px;
     aspect-ratio: 1 / 1.75;
     object-fit: cover;
+    background-color: black;
     border: 10px solid black;
     border-radius: 20px;
 }
