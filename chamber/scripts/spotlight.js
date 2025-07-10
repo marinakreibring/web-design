@@ -1,70 +1,45 @@
-//the list of businesses with gold level membership
-let goldList = [
-    {
-        name: "Empolis GmbH",        
-        motto: "Fast problem solving with computing and enterprise AI",
-        phone: "+49 631680370",
-        web: "https://www.empolis.com",
-        logo: "images/business/empolis-logo.png"        
-    },
-    {
-        name: "FK Kraemer GmbH",
-        motto: "We train YOU in civil engineering and road building",
-        phone: "+49 63154154",
-        web: "https://www.fk-kraemer.de",
-        logo: "images/business/kramer-logo.png"          
-    },
-    {
-        name: "Human Solutions GmbH",
-        motto: "We make ergonomics digital and your vehicles better",
-        phone: "+49 631343593",
-        web: "https://www.human-solutions.com",
-        logo: "images/business/HumSol-logo.png"       
-    },
-    {
-        name: "WIPOTEC GmbH",
-        motto: "Innovation and passion for technology",
-        phone: "+49 631341460",
-        web: "https://www.wipotec.com",
-        logo: "images/business/wipotec-logo.png"         
+const businessDir = 'json/data.json';
+
+getSpotlightData();
+
+async function getSpotlightData() {
+    try {
+        const response = await fetch(businessDir);
+        const data = await response.json();
+        const allBusinesses = data.business;
+
+        // 1. Фильтруем только "gold"
+        const goldMembers = allBusinesses.filter(biz => biz.level === "gold");
+
+        // 2. Перемешиваем и берём 3 случайных
+        const shuffled = goldMembers.sort(() => 0.5 - Math.random());
+        const selected = shuffled.slice(0, 3);
+
+        // 3. Заполняем карточки spotlight1, 2, 3
+        selected.forEach((biz, index) => {
+            const num = index + 1;
+
+            const logo = document.querySelector(`#logo${num}`);
+            const motto = document.querySelector(`#motto${num}`);
+            const phone = document.querySelector(`#tel${num}`);
+            const web = document.querySelector(`#web${num}`);
+
+            if (logo) {
+                logo.setAttribute("src", biz.logo);
+                logo.setAttribute("alt", `Logo of ${biz.name}`);
+                logo.setAttribute("loading", "lazy");
+            }
+
+            if (motto) motto.textContent = biz.motto || "";
+            if (phone) phone.textContent = biz.phone;
+
+            if (web) {
+                web.innerHTML = biz.web;
+                web.setAttribute("href", biz.web);
+            }
+        });
+    } catch (error) {
+        console.error("Ошибка при загрузке или обработке JSON:", error);
     }
-];
-//function to generate random number in given range
-function getRandomBetween(min, max) {
-    return Math.floor(min + Math.random()*(max - min + 1))
-};
-//choose random index between second and prelast, and then use +1/-1 
-const i = getRandomBetween(1, goldList.length-2);
-const j = i-1;
-const h = i+1;
-//fill spans for elements in the spotlight section
-//for spotlight 1
-let logo1 = document.querySelector("#logo1");
-logo1.setAttribute("src", `${goldList[i].logo}`);
-logo1.setAttribute("alt", `Logo of ${goldList[i].name}`);
-logo1.setAttribute("loading", "lazy"); 
-document.querySelector("#motto1").textContent = `${goldList[i].motto}`;
-document.querySelector("#tel1").textContent = `${goldList[i].phone}`;
-let web1 = document.querySelector("#web1");
-web1.innerHTML = `${goldList[i].web}`;            
-web1.setAttribute("href", `${goldList[i].web}`);
-//for spotlight 2
-let logo2 = document.querySelector("#logo2");
-logo2.setAttribute("src", `${goldList[j].logo}`);
-logo2.setAttribute("alt", `Logo of ${goldList[j].name}`);
-logo2.setAttribute("loading", "lazy"); 
-document.querySelector("#motto2").textContent = `${goldList[j].motto}`;
-document.querySelector("#tel2").textContent = `${goldList[j].phone}`;
-let web2 = document.querySelector("#web2");
-web2.innerHTML = `${goldList[j].web}`;            
-web2.setAttribute("href", `${goldList[j].web}`);
-//for spotlight 3
-let logo3 = document.querySelector("#logo3");
-logo3.setAttribute("src", `${goldList[h].logo}`);
-logo3.setAttribute("alt", `Logo of ${goldList[h].name}`);
-logo3.setAttribute("loading", "lazy"); 
-document.querySelector("#motto3").textContent = `${goldList[h].motto}`;
-document.querySelector("#tel3").textContent = `${goldList[h].phone}`;
-let web3 = document.querySelector("#web3");
-web3.innerHTML = `${goldList[h].web}`;            
-web3.setAttribute("href", `${goldList[h].web}`);
+}
+
