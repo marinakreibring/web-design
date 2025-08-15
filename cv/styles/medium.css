@@ -1,0 +1,67 @@
+@media only screen and (min-width: 35rem){
+    :root {
+       --color-primary: #f5dc62;
+       --color-secondary: #a7d4f0;
+       --color-accent: #2b3f2f;
+       --color-background: #956a53;
+       --color-text: #2a2318;
+    }
+    #title h1{    
+        font-size: clamp(1.5rem, 0.75rem + 1.5vw, 2.5rem);         
+    }
+    #title h2{    
+        font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);    
+    }
+    header{
+        grid-template-columns: 130px 40% auto;
+    }
+    .logo{        
+        margin: 1rem 0 1rem 1rem;
+        max-inline-size: 80px;
+    }
+    #socialMedia {    
+        flex-direction: row; 
+        justify-content: space-around;   
+    }
+    #socialMedia a img{        
+        max-inline-size: 100%;
+    }
+    
+    /*footer*/
+    footer{
+        font-size: clamp(0.6rem, 0.75rem + 1.5vw, 1rem);
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(3, auto);
+    }
+    #address{
+        text-align: center;
+        font-style: italic;
+    }
+    #contactInfo{
+        text-align: center;
+        align-self: center;
+    }
+    .messengers{
+        grid-column: span 2;
+        justify-self: center; 
+    }   
+    #copyright{
+        display: grid;
+        grid-column: span 2;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 2rem 2rem;
+        margin: .5rem 2vw;
+        }
+    #copyright p:nth-child(4){
+        grid-column: span 3;
+        text-align: center;
+    }
+    #copyright p{
+        align-self: center;
+    }
+    #bold{
+        border-left: 2px solid var(--color-secondary);
+        border-right: 2px solid var(--color-secondary);
+    }
+  
+}

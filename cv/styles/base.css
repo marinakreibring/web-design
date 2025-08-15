@@ -1,0 +1,229 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+:root {
+  --color-primary: #f5dc62;
+  --color-secondary: #a7d4f0;
+  --color-accent: #2b3f2f;
+  --color-background: #956a53;
+  --color-text: #2a2318;
+}
+
+body{
+    margin: 2vw 2vw;
+    font-size: 16px;
+}
+header{
+    background-color: var(--color-background);
+    display: grid;
+    grid-template-columns: 100px 30% auto;
+    grid-template-rows: auto auto auto;
+}
+.logo{
+    max-inline-size: 60px;
+    border-radius: 0 30%;
+    border: 1px solid var(--color-secondary);
+    align-items: center;
+    margin: 1rem;
+}
+#title{
+    text-align: center; 
+    font-family: 'Lato', Times, sans-serif;
+    align-self: center;
+}
+#title h1{    
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 2.5rem);
+    line-height: 0.5;  
+}
+#title h2{    
+    font-size: clamp(0.5rem, 0.75rem + 1.5vw, 1rem);  
+    color: var(--color-primary);  
+}
+#socialMedia {    
+    display: flex;
+    flex-direction: column;    
+    align-self: center;
+    margin: auto 2vw;
+}
+#socialMedia a img{
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--color-secondary);    
+}
+/*css for hamburger button in navigation*/
+nav button{
+    margin: auto 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: var(--color-accent);
+}
+nav{
+    background-color: var(--color-background);
+    display: grid;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-family: 'Hind', Arial, serif;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.2);
+    color: var(--color-primary);
+}
+nav ul li a:hover{
+    background-color:  rgba(0,0,0,0.3);
+}
+nav ul{
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
+#hamburgerBtn span:nth-child(1){
+    display: block;
+}
+#hamburgerBtn span:nth-child(2){
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(1){
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(2){
+    display: block;
+}
+#title, .date{
+    grid-column: 1 / span 5;
+    text-align: center;
+    padding: 0.5rem;
+    margin: .5rem 2vw;
+    background-color: rgba(0,0,0,0.2);
+    color: var(--color-primary);
+    font-family: 'Hind', Arial, serif;
+}
+/* css for main */
+main h1, h2, h3, h4, h5{
+    font-family: 'Lato', Times, sans-serif;
+    color: var(--color-text);
+    text-align: center;
+}
+main p, main li{
+    font-family: 'Hind', Arial, serif;
+    font-size: clamp(0.8rem, 0.75rem + 1.5vw, 1.5rem);
+    padding: 1ch;
+}
+h1.color{
+    font-family: 'Hind', Arial, serif;
+    padding: 2rem;
+    font-size: clamp(0.8rem, 0.75rem + 1.5vw, 1.5rem);
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+main a:hover{
+    color: var(--color-accent);
+}
+.center{
+    display: block;
+    text-align: center;
+}
+
+/*css for footer*/
+footer{
+    margin-top: 2ch;
+    background-color: var(--color-background);
+    color: var(--color-secondary);
+    font-family: 'Hind', Arial, serif;
+    font-size: clamp(0.5rem, 0.75rem + 1.5vw, 0.8rem);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#address{
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+#address h3{
+    color: var(--color-primary);
+    font-style: italic;
+}
+#contactInfo{
+    display: block;
+    text-align: center;
+}
+.messengers{
+    text-align: center;
+    align-self: center;
+}
+.messengers p{
+    margin-top: 0;
+}
+#icons img{
+    border-radius: 50%;
+    padding: 0.5ch;
+    width: 50px;
+}
+#copyright{
+    display: block;
+    text-align: center;
+    border-top: 1px solid var(--color-secondary);
+}
+#copyright a{
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+#copyright a:hover{
+    text-decoration: underline;
+    color: var(--color-primary);
+}
+#bold{
+    font-weight: bold;
+}
+/*css for gallery*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+.gallery img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+    height: 200px; /* fixed preview height */
+    object-fit: cover; /* crops nicely without distortion */
+}
+.gallery img:hover {
+    transform: scale(1.03);
+}
+/* Lightbox */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    align-items: center;
+    justify-content: center;
+}
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
