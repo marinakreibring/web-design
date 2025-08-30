@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64rem){
     header{
-        grid-template-columns: 150px auto 300px;  
+        grid-template-columns: 300px auto 300px;  
         position: fixed;
         top: 0;
         left: 0;
@@ -17,8 +17,8 @@
         padding: 20px;
     }
     .logo{
-        display: block;
-        margin: 0 auto;
+        max-inline-size: 100px;
+        margin: 0 80px;
     }
     #title{
         display: flex;

@@ -4,7 +4,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 :root {
   --color-primary: #f5dc62;
-  --color-secondary: #a7d4f0;
+  --color-secondary: #d4edf5;
   --color-accent: #2b3f2f;
   --color-background: #956a53;
   --color-text: #2a2318;
@@ -201,7 +201,7 @@ footer{
     width: 100%;
     cursor: pointer;
     border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 6px var(--color-accent);
     transition: transform 0.2s;
     height: 200px; /* fixed preview height */
     object-fit: cover; /* crops nicely without distortion */
