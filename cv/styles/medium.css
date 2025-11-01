@@ -12,21 +12,6 @@
     #title h2{    
         font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);    
     }
-    header{
-        grid-template-columns: 130px 40% auto;
-    }
-    .logo{        
-        margin: 1rem 0 1rem 1rem;
-        max-inline-size: 80px;
-    }
-    #socialMedia {    
-        flex-direction: row; 
-        justify-content: space-around;   
-    }
-    #socialMedia a img{        
-        max-inline-size: 100%;
-    }
-    
     /*footer*/
     footer{
         font-size: clamp(0.6rem, 0.75rem + 1.5vw, 1rem);
@@ -63,5 +48,5 @@
         border-left: 2px solid var(--color-secondary);
         border-right: 2px solid var(--color-secondary);
     }
-  
+    
 }

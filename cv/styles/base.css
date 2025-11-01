@@ -9,23 +9,24 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
   --color-background: #956a53;
   --color-text: #2a2318;
 }
-
 body{
     margin: 2vw 2vw;
     font-size: 16px;
+    line-height: 2rem;
 }
 header{
     background-color: var(--color-background);
     display: grid;
-    grid-template-columns: 100px 30% auto;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3 auto);
 }
-.logo{
-    max-inline-size: 60px;
-    border-radius: 0 30%;
-    border: 1px solid var(--color-secondary);
-    align-items: center;
-    margin: 1rem;
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.indexpage, .indexpage2{
+    display: none;
 }
 #title{
     text-align: center; 
@@ -41,9 +42,9 @@ header{
 }
 #socialMedia {    
     display: flex;
-    flex-direction: column;    
+    flex-direction: row;    
     align-self: center;
-    margin: auto 2vw;
+    justify-content: space-around;
 }
 #socialMedia a img{
     width: 40px;
@@ -119,6 +120,7 @@ main p, main li{
     font-family: 'Hind', Arial, serif;
     font-size: clamp(0.8rem, 0.75rem + 1.5vw, 1.5rem);
     padding: 1ch;
+    list-style: inside;
 }
 h1.color{
     font-family: 'Hind', Arial, serif;
@@ -134,12 +136,12 @@ main a{
 }
 main a:hover{
     color: var(--color-accent);
+    text-decoration: underline;
 }
 .center{
     display: block;
     text-align: center;
 }
-
 /*css for footer*/
 footer{
     margin-top: 2ch;
