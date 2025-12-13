@@ -1,5 +1,6 @@
-const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
+//const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
 //const url = '/prophets.json'; // local data source
+const url = './prophets.json';
 getProphetData();
 
 async function getProphetData(){
