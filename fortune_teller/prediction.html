@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> Fortune Teller | Tarot </title>    
-    <meta name="description" content="Your tarot prediction is here">
+	<title> Fortune Teller | Fortune Cookie </title>    
+    <meta name="description" content="Crack your fortune cookie">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&family=Satisfy&display=swap">
     <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/base.css" rel="stylesheet">
@@ -20,33 +20,24 @@
             <a href="prediction.html">Prediction</a>
             <a href="tarot.html">Tarot</a>
         </nav>
-        <h1>Welcome to Your Tarot Predictions!</h1>
+        <h1>Crack the Fortune Cookie!</h1>
     </header>
-    <main>
-        <div id="tarotpage">              
-            <div>
-                <h2>Think about your question and click on the deck to choose your card</h2>
-                <button id="submit"><img class="tarot" src="images/tarotpic/back.jpg" alt="tarot card"></button>
-            </div>
-            <div id="tarotresult" style="display: none;">
-                <h2>You have got the <span id="name"></span></h2>
-                <img id="cardchosen" class="tarot" src="" alt="">                
-                <h3>It means: <span id="cardmeaning"></span></h3>
-                <p><span id="cardexplain"></span></p>
-            </div>
-        </div>
-        <div>
-            <button id="resetbutton">Shuffle Deck</button>
+    <main>    
+        
+        <h2>Your prediction for <span id="date"></span></h2>
+        <div>            
+            <button id="prediction"><img id="myImage" src ="images/pred1.png" alt="lucky cookie"></button>
         </div>
 
+        <p id="cookie"><span id="message"></span></p>
+        
     </main>
 	<footer>
         <p>&copy; <span id="currYear"></span> | <a href="../index.html">Marina Kreibring</a> | Belarus</p>
         <p><i>Last updated: <span id="updated"></span></i></p>
     </footer>
-    
-    <script src="scripts/tarotfix.js"></script> 
+    <script src="scripts/cookie.js"></script>   
     <script>document.querySelector("#currYear").textContent = new Date().getFullYear();</script>
-    <script>document.querySelector("#updated").textContent = document.lastModified</script>   
+    <script>document.querySelector("#updated").textContent = document.lastModified</script> 
 </body>
 </html>

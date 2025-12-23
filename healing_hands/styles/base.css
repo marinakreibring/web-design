@@ -264,6 +264,7 @@ footer p a:hover{
 .row{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 /* columns side by side */
