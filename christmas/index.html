@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Merry Christmas | Greetings</title>
+    <meta name="description" content="Chistmas and New Year greetings clip from Marina Kreibring">
+    <link href="style.css" rel="stylesheet">  
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <h1>Merry Christmas</h1>
+            <h2>Frohe Weihnachten</h2>
+            <h3>Счастливого Рождества</h3>
+        </div>
+    </header>     
+    <main>
+    <!-- choose language -->
+        <div id="language-screen" class="screen active">
+            <h1>Choose your language</h1>
+            <div class="buttons">
+                <button data-lang="en">English</button>
+                <button data-lang="de">Deutsch</button>
+                <button data-lang="ru">Русский</button>
+             </div>
+        </div>
+
+    <!-- start clip -->
+        <div id="start-screen" class="screen">
+            <button id="start-btn">Start</button>
+        </div>
+
+    <!-- view clip -->
+        <div id="clip-screen" class="screen">
+            <div id="snow"></div>
+            <div id="scene">
+                <img id="scene-image" src="" alt="">
+                <div id="scene-text"></div>
+            </div>
+
+            <audio id="music" src="Christmas Story.mp3"></audio>
+        </div>
+     
+    </main>
+    <!-- footer for the site plus my usual footer -->   
+    <footer>
+        <div id="copyright">
+            <p>&copy; <span id="currYear"></span> Merry Christmas from </p>
+            <p style="font-weight: bold;"><a href="../index.html">Marina Kreibring</a></p>
+            <p>Germany</p>
+            <p>Last updated: <span id="updated"></span></p>            
+        </div>        
+    </footer>
+    <!-- reference to scripts -->   
+    <script src="script.js"></script>
+
+</body>
