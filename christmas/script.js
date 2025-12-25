@@ -79,7 +79,7 @@ const scenes = [
   { img: 'images/img12.jpg', textKey: 'line11' },
   { img: 'images/img13.jpg', textKey: 'line12' },
   { img: 'images/img14.webp', textKey: 'line13' },
-  { img: 'images/img15.avif', textKey: 'line14'},
+  { img: 'images/img15.avif', textKey: 'line14' },
 ];
 const sceneImg = document.getElementById('scene-image');
 const sceneText = document.getElementById('scene-text');
@@ -100,7 +100,10 @@ function showScene(index, instant = false) {
       : '';
     return;
   }
-
+  sceneText.classList.toggle(
+    'scene-text--final',
+    index === scenes.length - 1
+  );
   sceneImg.style.opacity = 0;
 
   setTimeout(() => {
