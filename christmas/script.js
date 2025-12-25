@@ -1,7 +1,7 @@
 let lang = 'en';
 
 const langButtons = document.querySelectorAll('[data-lang]');
-
+const header = document.querySelector('header');
 
 langButtons.forEach(btn => {
   btn.addEventListener('click', () => {
@@ -9,6 +9,8 @@ langButtons.forEach(btn => {
     btn.classList.add('active');
 
     lang = btn.dataset.lang;
+    languageScreen.classList.remove('active');
+    startScreen.classList.add('active');
   });
 });
 
@@ -119,13 +121,22 @@ function startClip() {
   showScene(currentScene, true);
   createSnow();
 
-  setInterval(() => {
+  const interval = setInterval(() => {
     currentScene++;
+
     if (currentScene < scenes.length) {
       showScene(currentScene);
+    } else {
+      clearInterval(interval);
+
+      // вернуть header в конце клипа (если нужно)
+      setTimeout(() => {
+        header.classList.remove('hidden');
+      }, sceneDuration);
     }
   }, sceneDuration);
 }
+
 
 function createSnow() {
   const snowContainer = document.getElementById('snow');
@@ -154,11 +165,17 @@ document.addEventListener('DOMContentLoaded', () => {
 const startBtn = document.getElementById('start-btn');
 
 startBtn.addEventListener('click', () => {
+  header.classList.add('hidden');
+  languageScreen.classList.remove('active');
   startScreen.classList.remove('active');
   clipScreen.classList.add('active');
   audio.play();
   startClip();
 });
+
+if (currentScene === scenes.length - 1) {
+  setTimeout(() => header.classList.remove('hidden'), sceneDuration);
+}
 
 
 // script for copyright in footer
