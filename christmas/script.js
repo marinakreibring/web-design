@@ -78,8 +78,8 @@ const scenes = [
   { img: 'images/img11.jpg', textKey: 'line10' },
   { img: 'images/img12.jpg', textKey: 'line11' },
   { img: 'images/img13.jpg', textKey: 'line12' },
-  { img: 'images/img14.jpg', textKey: 'line13' },
-  { img: 'images/img15.avif', textKey: 'line14' }
+  { img: 'images/img14.webp', textKey: 'line13' },
+  { img: 'images/img15.avif', textKey: 'line14'},
 ];
 const sceneImg = document.getElementById('scene-image');
 const sceneText = document.getElementById('scene-text');
@@ -129,7 +129,7 @@ function startClip() {
     } else {
       clearInterval(interval);
 
-      // вернуть header в конце клипа (если нужно)
+      // вернуть header в конце клипа
       setTimeout(() => {
         header.classList.remove('hidden');
       }, sceneDuration);

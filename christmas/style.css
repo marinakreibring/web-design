@@ -178,7 +178,7 @@ footer a:hover{
     padding: 1rem;
     border-radius: 10px;
     font-family: 'Lato', Times, sans-serif;
-    font-size: clamp(1rem, 0.75rem + 1vw, 3rem);
+    font-size: clamp(1.5rem, 0.75rem + 1vw, 3rem);
     font-weight: bold;
     max-width: 80%;
     text-align: center;
