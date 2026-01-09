@@ -7,7 +7,7 @@ formElement.addEventListener('submit', function(e) {
     // stop the form from doing the default action.
     e.preventDefault();
     // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-    feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message.';
+    feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Your message was not sent. Kindly contact me by email at: jorgkreibring@gmail.com';
     // make the feedback element visible.
     feedbackElement.style.display = "block";
     feedbackElement.style.textAlign = "center";

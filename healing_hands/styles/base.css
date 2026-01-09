@@ -375,10 +375,7 @@ button#formButton:hover{
 #feedback {
     background-color: transparent;
     color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    margin-bottom: .5rem;
     padding: .5em;
     /* make this element invisible until we are ready for it */
     display: none;      
