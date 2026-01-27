@@ -84,8 +84,12 @@
     .joinUs:hover a{
         color: #15295D;
     }
+    /*discover page*/
     .discover{
         display: flex;
+    }
+    .discover.rev{
+        flex-direction: row-reverse;
     }
     .discover img{
         border: 4px ridge rgba(21, 41, 93, .9);
@@ -94,6 +98,10 @@
     .discover p{
         background-color: rgb(179, 220, 247);
         margin-right: 0;        
+    }
+    .discover.rev p{
+        margin-left: 0;
+        margin-right: 1rem;
     }
     /*footer*/
     footer{
