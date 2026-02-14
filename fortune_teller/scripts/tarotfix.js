@@ -38,7 +38,7 @@ async function displayCardResult() {
     setTimeout(() => {
         tarotImg.src = card.logo;
         tarotImg.alt = `Image of ${card.name}`;
-    }, 400); // половина от 0.8s
+    }, 250); 
 
     document.querySelector("#name").textContent = card.name;
     document.querySelector("#cardmeaning").textContent = card.meaning;
@@ -56,7 +56,7 @@ function resetDeck() {
     setTimeout(() => {
         tarotImg.src = "images/tarotpic/back.jpg";
         tarotImg.alt = "tarot card back";
-    }, 400);
+    }, 250);
 
     document.querySelector("#tarotresult").hidden = true;
 }
