@@ -132,12 +132,10 @@ img#zodiac{
     box-shadow: inset 0 0 2em var(--accent-color);
 }
 img.tarot{
-    width: 150px;
-    aspect-ratio: 1 / 1.75;
+    width: 100%;
     object-fit: cover;
-    background-color: black;
-    border: 10px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
+    aspect-ratio: 1 / 1.75;
 }
 #submit{
     color: transparent;
@@ -152,4 +150,25 @@ img.tarot{
 }
 #cookie{
     height: 3rem;
+}
+.tarot-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    perspective: 1000px;
+}
+
+.card-wrapper {
+    width: 150px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border: 10px solid black;
+    border-radius: 20px;
+    aspect-ratio: 1 / 1.7;
+    object-fit: cover;
+    background-color: black;
+}
+
+.card-wrapper.flip {
+    transform: rotateY(180deg);
 }

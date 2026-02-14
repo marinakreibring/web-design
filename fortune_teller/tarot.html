@@ -26,11 +26,13 @@
         <div id="tarotpage">              
             <div>
                 <h2>Think about your question and click on the deck to choose your card</h2>
-                <button id="submit"><img class="tarot" src="images/tarotpic/back.jpg" alt="tarot card"></button>
+                <button id="submit">
+                    <div class="card-wrapper">
+                        <img id="tarotcard" class="tarot" src="images/tarotpic/back.jpg" alt="tarot card back"></button>
+                    </div> 
             </div>
-            <div id="tarotresult" style="display: none;">
+            <div id="tarotresult" hidden>
                 <h2>You have got the <span id="name"></span></h2>
-                <img id="cardchosen" class="tarot" src="" alt="">                
                 <h3>It means: <span id="cardmeaning"></span></h3>
                 <p><span id="cardexplain"></span></p>
             </div>

@@ -23,47 +23,44 @@ async function getCardData() {
 }
 
 async function displayCardResult() {
-    if (!Array.isArray(tarotList) || tarotList.length === 0) {
-        console.error("Error: tarotList is not populated or empty.");
-        return;
-    }
+    if (!tarotList.length) return;
 
-    function getRandomBetween(min, max) {
-        return Math.floor(min + Math.random() * (max - min + 1));
-    }
+    const i = Math.floor(Math.random() * tarotList.length);
+    const card = tarotList[i];
 
-    const i = getRandomBetween(0, tarotList.length - 1);
+    const tarotImg = document.querySelector("#tarotcard");
+    const wrapper = document.querySelector(".card-wrapper");
 
-    if (!tarotList[i] || !tarotList[i].logo) {
-        console.error(`Error: tarotList[${i}] is undefined or missing required properties.`);
-        return;
-    }
+    // запускаем переворот
+    wrapper.classList.add("flip");
 
-    let cardchosen = document.querySelector("#cardchosen");
-    cardchosen.setAttribute("src", `${tarotList[i].logo}`);
-    cardchosen.setAttribute("alt", `Image of ${tarotList[i].name}`);
-    cardchosen.setAttribute("loading", "lazy");
+    // меняем картинку в середине анимации
+    setTimeout(() => {
+        tarotImg.src = card.logo;
+        tarotImg.alt = `Image of ${card.name}`;
+    }, 400); // половина от 0.8s
 
-    document.querySelector("#name").textContent = tarotList[i].name;
-    document.querySelector("#cardmeaning").textContent = tarotList[i].meaning;
-    document.querySelector("#cardexplain").textContent = tarotList[i].description;
+    document.querySelector("#name").textContent = card.name;
+    document.querySelector("#cardmeaning").textContent = card.meaning;
+    document.querySelector("#cardexplain").textContent = card.description;
 
-    document.getElementById("tarotresult").style.display = "block";
+    document.querySelector("#tarotresult").hidden = false;
 }
 
 function resetDeck() {
-    // Hide the tarot result section
-    document.getElementById("tarotresult").style.display = "none";
+    const tarotImg = document.querySelector("#tarotcard");
+    const wrapper = document.querySelector(".card-wrapper");
 
-    // Reset displayed card and other content
-    document.querySelector("#cardchosen").setAttribute("src", "");
-    document.querySelector("#cardchosen").setAttribute("alt", "");
-    document.querySelector("#name").textContent = "";
-    document.querySelector("#cardmeaning").textContent = "";
-    document.querySelector("#cardexplain").textContent = "";
+    wrapper.classList.remove("flip");
 
-    console.log("Deck has been reset. You can shuffle and draw a new card.");
+    setTimeout(() => {
+        tarotImg.src = "images/tarotpic/back.jpg";
+        tarotImg.alt = "tarot card back";
+    }, 400);
+
+    document.querySelector("#tarotresult").hidden = true;
 }
+
 
 document.querySelector("#submit").addEventListener('click', async () => {
     if (tarotList.length === 0) {
