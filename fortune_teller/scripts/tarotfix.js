@@ -31,14 +31,14 @@ async function displayCardResult() {
     const tarotImg = document.querySelector("#tarotcard");
     const wrapper = document.querySelector(".card-wrapper");
 
-    // запускаем переворот
-    wrapper.classList.add("flip");
+    // подменяем картинку
+    tarotImg.src = card.logo;
+    tarotImg.alt = `Image of ${card.name}`;
 
-    // меняем картинку в середине анимации
-    setTimeout(() => {
-        tarotImg.src = card.logo;
-        tarotImg.alt = `Image of ${card.name}`;
-    }, 250); 
+    // даём браузеру применить src
+    requestAnimationFrame(() => {
+        wrapper.classList.add("flip");
+    });
 
     document.querySelector("#name").textContent = card.name;
     document.querySelector("#cardmeaning").textContent = card.meaning;
