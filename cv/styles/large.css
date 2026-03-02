@@ -15,14 +15,18 @@
         margin-top: 200px;
         padding: 20px;
     }
-    .indexpage, .indexpage2{ 
+    .aboutme{
+    flex-direction: row;
+    }
+    .indexpage, .indexpage2, #myPhoto{ 
         display: inline;       
         margin: 1rem;
         width: 200px;
         height: 250px;
         object-fit: cover;
         border-radius: 0 30%;
-        border: 1px solid var(--color-accent);
+        border: 3px solid var(--color-accent);
+        box-shadow: 5px 5px 15px var(--color-background);
         align-items: center;
     }
     .indexpage2{         

@@ -43,8 +43,10 @@ async function displayCardResult() {
     document.querySelector("#name").textContent = card.name;
     document.querySelector("#cardmeaning").textContent = card.meaning;
     document.querySelector("#cardexplain").textContent = card.description;
-
-    document.querySelector("#tarotresult").hidden = false;
+    
+    setTimeout(() => {
+        document.querySelector("#tarotresult").hidden = false;
+        }, 300);
 }
 
 function resetDeck() {

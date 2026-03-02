@@ -135,7 +135,7 @@ img.tarot{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
-    aspect-ratio: 1 / 1.75;
+    
 }
 #submit{
     color: transparent;
@@ -164,7 +164,7 @@ img.tarot{
     transform-style: preserve-3d;
     border: 10px solid black;
     border-radius: 20px;
-    aspect-ratio: 1 / 1.7;
+    aspect-ratio: 1 / 1.75;
     object-fit: cover;
     background-color: black;
 }

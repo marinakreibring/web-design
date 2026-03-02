@@ -22,11 +22,19 @@ header{
 }
 .aboutme{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 .indexpage, .indexpage2{
     display: none;
+}
+#myPhoto{
+    display: block;
+    width: 200px;
+    border-radius: 10px;
+    border: 3px solid var(--color-accent);
+    align-self: center;
+    box-shadow: 5px 5px 15px var(--color-background);
 }
 #title{
     text-align: center; 
