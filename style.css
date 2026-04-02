@@ -7,6 +7,7 @@ body{
 }
 header{
     display: flex;
+    justify-content: space-evenly;
     background-color: steelblue;  
     color: beige;
     font-family: 'Lemonada', Helvetica, sans-serif;
@@ -20,10 +21,11 @@ img{
     max-inline-size: 90%;
     max-height: 10ch;
     block-size: auto;
-    border: 1pt solid black;
+    border: 1pt solid rgb(29, 76, 113);
     border-radius: 10px;
-    margin: 1ch; 
+    margin: 1ch 2ch; 
     display: block;    
+    box-shadow: 5px 5px 10px beige;
 }
 h2{
     font-family : 'Merriweather', Times, serif;
