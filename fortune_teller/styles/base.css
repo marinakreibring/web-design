@@ -71,7 +71,7 @@ h2{
     color: var(--primary-color);       
     font-family: var(--font-headline);
     font-size: clamp(1.5rem, 0.75rem + 1.5vw, 2.5rem);
-    margin: 2rem auto;
+    margin: 0 auto 2rem;
 }
 h3{
     color: var(--primary-color);
@@ -131,16 +131,11 @@ img#zodiac{
     border: 2px ridge black;
     box-shadow: inset 0 0 2em var(--accent-color);
 }
-img.tarot{
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    
-}
 #submit{
     color: transparent;
     background-color: transparent;
     border: transparent;
+    padding: 0;
 }
 #submit:hover{
     cursor: pointer;
@@ -157,18 +152,22 @@ img.tarot{
     cursor: pointer;
     perspective: 1000px;
 }
-
 .card-wrapper {
     width: 150px;
-    transition: transform 0.5s ease-in-out;
-    transform-style: preserve-3d;
+    aspect-ratio: 1 / 1.7;
     border: 10px solid black;
     border-radius: 20px;
-    aspect-ratio: 1 / 1.75;
-    object-fit: cover;
+    overflow: hidden;
     background-color: black;
+    transition: transform 0.5s ease-in-out;
+    transform-style: preserve-3d;
 }
-
+img.tarot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;   /* или inherit, если не используешь overflow */
+}
 .card-wrapper.flip {
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
 }
