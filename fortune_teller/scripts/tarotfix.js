@@ -31,11 +31,11 @@ async function displayCardResult() {
     const tarotImg = document.querySelector("#tarotcard");
     const wrapper = document.querySelector(".card-wrapper");
 
-    // подменяем картинку
+    // change the image
     tarotImg.src = card.logo;
     tarotImg.alt = `Image of ${card.name}`;
 
-    // даём браузеру применить src
+    // let the browser apply the src
     requestAnimationFrame(() => {
         wrapper.classList.add("flip");
     });

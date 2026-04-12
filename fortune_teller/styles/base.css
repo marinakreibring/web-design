@@ -157,21 +157,17 @@ img#zodiac{
     perspective: 1000px;
 }
 .card-wrapper {
+   transition: transform 0.5s ease-in-out;
+   transform-style: preserve-3d;
+}
+img.tarot {
+    object-fit: cover;
     width: 150px;
     aspect-ratio: 1 / 1.7;
     border: 10px solid black;
     border-radius: 20px;
     overflow: hidden;
-    background-color: black;
-    transition: transform 0.5s ease-in-out;
-    transform-style: preserve-3d;
-}
-img.tarot {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border: 2px solid black;
-    border-radius: 10px;
+    background-color: black;    
 }
 .card-wrapper.flip {
     transform: rotateY(360deg);
