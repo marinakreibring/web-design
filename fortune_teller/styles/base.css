@@ -19,6 +19,7 @@ main, header{
 nav{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -168,7 +169,7 @@ img#zodiac{
 img.tarot {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 0;   /* или inherit, если не используешь overflow */
 }
 .card-wrapper.flip {
