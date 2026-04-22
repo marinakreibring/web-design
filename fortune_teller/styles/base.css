@@ -161,7 +161,7 @@ img#zodiac{
    transform-style: preserve-3d;
 }
 img.tarot {
-    object-fit: contain;
+    object-fit: cover;
     width: 150px;
     aspect-ratio: 1 / 1.7;
     border: 10px solid black;
