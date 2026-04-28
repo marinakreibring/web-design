@@ -23,6 +23,10 @@
         width: 80px;
     } 
     /* css for about me page - slide show */
+     /* Next & previous buttons */
+    .prev, .next {
+        top: 40%;
+    }
     /* Position the "next button" to the right */
     .next {
         right: 10px;    

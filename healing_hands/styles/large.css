@@ -110,6 +110,10 @@
         left: -50px;
         border-radius: 10px;
     } 
+     /* Next & previous buttons */
+    .prev, .next {
+        top: 45%;
+    }
     /*css for contact me page*/
     #contact-grid{
         display: grid;

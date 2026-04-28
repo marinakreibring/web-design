@@ -96,6 +96,8 @@
         grid-column: 4;
         border-left: 2px solid #a7d4f0;
     }
-    
+    .scroll-top {
+        display: none;
+    }
        
 }
