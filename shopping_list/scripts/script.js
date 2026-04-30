@@ -4,6 +4,10 @@ const button = document.querySelector('button');
 
 button.addEventListener('click', () => {
     const myItem = input.value;
+    if (myItem === '') {
+    alert('Please enter an item');
+    return;
+}
     input.value = '';
 
     const listItem = document.createElement('li');
