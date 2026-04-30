@@ -15,7 +15,11 @@ const images = [
   { src: 'crt14.jpg', alt: 'cert14' },
   { src: 'crt15.jpg', alt: 'cert15' },
   { src: 'crt16.jpg', alt: 'cert16' },
-  { src: 'crt17.jpg', alt: 'cert17' }
+  { src: 'crt17.jpg', alt: 'cert17' },
+  { src: 'crt18.jpg', alt: 'cert18' },
+  { src: 'crt19.jpg', alt: 'cert19' },
+  { src: 'crt20.jpg', alt: 'cert20' },
+  { src: 'crt21.jpg', alt: 'cert21' }
 ];
 
 const slides = document.getElementById('slides');
