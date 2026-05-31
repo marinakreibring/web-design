@@ -52,7 +52,22 @@ image.addEventListener("click", function () {
         "A new opportunity that aligns with your passions will present itself.",
         "You will reconnect with someone from your past who brings positivity into your life.",
         "Your creativity will flourish, leading to exciting new projects.",
-        "You will find balance and harmony in your daily routine."
+        "You will find balance and harmony in your daily routine.",
+        "A positive change in your health will boost your energy and confidence.",
+        "You will receive good news that will brighten your day.",
+        "A new friendship will blossom into something meaningful.",
+        "You will have a breakthrough in a personal project you've been working on.",
+        "Your efforts will be rewarded with unexpected success.",
+        "You will find joy in the little things and appreciate life's beauty.",
+        "A new adventure will bring excitement and growth into your life.",
+        "You will discover a new passion that brings you happiness and fulfillment.",
+        "Soon you will meet your true love and live happily ever after.",
+        "You will receive a surprise gift that will bring you joy.",
+        "A new opportunity for personal growth will come your way.",
+        "You will have a positive impact on someone's life in an unexpected way.",
+        "You will find a solution to a problem that has been troubling you.",
+        "A new friendship will bring laughter and joy into your life.",
+        "You will recieve a long-awaited message that will bring you good news."
     ];
     let randomPrediction = predictions[Math.floor(Math.random() * predictions.length)];
         messageElement.textContent = randomPrediction;

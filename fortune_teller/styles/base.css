@@ -11,7 +11,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     --accent-color:  #c762c9;
 }
 main, header{
-    background-color: #35aee5;
+    background-color: var(--tertiary-color);
     padding-bottom: 1rem;
     padding-top: 1rem;
     text-align: center;
