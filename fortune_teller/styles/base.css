@@ -10,10 +10,27 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     --tertiary-color: #35aee5;  
     --accent-color:  #c762c9;
 }
-main, header{
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
     background-color: var(--tertiary-color);
-    padding-bottom: 1rem;
+}
+header{
+    background-color: var(--tertiary-color);
     padding-top: 1rem;
+    width: 100%;
+    color: var(--secondary-color);
+    font-family: var(--font-headline);
+    font-weight: bold;
     text-align: center;
 }
 nav{
@@ -26,8 +43,15 @@ nav{
 nav a{
     text-decoration: none;
     font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
-    padding: .3rem;
     color: var(--secondary-color);
+}
+nav a.active{
+    font-weight: bold;
+    text-shadow:
+        0 0 5px antiquewhite,
+        0 0 10px var(--accent-color),
+        0 0 20px var(--accent-color),
+        0 0 40px var(--accent-color);
 }
 nav a:hover{
     background-color: var(--primary-color);
@@ -40,15 +64,18 @@ nav a:hover{
     width: 60px;
     border-radius: 50%;
 }
+footer {
+    margin-top: auto;
+}
 footer p{
     background-color: var(--primary-color);
     color: antiquewhite;
     text-align: center;
-    padding: 10px;
     font-size: clamp(.8rem, 0.75rem + 1.5vw, 1.3rem);
     font-family: var(--font-body);
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0.5rem;
 }
 footer a{
     color: antiquewhite;
@@ -58,31 +85,26 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
-header{
-    margin: auto;
-    text-align: center;
-    color: var(--secondary-color);
-    font-family: var(--font-headline);
-    font-weight: bold;
-}
-header h1{
+h1{
     font-size: clamp(1.5rem, 0.75rem + 1.5vw, 3rem);
     color: var(--secondary-color);
+    font-family: var(--font-body);
     font-style: italic; 
     text-shadow:  1px 1px 10px var(--accent-color);
+    text-align: center;
 }
 h2{
     color: var(--primary-color);       
     font-family: var(--font-headline);
     font-size: clamp(1.5rem, 0.75rem + 1.5vw, 2.5rem);
-    margin: 0 auto 2rem;
+    text-align: center;
 }
 h3{
     color: var(--primary-color);
     font-style: normal;
-    margin: 10px;
     font-family: var(--font-body);
     font-size: clamp(1.3rem, 0.75rem + 1.5vw, 2rem);
+    text-align: center;
 }
 p{
     color: var(--primary-color); 
@@ -90,17 +112,22 @@ p{
     padding-left: .5rem;
     padding-right: .5rem;
     font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+    text-align: center;
 }
 img#zodiac{
-    width: 300px;
-    padding-top: 2rem;
+    display: block;
+    margin: 1rem auto;
+    width: 250px;
 }
 #predictionImage{
-    width: 100px;
+    display: block;
+    margin: 1rem auto;
+    width: 200px;
     aspect-ratio: 3/2;
     object-fit: contain;
 }
 #prediction, #resetbutton{
+    display: block;
     padding: 10px;
     border-radius: 10px;
     font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
@@ -128,6 +155,12 @@ img#zodiac{
     color: antiquewhite;
     cursor: pointer;
 }
+label{
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    font-family: var(--font-body);
+}
 #birthdate{
     padding: 10px;
     border-radius: 10px;
@@ -136,6 +169,8 @@ img#zodiac{
     box-shadow: inset 0 0 2em var(--accent-color);
 }
 #submit{
+    display: block;
+    margin: 1rem auto;
     color: transparent;
     background-color: transparent;
     border: transparent;
@@ -167,7 +202,7 @@ img.tarot {
     border: 10px solid black;
     border-radius: 20px;
     overflow: hidden;
-    background-color: black;    
+    background-color: black;  
 }
 .card-wrapper.flip {
     transform: rotateY(360deg);

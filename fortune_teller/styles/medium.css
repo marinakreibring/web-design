@@ -13,4 +13,7 @@
     nav a{
         padding: .5rem;
     }
+    #myImage{
+    width: 200px;
+    }
 }

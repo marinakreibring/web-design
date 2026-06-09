@@ -1,10 +1,7 @@
 @media only screen and (min-width: 64rem){
     .logo{
          width: 100px;
-    }
-    nav a{
-        padding: 1rem;
-    }   
+    } 
     img.tarot {
     width: 200px;
     outline: 3px solid rgb(171, 129, 24);
@@ -13,5 +10,18 @@
     }
     #myImage{
     width: 200px;
+    }
+    #tarotpage {
+    text-align: center;
+    margin: 1rem;
+    }
+    #tarotpage.show-result {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    }
+    #tarotresult {
+        width: 70%;
     }
 }

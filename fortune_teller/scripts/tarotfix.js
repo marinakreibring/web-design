@@ -43,9 +43,10 @@ async function displayCardResult() {
     document.querySelector("#name").textContent = card.name;
     document.querySelector("#cardmeaning").textContent = card.meaning;
     document.querySelector("#cardexplain").textContent = card.description;
-    
+
     setTimeout(() => {
         document.querySelector("#tarotresult").hidden = false;
+        document.getElementById("tarotpage").classList.add("show-result");
         }, 300);
 }
 
@@ -58,6 +59,7 @@ function resetDeck() {
     setTimeout(() => {
         tarotImg.src = "images/tarotpic/back.jpg";
         tarotImg.alt = "tarot card back";
+        document.getElementById("tarotpage").classList.remove("show-result");
     }, 250);
 
     document.querySelector("#tarotresult").hidden = true;
