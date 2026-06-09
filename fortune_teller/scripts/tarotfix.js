@@ -47,6 +47,7 @@ async function displayCardResult() {
     setTimeout(() => {
         document.querySelector("#tarotresult").hidden = false;
         document.getElementById("tarotpage").classList.add("show-result");
+        document.getElementById("question").textContent = ` `; // Clear the question text
         }, 300);
 }
 
@@ -60,6 +61,7 @@ function resetDeck() {
         tarotImg.src = "images/tarotpic/back.jpg";
         tarotImg.alt = "tarot card back";
         document.getElementById("tarotpage").classList.remove("show-result");
+        document.getElementById("question").textContent = `Think about your question and click on the deck to choose your card`;
     }, 250);
 
     document.querySelector("#tarotresult").hidden = true;
