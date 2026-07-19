@@ -4,9 +4,8 @@
     } 
     img.tarot {
     width: 200px;
-    outline: 3px solid rgb(171, 129, 24);
-    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
-    margin-bottom: 1rem;
+    outline: 5px solid rgb(171, 129, 24);
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.5);
     }
     #myImage{
     width: 200px;
