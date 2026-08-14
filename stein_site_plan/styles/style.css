@@ -1,0 +1,207 @@
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    margin : 0 auto;
+    font-family : 'Merriweather', Times, serif;
+}
+header, footer{
+    background-color:  rgb(54, 123, 13);
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+#current {
+    font-weight: bold;
+    background-color: #fec001;
+    color: rgb(54, 123, 13);
+}
+nav a{
+    background-color: transparent;
+    color: #fec001;
+    text-decoration: none;    
+    text-align: center;
+    font-size: clamp(0.8rem, 0.75rem + 1.5vw, 1.5rem);
+    padding: 1ch;
+}
+nav a:hover{
+    background-color: #fec001;
+    color: rgb(54, 123, 13);
+}
+h1{
+   text-align : center;
+   color : #fec001;
+   font-size: clamp(1rem, 0.75rem + 1.5vw, 2.5rem);
+   padding-top: 1ch;
+}
+h2{
+    color: beige;
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 2.5rem);
+    text-align: center;
+    padding-bottom: 1ch;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section{
+    margin: 5px;
+    border: 1px solid rgb(54, 123, 13);
+}
+h3{
+    color: rgb(54, 123, 13);
+    font-size: clamp(1.3rem, 0.5rem + 1.5vw, 1.8rem);
+    text-align: center;
+}
+h4{
+    font-size: clamp(1rem, 0.5rem + 1.5vw, 1.5rem);
+    text-align: center;
+}
+
+img{
+    max-inline-size: 90%;
+    block-size: auto;
+    border: 1pt solid black;
+    margin: 0 auto; 
+    display: block;
+}
+p, li{
+    margin: 1ch;
+    font-size: clamp(0.8rem, 0.75rem + 1.5vw, 1.5rem);
+}
+.note{
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
+}
+#colors p{
+    text-align: center;
+    border: solid 1px #110802;
+    padding: 2ch;
+}
+.primary p{
+    background-color: #110802;
+    color: #adaeae;
+}
+.secondary p{
+    background-color: #74001C;
+    color: #adaeae;
+}
+.accent-1 p{
+    background-color: #AB8B56;
+    color: #110802;
+}
+.accent-2 p{
+    background-color: #F0F4F4;
+    color: #110802;
+}
+#typography h4{
+    font-family: 'Lato', Times, sans-serif;
+    font-size: clamp(1.5rem, 0.75rem + 1.5vw, 3.5rem);
+    color: #110802;
+}
+#typography h5{
+    font-family: 'Lato', Times, sans-serif;
+    font-size: clamp(1.5rem, 0.75rem + 1.5vw, 3.5rem);
+    color: #74001C;
+    text-align: center;
+}
+#typography h6{
+    font-family: 'Lato', Times, sans-serif;
+    font-size: clamp(1.5rem, 0.75rem + 1.5vw, 3.5rem);
+    background-color: #AB8B56;
+    color: #f0f4f4;
+    text-align: center;
+}
+#typography p{
+    font-family: 'Noto Sans', sans-serif, serif;
+    text-align: center;
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+    color: #110802;
+}
+.normal{
+    font-family: 'Noto Sans', sans-serif, serif;
+    color: #110802;
+}
+.colored{
+    font-family: 'Noto Sans', sans-serif, serif;
+    background-color: #74001C;
+    color: #F0F4F4;
+    padding: 1pc;
+}
+#copy{
+    color: #fec001;
+    font-size: clamp(0.8rem, 0.5rem + 1.5vw, 1.5rem);
+    text-align: center;
+    padding-top: 1.5ch;
+}
+#update{
+    font-size: clamp(0.8rem, 0.5rem + 1.5vw, 1.5rem);
+    color: beige;
+    text-align: center;
+    padding-bottom: 1.5ch;
+}
+@media only screen and (min-width: 37.5em) {
+    body{
+        margin : 20px 30px;
+    }
+    h1{
+       text-decoration: underline;
+    }
+    nav{
+		flex-direction: row;
+	}
+    nav a{
+        margin: 10px auto;
+    }
+    p{
+        font-size: clamp(1rem, 0.5rem + 1.5vw, 1.5rem);
+    }
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+    section:nth-child(3){
+        grid-column: span 2;
+    }
+    #colors{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }    
+    #update{
+        font-style: italic;  
+    }
+}
+@media only screen and (min-width: 60em) {
+    body{
+        margin : 50px 100px;
+    }
+    header, footer{
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #fec001;
+    }
+    nav a{
+        border-radius: 10px;
+    }
+    h1{
+       text-decoration: none;
+    }
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    section:nth-child(3){
+        grid-column: auto;
+    }
+    section{
+        margin: 10px;
+        border-radius: 10px;
+        border: 2px solid rgb(54, 123, 13);
+    
+    }    
+    p{
+        font-size: clamp(1rem, 0.2rem + 1.5vw, 1.5rem);
+    }
+    #updated{
+        font-style: normal;
+        font-weight: bold;
+    }
+}
