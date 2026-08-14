@@ -5,7 +5,7 @@ body{
     font-family : 'Merriweather', Times, serif;
 }
 header, footer{
-    background-color:  rgb(54, 123, 13);
+    background-color:  rgb(8, 112, 176);
 }
 nav{
     display: flex;
@@ -14,7 +14,7 @@ nav{
 #current {
     font-weight: bold;
     background-color: #fec001;
-    color: rgb(54, 123, 13);
+    color: rgb(8, 112, 176);
 }
 nav a{
     background-color: transparent;
@@ -26,7 +26,7 @@ nav a{
 }
 nav a:hover{
     background-color: #fec001;
-    color: rgb(54, 123, 13);
+    color: rgb(8, 112, 176);
 }
 h1{
    text-align : center;
@@ -46,10 +46,10 @@ main{
 }
 section{
     margin: 5px;
-    border: 1px solid rgb(54, 123, 13);
+    border: 1px solid rgb(8, 112, 176);
 }
 h3{
-    color: rgb(54, 123, 13);
+    color: rgb(8, 112, 176);
     font-size: clamp(1.3rem, 0.5rem + 1.5vw, 1.8rem);
     text-align: center;
 }
@@ -194,7 +194,7 @@ p, li{
     section{
         margin: 10px;
         border-radius: 10px;
-        border: 2px solid rgb(54, 123, 13);
+        border: 2px solid rgb(8, 112, 176);
     
     }    
     p{
