@@ -80,19 +80,19 @@ p, li{
     padding: 2ch;
 }
 .primary p{
-    background-color: #110802;
+    background-color: #2a7a5d;
     color: #adaeae;
 }
 .secondary p{
-    background-color: #74001C;
+    background-color: #0c2747;
     color: #adaeae;
 }
 .accent-1 p{
-    background-color: #AB8B56;
+    background-color: #b99354;
     color: #110802;
 }
 .accent-2 p{
-    background-color: #F0F4F4;
+    background-color: #f4eaac;
     color: #110802;
 }
 #typography h4{
@@ -103,14 +103,14 @@ p, li{
 #typography h5{
     font-family: 'Lato', Times, sans-serif;
     font-size: clamp(1.5rem, 0.75rem + 1.5vw, 3.5rem);
-    color: #74001C;
+    color: #2a7a5d;
     text-align: center;
 }
 #typography h6{
     font-family: 'Lato', Times, sans-serif;
     font-size: clamp(1.5rem, 0.75rem + 1.5vw, 3.5rem);
-    background-color: #AB8B56;
-    color: #f0f4f4;
+    background-color: #2a7a5d;
+    color: #f4eaac;
     text-align: center;
 }
 #typography p{
@@ -121,12 +121,12 @@ p, li{
 }
 .normal{
     font-family: 'Noto Sans', sans-serif, serif;
-    color: #110802;
+    color: #0c2747;
 }
 .colored{
     font-family: 'Noto Sans', sans-serif, serif;
-    background-color: #74001C;
-    color: #F0F4F4;
+    background-color: #b99354;
+    color: #F4EAAC;
     padding: 1pc;
 }
 #copy{
