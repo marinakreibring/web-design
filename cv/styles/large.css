@@ -8,8 +8,11 @@
     }
     footer{
         width: 100%;
-        grid-template-columns: repeat(3, auto);
-        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(4, auto);
+        padding: 1rem;
+    }
+    #copyright p:nth-child(4){
+        border-top: none;
     }
     main{
         margin-top: 150px;

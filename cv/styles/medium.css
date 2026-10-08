@@ -15,32 +15,17 @@
    
     /*footer*/
     footer{
-        font-size: clamp(0.6rem, 0.75rem + 1.5vw, 1rem);
-        grid-template-columns: repeat(2, 50%);
-        grid-template-rows: repeat(3, auto);
-    }
-    #address{
-        text-align: center;
-        font-style: italic;
-    }
-    #contactInfo{
-        text-align: center;
-        align-self: center;
-    }
-    .messengers{
-        grid-column: span 2;
-        justify-self: center; 
-    }   
+        font-size: clamp(0.6rem, 0.75rem + 1.5vw, 1rem);        
+    }    
     #copyright{
         display: grid;
-        grid-column: span 2;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: 2rem 2rem;
-        margin: .5rem 2vw;
+        grid-template-columns: repeat(3, 1fr);
+        
         }
     #copyright p:nth-child(4){
         grid-column: span 3;
         text-align: center;
+        border-top: 1px solid var(--color-secondary);
     }
     #copyright p{
         align-self: center;
